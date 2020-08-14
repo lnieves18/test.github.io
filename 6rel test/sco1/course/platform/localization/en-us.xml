@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<localizedStrings>
+<!-- These two variables should be localized in such a way it includes ALL extended (accented) characters for the language, such as á and Á. -->
+	<variable name="lowerCaseUnicodeCharacters">abcdefghijklmnopqrstuvwxyz</variable>
+	<variable name="upperCaseUnicodeCharacters">ABCDEFGHIJKLMNOPQRSTUVWXYZ</variable>
+
+
+
+<!-- XSLT variables. -->
+	<variable name="multipleChoice_title">Question</variable>
+	<variable name="multipleChoice_feedbackButton">OK</variable>
+	<variable name="multipleChoice_questionSelect">Select the one best answer.</variable>
+	<variable name="activity_summaryHeading">Overview</variable>
+	<variable name="activity_summaryButton">Start</variable>
+	<variable name="notes_heading">My Notes</variable>
+	<variable name="notes_deleteWarningMessage">Are you sure that you want to delete the current note?</variable>
+	<variable name="readerAid_tip">Tip</variable>
+	<variable name="readerAid_caution">Caution</variable>
+	<variable name="readerAid_warning">Warning</variable>
+	<variable name="readerAid_important">Important</variable>
+	<variable name="readerAid_note">Note</variable>
+	<variable name="readerAid_studySheet">Study Sheet</variable>
+	<variable name="animation_transcriptHeader">Transcript</variable>
+	<variable name="button_submit">Submit</variable>
+	<variable name="button_launch">Launch</variable>
+	<variable name="demonstration_windowTitle">Demonstration</variable>
+	<variable name="demonstration_transcriptPrint">Click to view and print the transcript for this demonstration.</variable>
+	<variable name="demonstration_transcriptPrintWindowTitle">Demonstration Transcript</variable>
+	<variable name="simulation_windowTitle">Simulation</variable>
+	<variable name="simulation_transcriptPrint">Click to view and print the transcript for this simulation.</variable>
+	<variable name="simulation_transcriptPrintWindowTitle">Simulation Transcript</variable>
+	<variable name="transcriptPrint_printPage">Print this page.</variable>
+	<variable name="introduction_moduleTitle">Module Overview</variable>
+	<variable name="notes_printPageTitle">Print Notes</variable>
+	<variable name="notes_printPageHeadingIntro">Notes: </variable>
+	<variable name="notes_saveButtonTitle">Save</variable>
+	<variable name="notes_saveAsFileButtonTitle">Save as File</variable>
+	<variable name="notes_deleteButtonTitle">Delete</variable>
+	<variable name="notes_printButtonTitle">Print</variable>
+	<variable name="notes_noNotesToPrint">You have not saved any notes in this lesson.</variable>
+	<variable name="clickTable_instructions">Click an item to view more information.</variable>
+
+<!--XSLT TrueFalse Variables-->
+	<variable name="trueFalse_title">Statement</variable>
+	<variable name="trueFalse_trueAnswer">True</variable>
+	<variable name="trueFalse_falseAnswer">False</variable>
+  <variable name="trueFalse_selectAnswer">Select the correct answer.</variable>
+
+  <!--ShowHide Variables-->
+  <variable name="showHide_ShowAll">Show All</variable>
+  <variable name ="showHide_HideAll">Hide All</variable>
+  <variable name ="showHide_Show">Show</variable>
+  <variable name ="showHide_Hide">Hide</variable>
+
+  <!--Essay question Variables-->
+  <variable name="essayQuestion_question">Question</variable>
+  <variable name="essayQuestion_answer">Answer</variable>
+  <variable name="essayQuestion_instruction">(max 250 characters)</variable>
+  <variable name="essayQuestion_submitInstruction">Once submitted, you will not be able to revise your answer.</variable>
+  <variable name="essayQuestion_answerInstruction">NOTE: Answer text will be lost if you navigate away from this topic without first clicking Submit. Text formatting is not accepted. Only alphanumeric characters (aA - zZ and 0 - 9) and spaces will be submitted.</variable>
+
+<!-- ECMAscript variables. -->
+	<!-- contentLoader.js -->
+	<variable name="xml_load">Xml file could not be loaded.</variable>
+	<variable name="xsl_load">Xsl file could not be loaded.</variable>
+	<!-- pageBehavior.js -->
+	<variable name="multipleChoice_feedbackCorrect">Correct</variable>
+	<variable name="multipleChoice_feedbackIncorrect">Incorrect</variable>
+	<variable name="mediaPopUp_transcriptHeading">Transcript</variable>
+	<!-- scormcode.js -->
+	<variable name="notes_lmsNoSupport">This LMS does not support notes.</variable>
+	<variable name="notes_lmsErrorRetrieve">Error retrieving notes from LMS.</variable>
+	<variable name="notes_lmsExceededSpace">You have exceeded the amount of content allowed for notes.</variable>
+	<variable name="notes_lmsErrorSaving">Error saving notes to the LMS.</variable>
+
+<!-- Animation variables. -->
+	<variable name="anim_play">Play</variable>
+	<variable name="anim_pause">Pause</variable>
+	<variable name="anim_stop">Stop</variable>
+	<variable name="anim_fastForward">Fast Forward</variable>
+	<variable name="anim_rewind">Rewind</variable>
+	<variable name="anim_mute">Mute</variable>
+	<variable name="anim_sound">Sound</variable>
+
+<!-- Adventure variables. -->
+	<variable name="adventure_instructions">Select any one option from the list below</variable>
+	<variable name="adventure_previous">Previous</variable>
+	<variable name="adventure_reset">Reset</variable>
+
+<!-- Drag and Drop variables. -->
+	<variable name="dragAndDrop_reset">RESET</variable>
+	<variable name="dragAndDrop_showAnswer">SHOW ANSWER</variable>
+	<variable name="dragAndDrop_submit">SUBMIT</variable>
+	<variable name="dragAndDrop_drag">DRAG</variable>
+	<variable name="dragAndDrop_drop">DROP</variable>
+	<variable name="dragAndDrop_correctMessage">That is correct!</variable>
+	<variable name="dragAndDrop_incorrectMessage">Incorrect. Please click Reset or Show Answer.</variable>
+	<variable name="dragAndDrop_correctDisplayed">The correct answer is displayed for you.</variable>
+
+<!-- Tile Game Variables. -->
+	<variable name="tileGame_gameOver">Game Over</variable>
+	<variable name="tileGame_resetInstruction">Click &lt;b&gt;Reset&lt;/b&gt; to retry.</variable>
+	<variable name="tileGame_reset">RESET</variable>
+	<variable name="tileGame_turnsLeft">Turns Left:</variable>
+	<variable name="tileGame_congratulations">Congratulations!</variable>
+	<variable name="tileGame_completedMessage">You have completed this activity.</variable>
+	<variable name="tileGame_submit">Submit</variable>
+	<variable name="tileGame_tileGame">Tile Game</variable>
+  <variable name="tile">Tile</variable>
+  <variable name="hyphen"> - </variable>
+  <variable name="submit_Column">Submit Column</variable>
+  <variable name="submit_Row">Submit Row</variable>
+  <variable name="tile">Tile</variable>
+  <variable name="hyphen"> - </variable>
+  <variable name="submit_Column">Submit Column</variable>
+  <variable name="submit_Row">Submit Row</variable>
+
+  <!-- Flash Card Variables. -->
+  <variable name="flashCard_flip">Flip</variable>
+  <variable name="flashCard_timeElapsed">Time Elapsed</variable>
+  <variable name="flashCard_reset">Reset</variable>
+  <variable name="flashCard_submit">Submit</variable>
+  <variable name="flashCard_congratulations">Congratulations!</variable>
+  <variable name="flashCard_progress">Progress</variable>
+  <variable name="flashCard_completedMessage">You have completed this activity.</variable>
+  
+  <!-- Sort Game Variables. -->
+	<variable name="sortGame_yourTime">Your time to complete the puzzle was</variable>
+	<variable name="sortGame_timeElapsed">Time Elapsed</variable>
+	<variable name="sortGame_reset">Reset</variable>
+	<variable name="sortGame_answer">Answer</variable>
+	<variable name="sortGame_start">Start</variable>
+	<variable name="sortGame_congratulations">Congratulations!</variable>
+	<variable name="sortGame_progress">Progress</variable>
+	<variable name="sortGame_showAnswer">Show Answer</variable>
+	<variable name="sortGame_close">Close</variable>
+	<variable name="sortGame_answers">Answers</variable>
+	<variable name="sortGame_instructions">Sort the dropping items as quickly as possible into their associated categories by clicking the appropriate bucket. You can also use keyboard shortcuts by pressing 1 for the left bucket, 2 for the middle bucket, and 3 for the right bucket (or 1 for the left bucket and 2 for the right bucket in a 2-bucket game).</variable>
+
+<!-- Simulation Variables. -->
+	<variable name="simulation_continue">&lt;b&gt;Click to Continue&lt;/b&gt;</variable>
+	<variable name="simulation_congratulations">&lt;b&gt;Congratulations!&lt;/b&gt;</variable>
+	<variable name="simulation_performSteps">&lt;b&gt;Perform the Steps.&lt;/b&gt;</variable>
+	<variable name="simulation_help">For help, click</variable>
+	<variable name="simulation_showMe">Show Me</variable>
+	<variable name="simulation_viewScenario">View &lt;b&gt;&lt;u&gt;Scenario.&lt;/u&gt;&lt;/b&gt;</variable>
+	<variable name="simulation_print">&lt;b&gt;Print&lt;/b&gt;</variable>
+	<variable name="simulation_copyright">&lt;b&gt; &lt;/b&gt;</variable>
+	<variable name="simulation_note">&lt;b&gt;Note&lt;/b&gt;</variable>
+	<variable name="simulation_caution">&lt;b&gt;Caution&lt;/b&gt;</variable>
+	<variable name="simulation_finish">FINISH</variable>
+	<variable name="simulation_tryAgain">TRY AGAIN</variable>
+	<variable name="simulation_scenario">&lt;b&gt;Scenario and more&lt;/b&gt;</variable>
+	<variable name="simulation_step">&lt;b&gt;Step&lt;/b&gt;</variable>
+	<variable name="simulation_of">&lt;b&gt;of&lt;/b&gt;</variable>
+	<variable name="simulation_next">Next</variable>
+	<variable name="simulation_previous">Previous</variable>
+	<variable name="simulation_printSteps">Print Steps</variable>
+	<variable name="simulation_loading">Loading...</variable>
+	<variable name="simulation_feedback">&lt;b&gt;Feedback&lt;/b&gt;</variable>
+	<variable name="simulation_message">&lt;b&gt;Message&lt;/b&gt;</variable>
+	<variable name="simulation_ok">&lt;b&gt;OK&lt;/b&gt;</variable>
+	<variable name="simulation_stepList">Exercise Step List</variable>
+	<variable name="simulation_printContents">Print Page Contents</variable>
+
+<!-- Content Wheel Variables. -->
+	<variable name="contentWheel_textView">Text View</variable>
+	<variable name="contentWheel_wheelView">Wheel View</variable>
+	<variable name="contentWheel_introduction">Introduction</variable>
+	<variable name="contentWheel_finish1">Self Test</variable>
+	<variable name="contentWheel_finish2">Summary</variable>
+	<variable name="contentWheel_finish3">Review</variable>
+	<variable name="contentWheel_finish4">Lab Review</variable><!-- localize this element -->
+	<variable name="contentWheel_finish5">Resources</variable><!-- localize this element -->
+	<variable name="contentWheel_help">Help</variable>
+
+<!-- VOE Variables. -->
+	<variable name="voe_transcript">Transcript</variable>
+	<variable name="voe_play">Play</variable>
+	<variable name="voe_pause">Pause</variable>
+	<variable name="voe_showTranscript">Show Transcript</variable>
+	<variable name="voe_hideTranscript">Hide Transcript</variable>
+	<variable name="voe_titleVoiceOfTheExpert">Voice of the Expert</variable>
+	<variable name="voe_titleModuleTip">Module Tip</variable>
+
+<!-- Media Variables. -->
+  <variable name="media_transcriptPrint">Click to view and print the transcript for this Media.</variable>
+  <variable name="media_transcriptPrintWindowTitle">Media Transcript</variable>
+  <variable name="media_KeyPointsHeader">Key Points</variable>
+  <variable name="media_KeyPointsText">Click a key point to view the associated video segment.</variable>
+  <variable name="media_TotalTime">Total Time</variable>
+  <variable name="media_playTip">Play</variable>
+  <variable name="media_pauseTip">Pause</variable>
+  <variable name="media_stopTip">Stop</variable>
+  <variable name="media_muteTip">Mute</variable>
+  <variable name="media_soundTip">Sound</variable>
+  <variable name="media_seekTip">Seek</variable>
+  <variable name="media_playingText">Playing</variable>
+  <variable name="media_pausedText">Paused</variable>
+  <variable name="media_stoppedText">Stopped</variable>
+
+  <variable name="media_fullscreenTip">Full Screen</variable>
+<variable name="media_ccTip">Closed Captioning</variable>
+
+
+  <!--Interactive Job aid Variables. -->
+  
+
+  
+
+  <variable name="interactive_yes">&lt;b&gt;YES&lt;/b&gt;</variable>
+  <variable name="interactive_no">&lt;b&gt;NO&lt;/b&gt;</variable>
+  <variable name="interactive_reset">Reset</variable>
+  <variable name="interactive_decision">DECISION</variable>
+  <variable name="interactive_undefined">No Question/Decision has been defined for this option.Please Click Reset to start again.</variable>
+  <variable name="interactive_undefinedQuestion">The question has not been defined.</variable>
+
+  <!--Sequencing variables-->
+  <variable name="sequence_reset">RESET</variable>
+  <variable name="sequence_showAnswer">SHOW ANSWER</variable>
+  <variable name="sequence_submit">SUBMIT</variable>
+  <variable name="sequence_shuffled">SHUFFLED</variable>
+  <variable name="sequence_sequenced">SEQUENCED</variable>
+  <variable name="sequence_correctMessage">That is correct!</variable>
+  <variable name="sequence_incorrectMessage">Incorrect. Please click Reset or Show Answer.</variable>
+  <variable name="sequence_correctDisplayed">The correct answer is displayed for you.</variable>
+ 
+<!-- How To Use Content Wheel Help -->
+	<variable name="howToUse_toNavigate">To navigate through the topics, you can use either the &lt;b&gt;Icon view&lt;/b&gt; or the &lt;b&gt;Text view&lt;/b&gt;. &lt;br&gt; &lt;br&gt;You can view the topics in whatever order you choose in either the Icon view or the Text View.</variable>
+	<variable name="howToUse_read">&lt;b&gt;Read&lt;/b&gt; contains text, tables, and graphics.</variable>
+	<variable name="howToUse_watch">&lt;b&gt;Watch&lt;/b&gt; contains animations, demonstrations, and video.</variable>
+	<variable name="howToUse_interact">&lt;b&gt;Interact&lt;/b&gt; contains interactive content such as multimedia interactivities and small simulations.</variable>
+	<variable name="howToUse_play">&lt;b&gt;Play&lt;/b&gt; contains games.</variable>
+	<variable name="howToUse_try">&lt;b&gt;Try&lt;/b&gt; contains user-interface simulations or practices that enable you to try what you have learned.</variable>
+	<variable name="howToUse_code">&lt;b&gt;Code&lt;/b&gt; contains code examples in pop-up windows or tables.</variable>
+
+<!-- Virtual Lab variables -->
+	<variable name="vlab_offlineError">The lab is not available. Labs cannot be accessed from the Offline Player. If you are not using the Offline Player, ensure you have Internet connectivity and try launching the lab again.</variable>
+
+  <!--For EK manifest transformation-->
+  <variable name="topic_Title">Topics</variable>
+  
+   <!--For EK manifest transformation-->
+  <variable name="topic_Title">Topics</variable>
+  
+  <!--Print Variables-->
+  
+
+  
+
+  <variable name="print_version">Print Version</variable>
+  <variable name="print_tocHeader">Table of Contents</variable>
+  <variable name="print_course">Course:</variable>
+  <variable name="print_module">Module:</variable>
+  <variable name="print_lessonContents">Lesson Contents</variable>
+  <variable name="print_moduleContents">Module Contents</variable>
+  <variable name="print_topic">Topic:</variable>
+  <variable name="print_gameInstruction">Sort the items into their associated categories by writing the item number in its corresponding option box below.</variable>
+  <variable name="print_statement">Statement</variable>
+  <variable name="print_note">Note: Answers appear on the next page.</variable>
+  <variable name="print_categoryItems">Category Items</variable>
+  <variable name="print_category1">Category 1</variable>
+  <variable name="print_category2">Category 2</variable>
+  <variable name="print_category3">Category 3</variable>
+  <variable name="print_keyPoints">Key Points</variable>
+  <variable name="print_transcript">Transcript</variable>
+  <variable name="print_essayInstruction">Answer for this question can be written in the space provided below.</variable>
+  <variable name="print_adventureInstruction">Available options:</variable>
+  <variable name="print_adventureInfo">This topic contains scenario based content. Each option offers a decision point with 1 to 4 possible outcomes. The topic explores various scenarios based on the choices, and presents an outcome based upon the choices.&lt;br&gt;Below is the content for one complete path of content. For the complete version of the topic, please use the online version of the course.</variable>
+  <variable name="print_adventurePage">Page</variable>
+  <variable name="print_adventureOption">This option leads to Page</variable>
+  <variable name="print_adventureSelected">Selected Option:</variable>
+
+  <variable name="print_interactiveQuestion">Question</variable>
+  <variable name="print_interactiveOptions">Available Options:</variable>
+  <variable name="print_interactiveOptionInfo">This option leads to Question</variable>
+  <variable name="print_interactiveDecisionInfo">This option leads to a decision</variable>
+  <variable name="print_interactiveSelectedOption">Selected Option:</variable>
+  <variable name="print_interactiveDecision">Decision:</variable>
+  <variable name="print_interactiveOptionYes">Yes</variable>
+  <variable name="print_interactiveOptionNo">No</variable>
+  <variable name="print_interactiveInfo">This topic presents scenarios in the form of a series of Yes/No questions. Based on the selected answers, dynamic feedback or subsequent questions are shown.&lt;br&gt;Below is the content for one complete series of questions. For the complete version of the topic, please use the online version of the course.</variable>
+  <!--Slider variables-->
+  <variable name="print_introduction">This topic explores the relationships between up to four variables and a given outcome.&lt;br&gt;&lt;br&gt;Below are the variables used for this topic, and the results for some sample values of the variables. For the complete version of the topic, please use the online version of the course.</variable>
+  <variable name="print_equation">Output Equation: </variable>
+  <variable name="print_input">Input</variable>
+  <variable name="print_minimum">Minimum</variable>
+  <variable name="print_maximum">Maximum</variable>
+  <variable name="print_unit">Units</variable>
+  <variable name="print_example">Example Scenario</variable>
+  <variable name="print_tileInstruction">For each pair of statements, indicate which is true by placing a mark in the column to the right.</variable>
+  <variable name="print_answer">Answer</variable>
+  <variable name="print_trueFalse">For each statement, indicate which is true by placing a mark in the column to the right.</variable>
+  <variable name="print_multipleChoice">For each question, indicate the correct answer by placing a mark in the column to the left.</variable>
+	<variable name="print_instruction">Select the correct answer.</variable>
+  <variable name="print_redirect">Please use the online version of the course to experience this activity.</variable>
+  <variable name="print_online_instruction">Instruction</variable>
+  <variable name="print_correct">Correct Answer Feedback:</variable>
+
+  <variable name="print_step">Step</variable>
+</localizedStrings>

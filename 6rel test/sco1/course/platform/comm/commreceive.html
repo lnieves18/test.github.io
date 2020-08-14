@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="application/xhtml+xml;charset=UTF-8" />
+		<script type="text/javascript" src="../ECMAScript/flashpagecommunication.js"></script>
+		<script type="text/javascript">
+
+			window.onload = function() {
+
+				// isolate the hash string
+				var valueString = window.location.hash.slice(1);
+
+				if (valueString != "") {
+
+					// set the delimiter character
+					var delimiter;
+					if (valueString.indexOf("%7C%7C") != -1) {
+						delimiter = "%7C%7C";
+					} else {
+						delimiter = "||";
+					}
+
+					// array stuffed with isolated arguments that were once strung together
+					var aa = valueString.split(delimiter);
+					var functionName = aa[0];
+
+					// if the function name is a member of the pageControls object, fire it up
+					if (window.parent[functionName] != null) {
+						// hack - if javascript were more strict about excess parameters, this would cause an error
+						window.parent[functionName](aa[1], aa[2], aa[3], aa[4], aa[5], aa[6], aa[7], aa[8], aa[9], aa[10]);
+
+						// Remove the function call that is effectively cached in the iframe's uri.  If this is not
+						//	removed and the page is refreshed, the command will be immediately called again.
+						window.location.href = "commreceive.html";
+					} else {
+						// throw an exception - the function does not exist in the current window
+					}
+				}
+
+			}
+
+		</script>
+		<style>* { margin: 0; padding 0; background-color: RGB(0,50,155); } object { width: 1px; height: 1px; }</style>
+		<title>commReceive</title>
+	</head>
+	<body>
+		<script type="text/javascript">writeActiveContent('<object id="flashCommReceive" class="flashCommReceive" name="flashCommReceive" type="application/x-shockwave-flash" data="flashcommreceive.swf"><param name="movie" value="flashcommreceive.swf" /><param name="swliveconnect" value="true" /><param name="FlashVars" value="pageId=' + window.parent.uniquePageId + '"<param name="wmode" value="transparent"/></object>');</script>
+	</body>
+</html>

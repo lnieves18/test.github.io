@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<localizedStrings>
+<!-- These two variables should be localized in such a way it includes ALL extended (accented) characters for the language, such as á and Á. -->
+	<variable name="lowerCaseUnicodeCharacters">abcdefghijklmnopqrstuvwxyz</variable>
+	<variable name="upperCaseUnicodeCharacters">ABCDEFGHIJKLMNOPQRSTUVWXYZ</variable>
+
+
+
+<!-- XSLT variables. -->
+	<variable name="multipleChoice_title">प्रश्न</variable>
+	<variable name="multipleChoice_feedbackButton">ठीक</variable>
+	<variable name="multipleChoice_questionSelect">एक श्रेष्ठ उत्तर का चयन करें।</variable>
+	<variable name="activity_summaryHeading">ओवरव्यू</variable>
+	<variable name="activity_summaryButton">प्रारंभ करें</variable>
+	<variable name="notes_heading">मेरे नोट</variable>
+	<variable name="notes_deleteWarningMessage">क्या आप निश्चित हैं कि आप वर्तमान नोट को हटाना चाहते हैं?</variable>
+	<variable name="readerAid_tip">युक्ति</variable>
+	<variable name="readerAid_caution">सावधानी</variable>
+	<variable name="readerAid_warning">चेतावनी</variable>
+	<variable name="readerAid_important">महत्वपूर्ण</variable>
+	<variable name="readerAid_note">नोट</variable>
+	<variable name="readerAid_studySheet">अध्ययन पत्रक</variable>
+	<variable name="animation_transcriptHeader">लिप्यंतर</variable>
+	<variable name="button_submit">सबमिट करें</variable>
+	<variable name="button_launch">लॉन्च करें</variable>
+	<variable name="demonstration_windowTitle">प्रदर्शन</variable>
+	<variable name="demonstration_transcriptPrint">इस प्रदर्शन के लिए लिप्यंतर को देखने और मुद्रित करने के लिए क्लिक करें।</variable>
+	<variable name="demonstration_transcriptPrintWindowTitle">प्रदर्शन लिप्यंतर</variable>
+	<variable name="simulation_windowTitle">अनुरूपण</variable>
+	<variable name="simulation_transcriptPrint">इस अनुरूपण के लिए लिप्यंतर को देखने और मुद्रित करने के लिए क्लिक करें।</variable>
+	<variable name="simulation_transcriptPrintWindowTitle">अनुरूपण लिप्यंतर</variable>
+	<variable name="transcriptPrint_printPage">इस पृष्ठ को मुद्रित करें।</variable>
+	<variable name="introduction_moduleTitle">मॉड्यूल ओवरव्यू</variable>
+	<variable name="notes_printPageTitle">नोट मुद्रित करें</variable>
+	<variable name="notes_printPageHeadingIntro">नोट: </variable>
+	<variable name="notes_saveButtonTitle">सहेजें</variable>
+	<variable name="notes_saveAsFileButtonTitle">फ़ाइल के रूप में सहेजें</variable>
+	<variable name="notes_deleteButtonTitle">हटाएँ</variable>
+	<variable name="notes_printButtonTitle">मुद्रित करें</variable>
+	<variable name="notes_noNotesToPrint">आपने इस अध्याय में कोई भी नोट नहीं सहेजे हैं।</variable>
+	<variable name="clickTable_instructions">अधिक जानकारी देखने के लिए कोई आइटम क्लिक करें।</variable>
+
+<!--XSLT TrueFalse Variables-->
+	<variable name="trueFalse_title">कथन</variable>
+	<variable name="trueFalse_trueAnswer">सही</variable>
+	<variable name="trueFalse_falseAnswer">गलत</variable>
+  <variable name="trueFalse_selectAnswer">सही उत्तर का चयन करें।</variable>
+
+  <!--ShowHide Variables-->
+  <variable name="showHide_ShowAll">सभी दिखाएँ</variable>
+  <variable name="showHide_HideAll">सभी छुपाएँ</variable>
+  <variable name="showHide_Show">दिखाएँ</variable>
+  <variable name="showHide_Hide">छुपाएँ</variable>
+
+  <!--Essay question Variables-->
+  <variable name="essayQuestion_question">प्रश्न</variable>
+  <variable name="essayQuestion_answer">उत्तर</variable>
+  <variable name="essayQuestion_instruction">(अधिक. 250 वर्ण)</variable>
+  <variable name="essayQuestion_submitInstruction">एक बार सबमिट कर देने पर, आप अपने उत्तर को संशोधित करने में समर्थ नहीं होंगे।</variable>
+  <variable name="essayQuestion_answerInstruction">नोट: अगर आप पहले सबमिट करें क्लिक किए बिना इस विषय से बाहर नेविगेट करते हैं, तो उत्तर पाठ खो जाएगा। पाठ स्वरूपण स्वीकृत नहीं है। केवल अक्षरअंकीय वर्ण (aA - zZ और 0 - 9) और रिक्तियाँ सबमिट की जाएँगी।</variable>
+
+<!-- ECMAscript variables. --> <!-- contentLoader.js -->
+	<variable name="xml_load">Xml फ़ाइल लोड नहीं की जा सकी.</variable>
+	<variable name="xsl_load">Xsl फ़ाइल लोड नहीं की जा सकी.</variable>
+	<!-- pageBehavior.js -->
+	<variable name="multipleChoice_feedbackCorrect">सही</variable>
+	<variable name="multipleChoice_feedbackIncorrect">गलत</variable>
+	<variable name="mediaPopUp_transcriptHeading">लिप्यंतर</variable>
+	<!-- scormcode.js -->
+	<variable name="notes_lmsNoSupport">यह LMS, नोट का समर्थन नहीं करता।</variable>
+	<variable name="notes_lmsErrorRetrieve">LMS से नोट पुनर्प्राप्त करते हुए त्रुटि।</variable>
+	<variable name="notes_lmsExceededSpace">आपने नोट के लिए सामग्री की अनुमत मात्रा को पार कर लिया है।</variable>
+	<variable name="notes_lmsErrorSaving">LMS में नोट सहेजते हुए त्रुटि।</variable>
+
+<!-- Animation variables. -->
+	<variable name="anim_play">चलाएँ</variable>
+	<variable name="anim_pause">ठहरें</variable>
+	<variable name="anim_stop">रोकें</variable>
+	<variable name="anim_fastForward">फ़ास्ट फ़ॉर्वर्ड करें</variable>
+	<variable name="anim_rewind">रिवाइंड करें</variable>
+	<variable name="anim_mute">म्यूट करें</variable>
+	<variable name="anim_sound">ध्वनि</variable>
+
+<!-- Adventure variables. -->
+	<variable name="adventure_instructions">नीचे दी गई सूची से किसी भी एक विकल्प का चयन करें</variable>
+	<variable name="adventure_previous">पिछला</variable>
+	<variable name="adventure_reset">रिसेट करें</variable>
+
+<!-- Drag and Drop variables. -->
+	<variable name="dragAndDrop_reset">रिसेट करें</variable>
+	<variable name="dragAndDrop_showAnswer">उत्तर दिखाएँ</variable>
+	<variable name="dragAndDrop_submit">सबमिट करें</variable>
+	<variable name="dragAndDrop_drag">खींचें</variable>
+	<variable name="dragAndDrop_drop">छोड़ें</variable>
+	<variable name="dragAndDrop_correctMessage">यह सही है!</variable>
+	<variable name="dragAndDrop_incorrectMessage">गलत। कृपया रिसेट करें या उत्तर दिखाएँ क्लिक करें।</variable>
+	<variable name="dragAndDrop_correctDisplayed">आपके लिए सही उत्तर प्रदर्शित किया गया है।</variable>
+
+<!-- Tile Game Variables. -->
+	<variable name="tileGame_gameOver">खेल समाप्त</variable>
+	<variable name="tileGame_resetInstruction">पुनः प्रयास करने के लिए &lt;b&gt;रिसेट करें&lt;/b&gt; क्लिक करें।</variable>
+	<variable name="tileGame_reset">रिसेट करें</variable>
+	<variable name="tileGame_turnsLeft">बाईं ओर मुड़ता है:</variable>
+	<variable name="tileGame_congratulations">बधाई!</variable>
+	<variable name="tileGame_completedMessage">आपने इस गतिविधि को पूरा कर लिया है।</variable>
+	<variable name="tileGame_submit">सबमिट करें</variable>
+	<variable name="tileGame_tileGame">टाइल खेल</variable>
+	<variable name="tile">टाइल</variable>
+  <variable name="hyphen"> - </variable>
+  <variable name="submit_Column">स्तंभ सबमिट करें</variable>
+  <variable name="submit_Row">पंक्ति सबमिट करें</variable>
+
+      <!-- Flash Card Variables. -->
+  <variable name="flashCard_flip">फ़्लिप</variable>
+  <variable name="flashCard_timeElapsed">बीत चुका समय</variable>
+  <variable name="flashCard_reset">रीसेट करें</variable>
+  <variable name="flashCard_submit">सबमिट करें</variable>
+  <variable name="flashCard_congratulations">बधाई!</variable>
+  <variable name="flashCard_progress">प्रगति</variable>
+  <variable name="flashCard_completedMessage">आपने यह गतिविधि पूर्ण कर ली है.</variable>
+  
+  <!-- Sort Game Variables. -->
+	<variable name="sortGame_yourTime">इस पहेली को पूरा करने का आपका समय यह था</variable>
+	<variable name="sortGame_timeElapsed">बीत चुका समय</variable>
+	<variable name="sortGame_reset">रिसेट करें</variable>
+	<variable name="sortGame_answer">उत्तर</variable>
+	<variable name="sortGame_start">प्रारंभ करें</variable>
+	<variable name="sortGame_congratulations">बधाई!</variable>
+	<variable name="sortGame_progress">प्रगति</variable>
+	<variable name="sortGame_showAnswer">उत्तर दिखाएँ</variable>
+	<variable name="sortGame_close">बंद करें</variable>
+	<variable name="sortGame_answers">उत्तर</variable>
+	<variable name="sortGame_instructions">उपयुक्त बकेट क्लिक करके ड्रॉपिंग आइटम को जितना संभव हो उतनी शीघ्रता से उनकी संबद्ध श्रेणियों में क्रमित करें। आप बाईं बकेट के लिए 1, मध्य बकेट के लिए 2 और दाईं बकेट के लिए 3 दबाकर (या किसी 2-बकेट वाले खेल में बाईं बकेट के लिए 1 और दाईं बकेट के लिए 2 दब कर) कुंजीपटल शॉर्टकट का उपयोग भी कर सकते हैं।</variable>
+
+<!-- Simulation Variables. -->
+	<variable name="simulation_continue">&lt;b&gt;जारी रखने के लिए क्लिक करें&lt;/b&gt;</variable>
+	<variable name="simulation_congratulations">&lt;b&gt;बधाई!&lt;/b&gt;</variable>
+	<variable name="simulation_performSteps">&lt;b&gt;चरणों को निष्पादित करें।&lt;/b&gt;</variable>
+	<variable name="simulation_help">मदद के लिए, इसे क्लिक करें</variable>
+	<variable name="simulation_showMe">मुझे दिखाएँ</variable>
+	<variable name="simulation_viewScenario">&lt;b&gt;&lt;u&gt;परिदृश्य&lt;/u&gt;&lt;/b&gt; देखें।</variable>
+	<variable name="simulation_print">&lt;b&gt;मुद्रित करें&lt;/b&gt;</variable>
+	<variable name="simulation_copyright">&lt;b&gt; &lt;/b&gt;</variable>
+	<variable name="simulation_note">&lt;b&gt;नोट&lt;/b&gt;</variable>
+	<variable name="simulation_caution">&lt;b&gt;सावधानी&lt;/b&gt;</variable>
+	<variable name="simulation_finish">समाप्त</variable>
+	<variable name="simulation_tryAgain">पुनः प्रयास करें</variable>
+	<variable name="simulation_scenario">&lt;b&gt;परिदृश्य आदि&lt;/b&gt;</variable>
+	<variable name="simulation_step">&lt;b&gt;चरण&lt;/b&gt;</variable>
+	<variable name="simulation_of">&lt;b&gt;इसका&lt;/b&gt;</variable>
+	<variable name="simulation_next">अगला</variable>
+	<variable name="simulation_previous">पिछला</variable>
+	<variable name="simulation_printSteps">चरणों को मुद्रित करें</variable>
+	<variable name="simulation_loading">लोड कर रहा है...</variable>
+	<variable name="simulation_feedback">&lt;b&gt;प्रतिक्रिया&lt;/b&gt;</variable>
+	<variable name="simulation_message">&lt;b&gt;संदेश&lt;/b&gt;</variable>
+	<variable name="simulation_ok">&lt;b&gt;ठीक&lt;/b&gt;</variable>
+	<variable name="simulation_stepList">अभ्यास चरण सूची</variable>
+	<variable name="simulation_printContents">पृष्ठ सामग्री को मुद्रित करें</variable>
+
+<!-- Content Wheel Variables. -->
+	<variable name="contentWheel_textView">पाठ दृश्य</variable>
+	<variable name="contentWheel_wheelView">व्हील दृश्य</variable>
+	<variable name="contentWheel_introduction">परिचय</variable>
+	<variable name="contentWheel_finish1">स्वः-परीक्षण</variable>
+	<variable name="contentWheel_finish2">सारांश</variable>
+	<variable name="contentWheel_finish3">समीक्षा</variable>
+	<variable name="contentWheel_finish4">लैब समीक्षा</variable><!-- localize this element -->
+	<variable name="contentWheel_finish5">संसाधन</variable><!-- localize this element -->
+	<variable name="contentWheel_help">मदद</variable>
+
+<!-- VOE Variables. -->
+	<variable name="voe_transcript">लिप्यंतर</variable>
+	<variable name="voe_play">चलाएँ</variable>
+	<variable name="voe_pause">ठहरें</variable>
+	<variable name="voe_showTranscript">लिप्यंतर दिखाएँ</variable>
+	<variable name="voe_hideTranscript">लिप्यंतर छुपाएँ</variable>
+	<variable name="voe_titleVoiceOfTheExpert">विशेषज्ञ की आवाज़</variable>
+	<variable name="voe_titleModuleTip">मॉड्यूल युक्ति</variable>
+
+<!-- Media Variables. -->
+  <variable name="media_transcriptPrint">इस मीडिया के लिए लिप्यंतर को देखने और मुद्रित करने के लिए क्लिक करें।</variable>
+  <variable name="media_transcriptPrintWindowTitle">मीडिया लिप्यंतर</variable>
+  <variable name="media_KeyPointsHeader">मुख्य बिंदु</variable>
+  <variable name="media_KeyPointsText">संबद्ध वीडियो अनुभाग देखने के लिए कोई मुख्य बिंदु क्लिक करें।</variable>
+  <variable name="media_TotalTime">कुल समय</variable>
+  <variable name="media_playTip">चलाएँ</variable>
+  <variable name="media_pauseTip">ठहरें</variable>
+  <variable name="media_stopTip">रोकें</variable>
+  <variable name="media_muteTip">म्यूट करें</variable>
+  <variable name="media_soundTip">ध्वनि</variable>
+  <variable name="media_seekTip">देखें</variable>
+  <variable name="media_playingText">चलाना</variable>
+  <variable name="media_pausedText">ठहराया गया</variable>
+  <variable name="media_stoppedText">रोका गया</variable>
+  <variable name="media_fullscreenTip">फ़ुल स्क्रीन</variable>
+  <variable name="media_ccTip">बंद कैप्शनिंग</variable>
+
+  <!--Interactive Job aid Variables. -->
+  <variable name="interactive_yes">&lt;b&gt;हाँ&lt;/b&gt;</variable>
+  <variable name="interactive_no">&lt;b&gt;नहीं&lt;/b&gt;</variable>
+  <variable name="interactive_reset">रिसेट करें</variable>
+  <variable name="interactive_decision">निर्णय</variable>
+  <variable name="interactive_undefined">इस विकल्प के लिए कोई प्रश्न/निर्णय परिभाषित नहीं किया गया।कृपया पुनः प्रारंभ करने के लिए रिसेट करें क्लिक करें।</variable>
+  <variable name="interactive_undefinedQuestion">प्रश्न परिभाषित नहीं किया गया।</variable>
+  
+ 
+  <!--Sequencing variables-->
+  <variable name="sequence_reset">रीसेट करें</variable>
+  <variable name="sequence_showAnswer">उत्तर दिखाएँ</variable>
+  <variable name="sequence_submit">सबमिट करें</variable>
+  <variable name="sequence_shuffled">शफ़ल किया गया</variable>
+  <variable name="sequence_sequenced">सीक्वेंस किया गया</variable>
+  <variable name="sequence_correctMessage">यह सही है!</variable>
+  <variable name="sequence_incorrectMessage">गलत. कृपया रीसेट करें या उत्तर दिखाएँ क्लिक करें.</variable>
+  <variable name="sequence_correctDisplayed">सही उत्तर आपके लिए प्रदर्शित किया गया है.</variable>
+
+ 
+<!-- How To Use Content Wheel Help -->
+	<variable name="howToUse_toNavigate">विषयों में नेविगेट करने के लिए, आप या तो &lt;b&gt;चिह्न दृश्य&lt;/b&gt; या &lt;b&gt;पाठ दृश्य&lt;/b&gt; का उपयोग कर सकते हैं। &lt;br&gt; &lt;br&gt;आप विषयों को या तो चिह्न दृश्य या पाठ दृश्य में आपके द्वारा चुने गए किसी भी क्रम में देख सकते हैं।</variable>
+	<variable name="howToUse_read">&lt;b&gt;पढ़ें&lt;/b&gt; में पाठ, तालिका और ग्राफ़िक होते हैं।</variable>
+	<variable name="howToUse_watch">&lt;b&gt;देखें&lt;/b&gt; में ऐनिमेशन, प्रदर्शन और वीडियो होते हैं।</variable>
+	<variable name="howToUse_interact">&lt;b&gt;सहभागिता करें&lt;/b&gt; में मल्टीमीडिया सहभागिताएँ और छोटे अनुरूपणों जैसी सहभागी सामग्री होती है।</variable>
+	<variable name="howToUse_play">&lt;b&gt;चलाएँ&lt;/b&gt; में खेल होते हैं।</variable>
+	<variable name="howToUse_try">&lt;b&gt;प्रयास करें&lt;/b&gt; में ऐसे उपयोगकर्ता-इंटरफ़ेस अनुरूपण या अभ्यास होते हैं जो आपको आपके द्वारा सीखी गई चीज़ों को आज़माने में सक्षम करते हैं।</variable>
+	<variable name="howToUse_code">&lt;b&gt;कोड&lt;/b&gt; में पॉप-अप विंडो या तालिकाओं में कोड उदाहरण होते हैं।</variable>
+
+
+
+<!-- Virtual Lab variables -->
+	<variable name="vlab_offlineError">लैब उपलब्ध नहीं है। ऑफ़लाइन प्लेयर से लैब तक नहीं पहुँचा जा सकता। अगर आप ऑफ़लाइन प्लेयर का उपयोग नहीं कर रहे हैं, तो सुनिश्चित करें कि आपके पास इंटरनेट कनेक्टिविटी है और लैब को लॉन्च करने का पुनः प्रयास करें।</variable>
+
+   <!--For EK manifest transformation-->
+  <variable name="topic_Title">विषय</variable>
+
+  <!--Print Variables-->
+  <variable name="print_version">मुद्रण संस्करण</variable>
+  <variable name="print_tocHeader">सामग्री तालिका</variable>
+  <variable name="print_course">पाठ्यक्रम:</variable>
+  <variable name="print_module">मॉड्यूल:</variable>
+  <variable name="print_lessonContents">अध्याय सामग्री</variable>
+  <variable name="print_moduleContents">मॉड्यूल सामग्री</variable>
+  <variable name="print_topic">विषय:</variable>
+  <variable name="print_gameInstruction">आइटम संख्या को नीचे दिए गए इसके संगत विकल्प बॉक्स में लिखकर आइटम को उनकी संबद्ध श्रेणियों में क्रमित करें।</variable>
+  <variable name="print_statement">कथन</variable>
+  <variable name="print_note">नोट: उत्तर अगले पृष्ठ पर प्रकट होते हैं।</variable>
+  <variable name="print_categoryItems">श्रेणी आइटम</variable>
+  <variable name="print_category1">श्रेणी 1</variable>
+  <variable name="print_category2">श्रेणी 2</variable>
+  <variable name="print_category3">श्रेणी 3</variable>
+  <variable name="print_keyPoints">मुख्य बिंदु</variable>
+  <variable name="print_transcript">लिप्यंतर</variable>
+  <variable name="print_essayInstruction">इस प्रश्न का उत्तर नीचे प्रदान किए गए स्थान में लिखा जा सकता है।</variable>
+  <variable name="print_adventureInstruction">उपलब्ध विकल्प:</variable>
+  <variable name="print_adventureInfo">इस विषय में परिदृश्य आधारित सामग्री है। प्रत्येक विकल्प 1 से 4 संभावित परिणामों के साथ एक निर्णय बिंदु प्रस्तावित करता है। विषय, विकल्पों के आधार पर विभिन्न परिदृश्यों का अन्वेषण करता है और विकल्पों पर आधारित किसी परिणाम को प्रस्तुत करता है।&lt;br&gt;नीचे सामग्री के एक पूर्ण पथ के लिए सामग्री दी गई है। विषय के पूर्ण संस्करण के लिए, कृपया पाठ्यक्रम के ऑनलाइन संस्करण का उपयोग करें।</variable>
+  <variable name="print_adventurePage">पृष्ठ</variable>
+  <variable name="print_adventureOption">यह विकल्प पृष्ठ पर ले जाता है</variable>
+  <variable name="print_adventureSelected">चयनित विकल्प:</variable>
+
+  <variable name="print_interactiveQuestion">प्रश्न</variable>
+  <variable name="print_interactiveOptions">उपलब्ध विकल्प:</variable>
+  <variable name="print_interactiveOptionInfo">यह विकल्प प्रश्न पर ले जाता है</variable>
+  <variable name="print_interactiveDecisionInfo">यह विकल्प किसी निर्णय पर ले जाता है</variable>
+  <variable name="print_interactiveSelectedOption">चयनित विकल्प:</variable>
+  <variable name="print_interactiveDecision">निर्णय:</variable>
+  <variable name="print_interactiveOptionYes">हाँ</variable>
+  <variable name="print_interactiveOptionNo">नहीं</variable>
+  <variable name="print_interactiveInfo">यह विषय परिदृश्यों को हाँ/नहीं प्रश्नों की किसी श्रृंखला के रूप में प्रस्तुत करता है। चयनित उत्तरों के आधार पर, गतिशील प्रतिक्रिया या अनुगामी प्रश्न दिखाए जाते हैं।&lt;br&gt;नीचे प्रश्नों की एक पूर्ण श्रृंखला के लिए सामग्री दी गई है। विषय के पूर्ण संस्करण के लिए, कृपया पाठ्यक्रम के ऑनलाइन संस्करण का उपयोग करें।</variable>
+  <!--Slider variables-->
+  <variable name="print_introduction">यह विषय चार चरों तक और किसी दिए गए परिणाम के बीच के संबंधों का अन्वेषण करता है।&lt;br&gt;&lt;br&gt;नीचे इस विषय के लिए उपयोग किए गए चरों और चरों के कुछ नमूना मानों के परिणाम दिए गए हैं। विषय के पूर्ण संस्करण के लिए, कृपया पाठ्यक्रम के ऑनलाइन संस्करण का उपयोग करें।</variable>
+  <variable name="print_equation">आउटपुट समीकरण: </variable>
+  <variable name="print_input">इनपुट</variable>
+  <variable name="print_minimum">न्यूनतम</variable>
+  <variable name="print_maximum">अधिकतम</variable>
+  <variable name="print_unit">यूनिट</variable>
+  <variable name="print_example">उदाहरण परिदृश्य</variable>
+  <variable name="print_tileInstruction">कथनों के प्रत्येक जोड़े के लिए, दाईं ओर के स्तंभ में कोई चिह्न लगाकर इंगित करें कि कौन-सा सही है।</variable>
+  <variable name="print_answer">उत्तर</variable>
+  <variable name="print_trueFalse">प्रत्येक कथन के लिए, दाईं ओर के स्तंभ में कोई चिह्न लगाकर इंगित करें कि कौन-सा सही है।</variable>
+  <variable name="print_multipleChoice">प्रत्येक प्रश्न के लिए, बाईं ओर के स्तंभ में कोई चिह्न लगाकर सही उत्तर को इंगित करें।</variable>
+	<variable name="print_instruction">सही उत्तर का चयन करें।</variable>
+  <variable name="print_redirect">कृपया इस गतिविधि का अनुभव करने के लिए पाठ्यक्रम के ऑनलाइन संस्करण का उपयोग करें।</variable>
+  <variable name="print_online_instruction">निर्देश</variable>
+  <variable name="print_correct">सही उत्तर प्रतिक्रिया:</variable>
+
+  <variable name="print_step">चरण</variable>
+</localizedStrings>

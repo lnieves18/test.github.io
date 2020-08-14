@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="application/xhtml+xml;charset=UTF-8" />
+<script type="text/javascript" src="../ECMAScript/xmldom.js"></script>
+<script type="text/javascript" src="../ECMAScript/pagebehavior.js"></script>
+<script type="text/javascript" src="../ECMAScript/silverlight.js"></script>
+<script type="text/javascript" src="../ECMAScript/silverlight_msl.js"></script>
+<script type="text/javascript" src="../ECMAScript/formattextbox.js"></script>
+    <link href="../styles/presentation.css" type="text/css" rel="Stylesheet"/>
+    <style type="text/css">
+        html
+        {
+             overflow-x:hidden;
+             overflow-y:scroll;
+        }
+        .wmvMedia
+        {
+            width: 800px;
+            height: 600px;
+        }
+    </style>
+<script language="javascript" type="text/javascript">
+//Firefox does not have modeless dialog box. So you can't pass information through dialogArguments.
+//So the opener window has been accessed in the below way.
+var dialogArgs=null;
+if(typeof window.opener =='undefined')
+	dialogArgs = window.dialogArguments;
+else
+	dialogArgs = window.opener.dialogArgs;    
+    
+    document.title = dialogArgs["title"];
+        function printDiv() {
+            window.print();
+        }
+        
+        function resize() {
+            if (navigator.userAgent.indexOf('MSIE') < 0) {
+                document.getElementById('transcriptPageContent').style.height = window.innerHeight + "px";
+            }
+        }
+        
+        window.onresize = function () {
+            resize();
+        }
+        
+        function ready() {
+            if (dialogArgs != undefined && dialogArgs["type"] == "transcript") {
+                document.getElementById('topBlock').style.display = 'block';
+                document.getElementById('transcriptPageContent').innerHTML = dialogArgs["xmlDom"];
+                document.getElementById('printID').innerHTML = dialogArgs["strings"];
+                document.getElementById('titleID').innerHTML = dialogArgs["title"];
+            } else if (dialogArgs != undefined && dialogArgs["type"] == "wmv") {
+                document.getElementById('demoLaunch').style.display = 'block';
+                SetSilverlightVariables(dialogArgs["xmlDom"], dialogArgs["globalStringsxmlDom"], dialogArgs["templateType"], dialogArgs["baseUri"]);
+                    slMediaPlayerHtml = generateSilverLightMediaPlayerHtml(dialogArgs["xmlDom"], dialogArgs["baseUri"]);
+                    document.getElementById("mediaDiv").innerHTML = slMediaPlayerHtml;
+                }
+                resize();
+        }
+        if (navigator.userAgent.indexOf('MSIE') < 0)
+            document.addEventListener('DOMContentLoaded', ready, false);
+        document.onreadystatechange = function () {
+            if (document.readyState == "complete") {
+                ready();
+            }
+        }
+    </script>
+</head>
+<body class="dynamicWindow">
+    <div id="demoLaunch" class="pageContent"  style="display:none;">
+        <div id="mediaDiv">
+        </div>
+    </div>
+    <div id="contentBlock">
+        <div id="topBlock" style="display:none;">
+            <h1 id="titleID">
+            </h1>
+            <div class="printLaunch">
+                <u>
+                    <p id="printID" onclick="printDiv();">printPage</p>
+                </u>
+            </div>
+            <div id="transcriptPageContent">transcriptHtml.documentElement.xml</div>
+        </div>
+    </div>
+</body>
+</html>

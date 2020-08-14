@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" onresize="onNavResize()">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <link rel="stylesheet" href="images/structure.css" type="text/css" />
+    <!--[if lte IE 6]>
+    <link href="images/ie6.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+
+    <script language="javascript" type="text/javascript" src="scripts/lang.js"></script>
+
+    <script language="javascript" type="text/javascript" src="scripts/navigation.js"></script>
+
+    <script language="javascript" type="text/javascript" src="scripts/sco_api.js"></script>
+
+    <script language="javascript" type="text/javascript" src="scripts/sco.js"></script>
+
+    <script language="javascript" type="text/javascript" src="scripts/images.js"></script>
+
+    <script language="javascript" type="text/javascript" src="scripts/xmldom.js"></script>
+</head>
+<body onload="navLoad(); initSCO();" onresize="onNavResize()" onunload="termSCO()" onkeypress="javascript:keypress(event, this);" onmousedown="return false;">
+
+    <div id="structRowTitle">
+        <div id="structRowTitleImage">
+            <img id="imgBranding"/></div>
+        <div id="structTitle">
+        </div>
+    </div>
+    <div id="structRowTopNav">
+        <table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+            <tr>
+                <td align="left" style="padding-left: 20px; padding-top:3px;">
+                    <table cellpadding="0" cellspacing="0">
+                        <tr>
+                        <td id="imgTOCRight" align="left" style="width: 1%;height: 23px;background-repeat:no-repeat"  onclick="javascript:navToggleToc()" onmouseover="javascript:buttonOver()" onmouseout="javascript:buttonOut()"></td>
+                            <td id="navTocToggleContainer" class="navTocOpen" align="left" style="vertical-align: top;padding-left:3px;" onclick="javascript:navToggleToc()" onmouseover="javascript:buttonOver()" onmouseout="javascript:buttonOut()" ></td>
+                            <td id="imgTOCLeft" align="left" style="width:88%;background-repeat:no-repeat;height: 23px;"  onclick="javascript:navToggleToc()" onmouseover="javascript:buttonOver()" onmouseout="javascript:buttonOut()"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+    <!-- This is teh original code for toc-->
+    <div id="structRowContent">
+        <table border="0" cellpadding="0" cellspacing="0" style="width:100%">
+            <tr>
+                <td valign="top" id="tdTOC" style="width: 19%;">
+                    <div id="TOC_Container">
+                        <table cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td>
+                                    <div id="TOCHeader">
+                                        <table border="0" cellpadding="0" cellspacing="0" style="width: 95%; ">
+                                            <tr>
+                                                <td style="width: 20px;">
+                                                    <img id="imgTextView" alt="Text view" onmouseover="javascript:TextViewStateChange(event)"
+                                                        onmousedown="javascript:TextViewStateChange(event)" onmouseup="javascript:TextViewStateChange(event)"
+                                                        onmouseout="javascript:TextViewStateChange(event)" onclick="javascript:TextViewLoad()"
+                                                        style="cursor: pointer;" /></td>
+                                                <td>
+                                                    <img id="imgThumbnailView" onmouseover="javascript:ThumbnailViewStateChange(event)"
+                                                        onmouseout="javascript:ThumbnailViewStateChange(event)" onmousedown="javascript:ThumbnailViewStateChange(event)"
+                                                        onmouseup="javascript:ThumbnailViewStateChange(event)" onclick="javascript:ThumbnailLoad()"
+                                                        style="cursor: pointer;"></td>
+                                                <td align="right">
+                                                    <img id="imgCloseButton" onclick="javascript:navToggleToc()"></td>
+                                              </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="height: 100%">
+                                    <div id="structCellToc" ondragstart="return false;">
+                                        <div id="textTreeView"></div>
+                                        <div id="thumbnailView" title="" name="thumbnailView"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+                <td id="divSep" style=" z-index: 1; cursor: e-resize; vertical-align: middle;  height:100%;"
+                    onkeydown="return divSep_onkeypress()"  onmousemove="return divSep_onmousemove(event);">
+                    <div id="structTOCResize">
+                        <table cellpadding="0" cellspacing="0" border="0">
+                            <tr valign="top">
+                                <td style="width: 10px">
+                                    <img src="images/toc_resize_stat.jpg" ondragstart="return false;" />
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+                <td id="tdContent" valign="top" align="left">
+                    <div id="structCellContent">
+                        <iframe src="loading.htm" id="structContent"  frameborder="0" onload="onNavContentFrameLoad()" >
+                        </iframe>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+    
+    <div id="structRowBottomNav" style="width:100%">
+        <table width="100%"> 
+        <tr>
+        <td id="tdNav" >   
+        <div id="structCellBottomNav">
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>
+                        <span id="navBackContainer" style="padding-left: 104px"><a href="javascript:navMovePrevious()"
+                            id="navBack" onmouseover="window.status=' '; return true" onmouseout="window.status=' '; return true">
+                        </a></span>
+                    </td>
+                    <td>
+                        <span id="navNextContainer" ><a href="javascript:navMoveNext()" id="navNext"
+                            onmouseover="window.status=' '; return true" onmouseout="window.status=' '; return true">
+                            &nbsp;</a></span>
+                    </td>                    
+                </tr>
+            </table>
+        </div>
+        </td>
+        <!--<td id="tdExit" valign="top" align="right"></td>-->
+    </tr>
+    </table>
+    <span id="Span1" ><a href="javascript:navExitPage()" id="navExit" style="cursor:pointer;" onmouseover="window.status=' '; return true" onmouseout="window.status=' '; return true">&nbsp;</a></span>
+    </div>
+</body>
+</html>

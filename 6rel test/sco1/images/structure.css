@@ -1,0 +1,508 @@
+
+html,
+body
+{
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+html
+{
+	overflow: hidden;
+}
+
+html,
+body
+{
+	font-family: Verdana;
+	font-size: .85em; 	
+}
+
+
+#structRowTitle
+{
+	height: 32px;
+	background-image: url(msl_logo_bar.jpg);
+}
+
+#structRowTitleImage
+{
+	height: 29px;
+	float: right; 
+}
+
+#structTitle
+{
+	color:White;
+	float: left;
+	padding-top: .4em;
+	padding-left: 1em;
+	font-weight: bold;
+}
+
+#structRowTopNav
+{
+	height: 28px;
+	background-image: url(top_menu_background_bar.jpg);
+	vertical-align: top;
+}
+
+#structRowContent
+{
+	top: 60px;
+	bottom:40px;
+	left: 0px; 
+	right: 0px; 
+	display: block; 
+	border: solid 6px #002E46;
+	width: 99%;
+	height: 81%;
+}
+
+#structCellToc
+{
+	position: fixed;
+	display: block;
+	float: left;
+	width: 200px;
+	vertical-align: top;
+	background-repeat:no-repeat;
+	height:100%;
+}
+
+#structCellContent
+{
+	display: block;
+	float: left;
+	right: 0px;
+	height: 80%;
+	margin-left:0;
+}
+
+#structTOCResize
+{
+	top:55px; 
+	display: block;
+	float: left;
+	vertical-align: top;
+	background-color: #002E46;
+	padding-top: 200px;
+	height: 100%;
+}
+
+#structContent
+{
+	border: none;
+	overflow: auto;
+	height: 80%;
+}
+
+#TOC_Container
+{
+}
+#divSep
+{
+	width:6px;
+}
+#TOCHeader
+{
+	width:200px;
+	height: 22px;
+	background-image: url(toc_tabs_background.png);	
+	vertical-align: top;
+}
+#textTreeView
+{
+	overflow:auto;
+}
+
+#thumbnailView
+{
+	overflow:auto;
+	height:100%;
+}
+#structRowBottomNav
+{
+	position: absolute;
+	bottom: 0px;
+	height: 40px;
+	width: 100%;
+	height: 38px;
+	vertical-align:bottom;
+	font-size:xx-small;
+	background-image: url(bottom_button_base.jpg);
+	background-repeat: repeat-x;
+}
+#structBottomBaseLeft
+{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 38px;
+	background-image: url(bottom_button_base.jpg);
+	vertical-align: top;
+}
+
+#structCellBottomNav
+{
+	position: absolute;
+	left: 30%;
+	width: 100%;
+	height: 40px;
+	background-image: url(bottom_button_bgr.jpg);
+	vertical-align: middle;
+	background-repeat: no-repeat;	
+	top:0px;
+}
+#structBottomBaseCenter
+{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 38px;
+	background-image: url(bottom_button_bgr.jpg);
+	vertical-align: middle;
+}
+
+#structBottomBaseRight
+{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 38px;
+	background-image: url(bottom_button_base.jpg);
+	vertical-align: top;
+}
+
+.tocResize
+{
+	height: 100%;
+	width: 3px;
+	background-image: url(toc_resize_stat.jpg);
+}
+
+.tocModule
+{
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#FFFFFF',EndColorStr='#D7E7FF');
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#FFFFFF',EndColorStr='#D7E7FF')";
+	/*height: 6%;*/
+	height: 27px;
+	font-size : 8pt;  
+    font-family : Tahoma;
+    font-weight : normal;
+    margin-left:3px;
+    padding-bottom:3px;
+	border: solid 1px #E6EFFF;
+	vertical-align:middle;
+	background-color:#D7E7FF;
+}
+.tocModuleAnchor
+{
+	display: block;
+	margin-left: 23px;
+	margin-top:3px;
+	vertical-align:top;
+	color: #000000;
+	text-decoration:none;
+}
+.tocModuleSelected
+{
+	background-color:#FEE895;
+	font-size : 8pt;  
+    font-family : Tahoma;
+    font-weight : normal;
+    border: solid 1px #E6EFFF;
+    padding-bottom:3px;
+    margin-left:3px;
+    /*height: 6%;*/
+    height: 27px;
+}
+.tocModule:hover
+{
+	background-color:#FFF8DC;
+}
+.tocTopic
+{
+	display: block;
+	vertical-align:middle;
+	color:#000000;
+	text-decoration:none;
+	padding-bottom:1px;
+}
+.tocTopicAnchor
+{
+	display: block;
+	margin-left: 23px;
+	vertical-align:middle;
+	color:#000000;
+	text-decoration:none;
+	padding-bottom:3px;
+	padding-top:3px;
+}
+
+.tocTopicSelected
+{
+	font-size : 8pt;  
+    font-family : Tahoma;
+    font-weight : normal;
+	background-color:#FEE895;
+	padding-bottom:1px;
+}
+
+.tocChildContainer .tocNode
+{
+	font-weight: normal;	
+}
+
+.tocNodeLesson 
+{
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#FFFFFF',EndColorStr='#D7E7FF');
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#FFFFFF',EndColorStr='#D7E7FF')";
+	font-size : 8pt;  
+    font-family : Tahoma;
+    font-weight : normal;
+    /*height: 6%;*/
+    height: 27px;
+	cursor:text;
+	padding-bottom:3px;
+	border: solid 1px #E6EFFF;
+	background-color:#D7E7FF;
+}
+
+.tocNodeLessonAnchor 
+{
+	text-decoration: none;
+	color: #000000;
+	cursor:text;
+	display: block;
+	margin-top:3px;
+}
+
+.tocTopic:hover
+{
+	background-color:#FFF8DC;
+}
+.tocChildContainer 
+{
+	margin: 3px 0px 2px 14px;
+	border: solid 1px #E6EFFF;
+	font-size : 8pt;  
+    font-family : Tahoma;
+    font-weight : normal;
+}
+.tocToggleImageChild
+{
+	float:left;
+	margin-top:10px;
+	border:none;
+	height:auto;
+	width:auto;
+}
+.tocToggleImage 
+{
+	margin-top: 5px;
+	margin-right: 15px;
+	float: left;
+	border: none;
+}
+
+.tocStatusImage
+{
+	margin-top: 3px;
+	margin-bottom: 2px;
+	float: left;
+	visibility:hidden;
+}
+
+#navBack,
+#navNext,
+#navExit 
+{
+	display: inline-block;
+	height: 20px;
+	background-repeat: no-repeat;
+	font-size: 1.2em;
+	color: #ffffff;
+	text-decoration: none;
+	margin-right: 25px;
+	margin-top: 1px;
+	font-weight: bold;
+}
+
+#navExit:hover
+{
+	color: #cccccc;	
+}
+
+#navExit
+{
+	background-position:right;
+	padding-top:5px;
+	font-size:medium;
+	position:absolute;
+	margin-left:90%;/*30% for IE. 84% for firefox*/
+	display:block;
+}
+#navBack 
+{
+	background-image: url(back_stat.png);
+	background-position: left center;
+	padding-right: 1px;
+	padding-top: 10px;
+	width:80px;
+}
+
+#navBack:hover
+{
+	background-image: url(back_roll.png);
+	width:80px;
+}
+
+.disabled #navBack
+{
+	background-image: url(back_gray.png);
+	color: #6784c3;
+	cursor:default;
+	width:80px;
+}
+
+#navNext
+{
+	background-image: url(fw_stat.png);
+	background-position: right center;
+	padding-top: 10px;
+	width:80px;
+}
+
+#navNext:hover
+{
+	width:80px;
+	background-image: url(fw_roll.png);
+}
+
+.disabled #navNext
+{
+	width:80px;
+	background-image: url(fw_gray.png);
+	color: #6784c3;
+	cursor:default;
+}
+
+.disabled #navNext:hover
+{
+	background-image: url(fw_gray.png);
+}
+
+.disabled #navBack:hover
+{
+	background-image: url(back_gray.png);
+}
+
+#divTocRight:hover
+{
+	background-image: url(toc_content1_roll.png);
+}
+
+#divTocLeft:hover
+{
+	background-image: url(toc_content3_roll.png);
+}
+#imgTOCRight
+{
+	height:23px;
+}
+#navTocToggleContainer
+{
+	/*margin-top: 2px; commented for firefox*/
+	display: block;
+	height:20px;	
+	padding-top: 4px;
+	background-position: left top;
+	background-repeat: repeat-x;
+	font-size: x-small;
+	font-family: Tahoma;
+	color: #ffffff;
+	text-decoration: none;
+}
+#imgTOCRight:hover
+{
+	cursor:pointer;
+}
+#imgTOCLeft:hover
+{
+	cursor:pointer;
+}
+#navTocToggleContainer:hover
+{
+	cursor:pointer;
+}
+#navTocLeft
+{
+	background-position: left;
+	background-image: url(toc_content2_stat.png);
+}
+#navTocToggle
+{
+	margin-top: 0px;
+	padding-top: 2px;
+	display: block;
+	background-position: left top;
+	background-repeat: repeat-x;
+	font-size: small;
+	font-family: Tahoma;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.topicTitle
+{
+	padding-left:5px;
+	font-weight:bold;
+	font-weight: normal;
+	font-family:Tahoma;
+	color: Black;
+}
+#imgCloseButton
+{
+	background-image:url(toc_close_stat.png);
+	background-repeat:no-repeat;
+	height:14px;
+	width:14px;
+	border:none;
+}
+#imgCloseButton:hover
+{
+	background-image: url(toc_close_roll.png);
+	cursor:pointer;
+}
+.topicTitle
+{
+	padding-left:5px;
+	font-weight:bold;
+	font-weight: normal;
+	font-family:Tahoma;
+	color: Black;
+}
+.thumbnailsBgr
+{
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#FFFFFF',EndColorStr='#D7E7FF');
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#FFFFFF',EndColorStr='#D7E7FF')";
+	cursor: pointer;
+}
+.thumbnailHover
+{
+	background-color:#FFF8DC; 
+	cursor: pointer;
+}
+.thumbnailsSelected
+{
+	background-color:#FEE895;
+	cursor:pointer;
+}
+
+.imgTextView
+{
+	background-image: url(toc_TextView_stat.png);
+}

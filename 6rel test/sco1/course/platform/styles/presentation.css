@@ -1,0 +1,1198 @@
+/* globally inherited values */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: verdana, arial, sans-serif;
+}
+html {
+	overflow: hidden;
+}
+body {
+	width: 100%;
+	height: 100%;
+}
+iframe {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	border: none;
+}
+#contentBlock 
+{
+	background-color:White;
+	overflow:visible !important;
+}
+#topBlock {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	padding:5px 0 0 5px;
+}
+h1 {
+	padding: 3px 0 4px 9px;
+	font-size: 11px;
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#FFFFFF',EndColorStr='#E8E8E8');
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#FFFFFF',EndColorStr='#E8E8E8')";
+	width:98%;
+}
+#pageHeading {
+	padding: 13px 0 0 20px;
+}
+h2 {
+	margin: 0 20px 14px 0;
+	padding-bottom: 2px;
+	font-size: 12px;
+	border-bottom: 1px solid RGB(0,50,155);
+}
+#pageContent {
+	padding: 0 0 0 1px;
+	overflow: auto;
+	/* Forced to use expression because window.onresize was not firing properly in IE7. 18 */
+	height: 93%;
+	width: expression(String(Number(document.documentElement.clientWidth) - 25) + "px");
+}
+
+#transcriptPageContent 
+{
+	padding: 13px 0 0 10px;
+	/*overflow: auto;*/
+}
+
+h3 {
+	margin: 0 20px 16px 0;
+	padding-bottom: 3px;
+	font-size: 11px;
+	border-bottom: 1px solid RGB(0,50,155);
+}
+h4 { /* User defined headings */
+	display: block;
+	margin: 0 20px 16px 0;
+	padding-bottom: 3px;
+	font-size: 11px;
+}
+p {
+	margin: 0 20px 16px 0;
+	font-size: 11px;
+	line-height: 14px;
+}
+/* Media element content. */
+img.imageMedia, iframe.powerpointMedia, object.flashMedia, object.wmvMedia {
+	/* This leaves the problem of wrapping text and space below the image. */
+	margin: 0 20px 16px 0;
+	/* These values ensure that floating elements appear to stay a proper distance. */
+	float: right; padding-left: 20px; background-color: RGB(255,255,255);
+}
+iframe.powerpointMedia, object.flashMedia, object.wmvMedia {
+	width: 300px;
+	height: 200px;
+}
+
+/* START: Inline formatting */
+code {
+	display: block;
+	margin: 0 20px 16px 0;
+	padding: 10px;
+	font-family: courier new;
+	font-size: 13px;
+	background-color: RGB(240,240,240);
+}
+code p, code ul, code ol {
+	margin: 0;
+	padding: 0;
+}
+code ol {
+	margin: 0 0 0 6px;
+}
+
+ul {
+	margin: 0 20px 16px 0;
+	list-style: url("../images/bullet1_first_level.png") disc;
+}
+ul ul {
+	list-style: url("../images/bullet2_second_level.png") square;
+}
+ul ul ul {
+	list-style: url("../images/bullet3_third_level.png") square;
+}
+ol {
+	margin: 0 20px 16px 10px;
+}
+ul ul, ol ol {
+	margin: 0 0 0 20px;
+}
+ul ol, ol ul {
+	margin: 0 0 0 20px;
+}
+li {
+	font-size: 11px;
+	margin-left: 20px;
+	line-height: 15px;
+}
+li p {
+	margin: 0;
+	padding: 0;
+}
+button {
+	margin: 0 20px 16px 0;
+	padding:1px 5px 1px 5px;
+}
+
+.readeraid {
+	display: block;
+	padding-left: 40px;
+	font-size: 11px;
+	background-repeat: no-repeat;
+	color: RGB(80,130,173);
+}
+.readeraidTitle {
+	display: block;
+	padding-bottom: 2px;
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: RGB(0,0,0);
+}
+.tip {
+	background-image: url("../images/tip.png");
+}
+.caution {
+	background-image: url("../images/caution.png");
+}
+.warning {
+	background-image: url("../images/warning.png");
+}
+.important {
+	background-image: url("../images/important.png");
+}
+.note {
+	background-image: url("../images/note.png");
+}
+.study_sheet {
+	background-image: url("../images/study_sheet.png");
+}
+/* END: Inline formatting */
+
+.instructionsBar {
+	margin: 0 4px 14px 0;
+	padding: 6px 1px 1px 10px;
+	background-color: RGB(214,231,247);
+}
+.instructionsBar p {
+	margin: 0 5px 7px 0;
+}
+
+.tableContainer {
+	/* The table has a percentage width, so this element provides margin for the table. */
+	padding: 0 16px 16px 0;
+}
+table {
+	border-collapse: collapse;
+	border-right: 1px solid RGB(198,158,16);
+	border-bottom: 1px solid RGB(198,158,16);
+}
+tbody {
+	width: 100%;
+}
+tr {
+	width: 100%;
+}
+th {
+	padding: 9px 0 0 9px;
+	vertical-align: top;
+	border: 1px solid RGB(198,158,16);
+	background-color: RGB(231,215,156);
+}
+th h3 {
+	margin: 0 9px 6px 0;
+	border-bottom: none;
+}
+td {
+	/* This padding is a little smaller than default due to the enclosing borders. */
+	padding: 16px 0 0 20px;
+	vertical-align: top;
+	border: 1px solid RGB(198,158,16);
+	background-color: RGB(255,247,239);
+	padding-bottom: 16px; /* Huge exception outlined in the "table .textParent" element. */
+	padding-left: 0; /* Huge exception outlined in the "table .textParent" element. */
+}
+/* Media element content. */
+table img.imageMedia, table iframe.powerpointMedia, table object.flashMedia, table object.wmvMedia {
+	display: block;
+	padding: 0;
+	margin: 0 8px 0 0;
+	/* This styling override default float-left styling values. */
+	float: right; margin-left: 8px; background-color: transparent;
+}
+table .textParent {
+	margin-bottom: -16px; /* The floating right of the image forces the last paragraph in this div to define the margin between the image and the bottom of the td.  If no paragraphs are present, the image sits on the bottom of the td.  This removes the bottom margin of all the text, thus providing an exception to the model that pushes the definition of the bottom margin to the parent element (the td). */
+	margin-left: 16px;
+}
+table p.imageMediaBugFix {
+	margin: 0; padding: 0;
+}
+/* Fixing the widths of click tables. */
+	/* Three columns wide. */
+		/* first column */
+table.click tr.totalColumns3 td.pos1, table.click tr.totalColumns3 th.pos1 { width: 0; }
+table.click tr.totalColumns3 th.pos1 div.cellInner { width: 191px; }
+table.click tr.totalColumns3 td.pos1 div.cellInner { width: 200px; }
+		/* second column */
+table.click tr.totalColumns3 td.pos2, table.click tr.totalColumns3 th.pos2 { width: 0; }
+table.click tr.totalColumns3 th.pos2 div.cellInner { width: 374px; }
+table.click tr.totalColumns3 td.pos2 div.cellInner {/*width: 383px;*/}
+		/* third column */
+table.click tr.totalColumns3 td.pos3, table.click tr.totalColumns3 th.pos3 { width: 0; }
+table.click tr.totalColumns3 th.pos3 div.cellInner { width: 191px; }
+table.click tr.totalColumns3 td.pos3 div.cellInner {/* width: 200px; */}
+	/* Two columns wide. */
+		/* first column */
+table.click tr.totalColumns2 td.pos1, table.click tr.totalColumns2 th.pos1 { width: 0; }
+table.click tr.totalColumns2 th.pos1 div.cellInner { width: 241px; }
+table.click tr.totalColumns2 td.pos1 div.cellInner {/* width: 250px; */}
+		/* second column */
+table.click tr.totalColumns2 td.pos2, table.click tr.totalColumns2 th.pos2 { width: 0; }
+table.click tr.totalColumns2 th.pos2 div.cellInner { width: 524px; }
+table.click tr.totalColumns2 td.pos2 div.cellInner {/* width: 533px; */}
+/* Click table dynamic styling. */
+table.click td.pos2, table.click td.pos3 {
+	background-color: RGB(255,255,255);
+}
+table.click td {
+	border-top: none;
+	border-bottom: none;
+}
+table.click td.pos1 {
+	cursor: pointer;
+}
+table.click td.pos2 {
+/* border-left: none; */
+}
+table.click td#active {
+	border-top: 1px solid RGB(198,158,16);
+	border-bottom: 1px solid RGB(198,158,16);
+	background-color: RGB(255,255,255);
+	cursor: default;
+}
+
+/* Activities */
+.captionMedia, .adventure, .sortGame, .tileFlip, .dragAndDrop ,.interactiveJobAid, .slider{
+	
+}
+.captionMedia {
+	margin: 0 20px 16px 0;
+	width: 180px;
+	height: 420px;
+}
+.adventure {
+	width: 792px;
+	height: 367px;
+}
+.sortGame {
+	width: 600px;
+	height: 374px;
+}
+.tileFlip {
+	width: 600px;
+	height: 345px;
+}
+.dragAndDrop {
+	width: 618px;
+	height: 374px;
+}
+
+.interactiveJobAid 
+{
+	width: 800px;
+	height: 552px;  
+}
+	
+.slider
+{
+	width: 790px;
+	height: 352px;
+}
+
+.flashCard
+{
+	width: 770px;
+	height: 460px;
+}
+.sequence {
+	width: 600px;
+	height: 470px;
+}
+.sliderTextParent
+{
+	margin: 3px 0px 0px 0;
+	width: 750px;
+	overflow: auto;
+	padding: 5px 0 0 18px;
+	float: left;
+}
+.animation {
+	width: 785px;
+	height: 379px;
+	/*border: 1px solid RGB(0,50,155);*/
+}
+.animation div{
+	width: 761px;
+	height: 374px;
+}
+.animation object.wmvMedia {
+	margin: 0;
+	width: 555px;
+	height: 374px;
+	border-right: 1px solid RGB(0,50,155);
+	float: left;
+}
+
+.animation object.flashMedia {
+	margin: 0;
+	width: 555px;
+	height: 374px;
+	/*border-right: 1px solid RGB(0,50,155);*/
+	border: 1px solid RGB(0,50,155);
+	float: left;
+}
+
+.animation h3, .animation .textParent {
+	float: left;
+}
+.animation h3 {
+	margin: 0;
+	/* Temporary exception to the normal margin / padding rules.  Refactor animation presenation later. */
+	padding: 4px 0 0 8px;
+	width: 197px;
+	height: 19px;
+	font-weight: normal;
+	background-color: RGB(200,227,255);
+	/*border: none;*/
+	border-top: 1px solid RGB(0,50,155);
+	border-right: 1px solid RGB(0,50,155);
+}
+.animation .textParent {
+	/* This padding is a little smaller than default due to the enclosing borders. */
+	padding: 14px 0 0 18px;
+	width: 187px;
+	height: 336px;
+	overflow: auto;
+	/*border-top: 1px solid RGB(0,50,155);*/
+	border-right: 1px solid RGB(0,50,155);
+	border-bottom: 1px solid RGB(0,50,155);
+}
+
+
+div.doubleLeft {
+	float: left;
+}
+/* Media element content. */
+.doubleLeft  img.imageMedia, .doubleLeft iframe.powerpointMedia, .doubleLeft  object.flashMedia, .doubleLeft object.wmvMedia {
+	margin: 0 20px 16px 0;
+	padding: 0;
+	/* This styling override default float-right styling values. */
+	float: left; padding-left: 0; background-color: transparent;
+}
+div.doubleRight {
+	/* There are a few pixels between this and doubleLeft that will go away with a float: left.  However, this reduces the width of doubleRight which is unacceptable. */
+	height: 100%;
+}
+
+
+#navBlock {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 157px;
+	background-color: RGB(83,151,222);
+}
+#navControls {
+	width: 824px;
+	background-color: RGB(83,151,222);
+}
+
+#wheelNav {
+	padding-top: 2px;
+}
+.htmlNav {
+	width: 520px;
+	height:155px;
+	overflow:hidden;
+}
+.htmlNav table 
+{
+	height:100%;
+	padding:0px;
+	border-width: 0px;
+}
+.htmlNav table tr
+{	
+	cursor:pointer;
+}
+
+
+.htmlNav table tr .visited 
+{
+	padding:0px;
+	padding-left:15px;
+	border-bottom:1px;
+	border-top:1px;
+	border-left:0px;
+	border-right:0px;	
+	border-color:White;
+	vertical-align:middle;
+	font-family:Verdana;
+	font-weight:bold;
+	font-size:10px;
+	border-bottom-style:solid;
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#FED580',EndColorStr='#F2E9D2');
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#FED580',EndColorStr='#F2E9D2')";
+}
+
+.htmlNav table tr td:hover 
+{
+	background-color:#B1D3F6;
+}
+
+.htmlNav table tr .current:hover 
+{
+	background-color:#B8D0E4;
+}
+
+.htmlNav table tr td 
+{
+	padding:0px;
+	padding-left:15px;
+	border-bottom:1px;
+	border-top:1px;
+	border-left:0px;
+	border-right:0px;	
+	border-color:White;
+	vertical-align:middle;
+	font-family:Verdana;
+	font-weight:bold;
+	font-size:10px;
+	background-color:#D8E8F8;
+	border-bottom-style:solid;
+}
+.htmlNav table tr td table tr td
+{
+	padding:0px;
+	border-width:0px;
+	background-color:Transparent;
+}
+
+.htmlNav table tr td table tr td:hover
+{
+	background-color:Transparent;
+}
+
+.htmlNav table tr td img
+{
+	height:10px;
+	padding-right:5px;
+	visibility:hidden;
+}
+div.htmlNav  {
+	float: left;
+}
+
+
+#scoNavHelp {
+	position: absolute;
+	top: 17px;
+	left: 484px;
+
+	cursor: pointer;
+	border: 1px solid RGB(0,50,155);
+}
+#scoNavHelp a {
+	display: block;
+	padding: 1px 0 0 5px;
+	width: 12px;
+	height: 15px;
+	background-image: url("../images/sco_nav_help_background.png");
+}
+#scoNavHelp a:hover {
+	background-image: url("../images/sco_nav_help_hover_background.png");
+}
+
+/* Media launch button */
+.mediaLaunch {
+	font-size: 12px;
+}
+/* Dynamic window generics. */
+.dynamicWindow object {
+	float: left;
+}
+.dynamicWindow h3 {
+	margin: 0;
+	/* Temporary exception to the normal margin / padding rules.  Refactor animation presenation later. */
+	padding: 4px 0 0 8px;
+	height: 19px;
+	font-weight: normal;
+	background-color: RGB(200,227,255);
+	border: none;
+}
+.dynamicWindow .textParent {
+	/* This padding is a little smaller than default due to the enclosing borders. */
+	padding: 14px 0 0 18px;
+	/*width: 180px;*/
+	height:100%;
+	overflow: visible !important;
+	border-top: 1px solid RGB(0,50,155);
+}
+.dynamicWindow .transcript {
+	float: left;
+	border: 1px solid RGB(0,50,155);
+}
+/* Demo launch window */
+#demoLaunch object {
+	width: 800px;
+	height: 600px;
+}
+#demoLaunch .textParent {
+	height: 560px;
+}
+/* Sim launch window */
+#simLaunch object {
+	width: 787px;
+	height: 483px;
+}
+#simLaunch .textParent {
+	height: 443px;
+}
+/* launchPrint */
+div.printLaunch {
+	margin: 0 5px 14px 0;
+	padding: 5px 1px 1px 30px;
+	background-color: RGB(214,231,247);
+	background-image: url("../images/launchprint.gif");
+	background-repeat: no-repeat;
+	background-position: 4px 3px;
+}
+@media print
+{
+    div.printLaunch{display:none}
+}
+div.printLaunch p {
+	margin: 0 5px 7px 0;
+}
+div.printLaunch u {
+	cursor: pointer;
+}
+#notesPrintWindow {
+	margin: 16px 0 0 20px;
+}
+#notesPrintWindow h1 {
+	padding: 0 20px 30px 0;
+	font-size: 18px;
+	color: RGB(0,0,0);
+	background-color: transparent;
+}
+#notesPrintWindow h2 {
+	margin-bottom: 4px;
+	border: none;
+}
+#notesPrintWindow p.notesContent {
+	margin-bottom: 30px;
+}
+
+.glossary000 h2 {
+	color: RGB(90,138,181);
+	border: none;
+}
+ul#glossaryNav {
+	position: absolute;
+	padding-bottom: 10px;
+	width: 100%;
+	background-color: RGB(255,255,255);
+}
+#glossaryNav li {
+	margin-left: 8px;
+	display:inline;
+	list-style-type: none;
+	font-size: 15px;
+	float: left;
+	line-height:18px;
+}
+a.termLetter {
+	margin: 0;
+	padding: 0;
+	height: 0;
+	width: 0;
+	line-height: 0;
+	color: white;
+}
+h3.termLetter {
+	margin: 20px 20px 16px 0;
+	padding-top: 17px;
+	font-size: 14px;
+	color: RGB(90,138,181);
+	border-top: 1px solid RGB(49,93,148);
+	border-bottom: none;
+}
+h4.glossaryTerm {
+	margin: 0 20px 16px 0;
+	font-size: 11px;
+	line-height: 14px;
+}
+#GlossaryContent
+{
+	height:91%;
+	width:100%; 
+	margin-top:30px;
+	overflow: auto;
+}
+#glossaryNavDiv
+{
+	width:100%; 
+}
+
+/* Normalize styling below. */
+
+
+
+#notes {
+	position : absolute ;
+	top : 2px;
+	left : 522px;
+	padding: 1px 0 0 3px;
+	width: 298px;
+	height: 152px;
+}
+#notes h2 {
+	margin: 4px 0 0 4px;
+	padding: 0;
+	font-size: 10px;
+	font-family: arial, sans-serif;
+	text-decoration: normal;
+	color: RGB(255,255,255);
+	border: none;
+	float: left;
+}
+#notes ul {
+	margin: 1px 0 0 0;
+	padding: 2px 0 0 2px;
+	width: 89px;
+	height: 22px;
+	list-style-type: none;
+	float: right;
+	/*clear: both;*/
+	background-image: url("../images/notes_background.gif");
+	background-repeat: no-repeat;
+}
+#notes li {
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style-type: none;
+	display:inline;
+}
+#notes li a {
+	margin: 0 5px 0 4px;
+	padding: 0;
+	width: 20px;
+	height: 20px;
+	text-decoration: none;
+	float: left;
+}
+#notesSave {
+	background-image: url("../images/mynotes_save_normal.gif");
+}
+#notesSave:hover {
+	background-image: url("../images/mynotes_save_ro.gif");
+}
+#notesDelete {
+	background-image: url("../images/mynotes_delete_normal.gif");
+}
+#notesDelete:hover {
+	background-image: url("../images/mynotes_delete_ro.gif");
+}
+#notesPrint {
+	background-image: url("../images/mynotes_print_normal.gif");
+}
+#notesPrint:hover {
+	background-image: url("../images/mynotes_print_ro.gif");
+}
+#notesContentParent {
+	margin: 25px 0 0 0;
+	background-color: RGB(255,255,255);
+}
+#notesContent {
+	margin: 2px 0 2px 3px;
+	width: 291px;
+	height: 121px;
+	font-size: 10px;
+	overflow: auto;
+	border: 0;
+}
+
+/* multiple choice styling */
+.questionHeader {
+	margin: 0 20px 2px 0;
+	padding: 2px 0 1px 8px;
+	height: 23px;
+	background-color: RGB(239,243,231);
+}
+.questionHeader h3 {
+	font-weight: normal; font-size: 16px;
+	padding-bottom: 0;
+	margin: 1px 0 0 0;
+	border: none;
+	float: left;
+}
+.questionHeader li {
+	list-style-type: none;
+	float: left;
+}
+.questionHeader a {
+	text-decoration: none;
+	color: RGB(0,0,0);
+}
+.questionHeader a:visited {
+	text-decoration: none;
+	color: RGB(0,0,0);
+}
+.questionHeader .toggleQuestion {
+	margin: 0; padding: 2px 0 0 0;
+	width: 23px;
+	height: 18px;
+	text-align: center;
+	float: left;
+	list-style-type: none;
+	background-color: RGB(222,227,198);
+	border: 1px solid RGB(132,154,66);
+	text-decoration: none;
+}
+.questionHeader .toggleQuestion:hover {
+	background-color: RGB(255,255,230);
+}
+
+.questionHeader .Correct
+{
+	background-color: RGB(204,230,197);
+	background-image: url("../images/go.gif");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.questionHeader .Incorrect
+{
+	background-color: RGB(250,204,191);
+	background-image: url("../images/nogo.gif");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.questionHeader .Correct:hover
+{
+	background-color: RGB(236,251,229);
+}
+
+.questionHeader .Correct:active
+{
+	background-color: RGB(234,250,229);
+}
+
+.questionHeader .Incorrect:hover
+{
+	background-color: RGB(251,237,233);
+}
+
+.questionHeader .Incorrect:active
+{
+	background-color: RGB(248,227,222);
+}
+
+.questionHeader .active {
+	background-color: RGB(255,255,255);
+}
+.questionContent {
+	margin: 0 20px 16px 0;
+	border-bottom: 1px solid RGB(0,48,156);
+}
+.questionDescription {
+	margin: 0 20px 10px 0;
+	padding: 7px 0 8px 10px;
+	background-color: RGB(209,223,244);
+}
+.questionDescription p {
+	margin: 0;
+}
+
+.questionActive
+{
+	height:10px;
+	margin-bottom: 10px;
+}
+
+.itemParent {
+	margin: 0 20px 16px 0;
+	border-bottom: 1px solid RGB(0,48,156);
+}
+.feedbackParent {
+	display: none;
+}
+.answerParent {
+	margin-left: 5px;
+	clear: both;
+}
+.answerParent input {
+	display: inline;
+	width: auto;
+	float: left;
+	padding : 5px 5px 10px 0;
+}
+
+.itemParent .answerParent {
+	padding-top: 3px;
+}
+.itemParent .answerParent p {
+	margin: 0 0 0 6px;
+	padding: 0;
+}
+
+/* Submit button */
+.submitButton {
+	margin: 10px 0 10px 8px;
+	font-size: 12px;
+	clear: both;
+}
+.answerParent .answerContent {
+	margin-top: 3px;
+}
+.itemParent .answerParent img {
+	margin: 0 6px 0 4px;
+	padding: 0;
+	float: left;
+}
+.assessmentFeedback {
+	position: absolute;
+	top: 370px;
+	left: -50px;
+	margin: -250px 0 0 105px;
+	width: 450px;
+	height: 270px;
+	background-color: RGB(239,243,231);
+}
+.assessmentFeedback .header {
+	height: 34px;
+	background-color: RGB(198,203,156);
+}
+.assessmentFeedback .header h3 {
+	margin: 7px 0 0 20px;
+	padding: 0;
+	font-size: 18px;
+	border: none;
+}
+.assessmentFeedback .body {
+	height: 202px;
+	overflow: auto;
+	scrollbar-face-color : RGB(198,203,156);
+}
+.assessmentFeedback .body p {
+	margin: 24px;
+}
+.assessmentFeedback .footer {
+	height: 34px;
+	background-color: RGB(198,203,156);
+}
+.assessmentFeedback .footer button {
+	margin: 5px 5px 0 0;
+	float: right;
+}
+.hidden {
+	display: none;
+}
+.inactive {
+	color: RGB(173,170,156);
+}
+
+/* activity question pane */
+.activityIntro {
+	position: absolute;
+	left: 20px;	/* The parent div is now absolute, so left must be stated explicitly. */
+	margin: 17px 0 0 22px;
+	width: 550px;
+	height: 210px;
+	border: 1px solid RGB(0,48,156);
+	background-color: RGB(247,251,255);
+	overflow:auto;
+}
+.activityIntro h3 {
+	margin: 0;
+	padding: 7px 7px 7px 12px;
+	border: none;
+	background-color: RGB(200,227,255);
+}
+.activityIntro .questionContent {
+	margin: 15px 15px 15px 15px;
+	padding: 7px;
+	height: 100px;
+	overflow: auto;
+	border: none;
+	font-size: 12px;
+	background-color: RGB(255,255,255);
+}
+.activityIntro button {
+	font-size: 10px;
+	margin-left: 14px;
+	width: 60px;
+}
+
+.answerHeader {
+	margin: 0 20px 10px 0;
+	padding: 2px 0 1px 8px;
+	height: 23px;
+	background-color: RGB(239,243,231);
+}
+
+.answerHeader h3 {
+	font-weight: normal; font-size: 16px;
+	padding-bottom: 0;
+	margin: 1px 0 0 0;
+	border: none;
+	float: left;
+}
+
+.answerInput 
+{
+	height:140px;
+	border-color:RGB(239,243,231);
+	overflow:auto;
+	font-size: 11px;
+}
+
+.answerInstructions
+{
+	font-size: 11px;
+	margin: 0px 0 0 3px;
+	padding-bottom:3px;
+}
+
+.essayQuestionContent
+{
+	margin: 14px 20px 20px 0;
+}
+.submitButtonInstruction 
+{
+	margin: 10px 0 0px 10px;
+	font-size: 12px;
+	clear: both;
+}
+.media
+{
+	height:330px;
+	width:780px;
+	padding-top:0px;
+	text-align:left;
+	/*border-right: 1px solid RGB(0,50,155);
+	margin: 0 0px 16px 0;*/
+}
+
+.keyPoints
+{
+	overflow:auto;
+	height:260px;
+	width:380px;
+	margin-left:13px;
+}
+
+.staticKeyPoints
+{
+	overflow:auto;
+	width:385px;
+	margin-left:10px;
+	margin-top:3px;
+	height:290px;
+}
+
+.mediaTable
+{
+	padding:0px;
+	border-bottom:0px;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+}
+
+.mediaTableData
+{
+	padding: 0px 0 0 0px;
+	border-bottom:0px;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	vertical-align:top;
+	background-color:transparent;
+}
+
+.keyPointsHeading1
+{
+	height:20px;
+	width:380px;
+	margin-left:10px;
+	background-color:RGB(1,50,155);
+	color:RGB(255,255,255);
+	font-family:Times New Roman;
+	font-size: 12px;
+	letter-spacing:1px;
+	font-weight:bold;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+
+.keyPointsHeading2
+{
+	height:30px;
+	width:385px;
+	margin-left:10px;
+	margin-top:10px;
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=1,StartColorStr='#CADFF4',EndColorStr='#FFFFFF');
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=1,StartColorStr='#CADFF4',EndColorStr='#FFFFFF')";
+	color:RGB(0,0,0);
+	font-family:Arial;
+	font-size: 11px;
+	letter-spacing:1px;
+	padding-left: 5px;
+	padding-top: 5px;
+	overflow : auto;
+}
+
+.showHideFirstParagraph
+{
+	margin:0 0 5px 13px;
+}
+.showHideHeadingArrow
+{
+	margin: 0 0 0 10px;
+	padding:5px 2px 0 3px;
+}
+.showHideHeadingText
+{
+	margin: -17px 0 0 10px;
+	padding: 5px 0 0 16px;
+	color: RGB(0,0,109);
+	cursor:pointer;
+}
+
+.textHide
+{
+	margin:0 0 0 26px;
+	left:25px;
+	display:none;
+}
+
+.textShow
+{
+	margin:0 0 0 26px;
+	left:25px;
+	display:inherit;
+}
+
+.showHideLastParagraph
+{
+	margin: 20px 0 0 13px;
+}
+.showAllArrow
+{
+	margin:-10px 0 0 0;
+}
+
+.showAllText
+{
+	font-size:12px;
+	color: RGB(0,0,109);
+	margin: -13px 0 5px 15px;
+	cursor:pointer;
+}
+
+.showAllContainer
+{
+	margin:0 60px 100px 0;
+	float:right;
+}
+/*							Classes for ClickTableAnimation				*/
+.clickTableAnimation .instructionsBar {
+	margin: 0 4px 14px 0;
+	padding: 6px 1px 1px 10px;
+	background-color: RGB(214,231,247);
+	width:1000px;
+}
+.clickTableAnimation .instructionsBar p {
+	margin: 0 5px 7px 0;
+}
+
+		/* first column */
+table.clickTableAnimation tr.totalColumns2 td.pos1, table.clickTableAnimation tr.totalColumns2 th.pos1 { width: 0; }
+table.clickTableAnimation tr.totalColumns2 th.pos1 div.cellInner { width: 241px; }
+table.clickTableAnimation tr.totalColumns2 
+pos1 div.cellInner { width: 250px; }
+		/* second column */
+table.clickTableAnimation tr.totalColumns2 td.pos2, table.clickTableAnimation tr.totalColumns2 th.pos2 { width: 0;}
+table.clickTableAnimation tr.totalColumns2 th.pos2 div.cellInner { width: 524px;  text-align:left;}
+table.clickTableAnimation tr.totalColumns2 td.pos2 div.cellInner { width: 758px;height:375px;margin-top:-15Px;}
+/* clickTableAnimation table dynamic styling. */
+table.clickTableAnimation tr.totalColumns2 td.pos2 div.transcriptContent {border:solid 1px RGB(198,158,16); margin: 0px 0 0px 555Px; width:198px;height:373px;}
+table.clickTableAnimation tr.totalColumns2 td.pos2 div.transcriptHeader {margin: 0;width: 198px;height: 19px;font-weight:normal;background-color: RGB(200,227,255);vertical-align:top;}
+table.clickTableAnimation tr.totalColumns2 td.pos2 img.showTranscript {cursor:hand;padding-left:100PX}
+table.clickTableAnimation tr.totalColumns2 td.pos2 div.transcriptText {text-align:left;font-size:small;font-weight:normal;width:194px;height:334px; overflow:auto;padding:10px 0px 5px 3px;}
+
+table.clickTableAnimation td.pos2{
+	background-color: RGB(255,255,255); 
+}
+table.clickTableAnimation td {
+	border-top: none;
+	border-bottom: none;
+}
+table.clickTableAnimation td.pos1 {
+	cursor: pointer;
+}
+
+table.clickTableAnimation td#active {
+	border-top: 1px solid RGB(198,158,16);
+	border-bottom: 1px solid RGB(198,158,16);
+	 background-color:Transparent;
+	cursor: default;
+}
+/*   Style for Animation in ClickTableAnitmation*/
+table.clickTableAnimation object.wmvMedia {
+	margin: 0;
+	width: 755px;
+	height: 375px;
+	float: left;
+}
+table.clickTableAnimation div.wmvMedia {
+	float: left;
+	height: 375px;
+	width: 755px;
+}
+table.clickTableAnimation object.flashMedia
+{
+    margin: 0;
+    width: 555px;
+    height: 375px;
+	/*margin: 0px 300px 0 0px;	*/
+	float: left;
+}
+/******************************* Text, Picture and Table*****************************/
+.textPictureTable
+{
+	margin:0 0 10px 0;
+	width:780px;
+	border-bottom: 1px solid RGB(0,48,156);
+}
+.textPictureTable img.imageMedia
+{
+	margin:0 0 0 0;
+	padding:0 0 10px 0;
+	float:left;
+}
+.textPictureTable000 .textPictureTableHeading
+{
+	margin:5px 0 10px 0;
+	padding-right:7px;
+	font-family:Verdana;
+	font-size:11px;
+	text-decoration:underline;
+}

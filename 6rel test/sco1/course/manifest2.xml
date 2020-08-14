@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="TEST_MANIFEST" version="1.0" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!--LCDS-02.08.00.0123-->
+  <!--Topic TOC-->
+  <!--LessonEnabled-->
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <imsmd:lom>
+      <imsmd:general>
+        <imsmd:title>
+          <imsmd:langstring xml:lang="en-us">6REL Unit #1: Foundations of Catholic Belief</imsmd:langstring>
+        </imsmd:title>
+      </imsmd:general>
+    </imsmd:lom>
+  </metadata>
+  <organizations default="ORG_1">
+    <organization identifier="ORG_1">
+      <title>6REL Unit #1: Foundations of Catholic Belief</title>
+      <item identifier="ITEM_0" identifierref="RESOURCE_0" isvisible="true">
+        <title>Module #1 - God's Revelation</title>
+        <item identifier="ITEM_1" identifierref="RESOURCE_1" isvisible="true">
+          <title>Lesson</title>
+          <item identifier="ITEM_2" identifierref="RESOURCE_2" isvisible="true">
+            <title>Introduction</title>
+          </item>
+          <item identifier="ITEM_3" identifierref="RESOURCE_3" isvisible="false">
+            <title>Topic</title>
+          </item>
+          <item identifier="ITEM_4" identifierref="RESOURCE_4" isvisible="false">
+            <title>Topic</title>
+          </item>
+          <item identifier="ITEM_5" identifierref="RESOURCE_5" isvisible="false">
+            <title>Self Test</title>
+          </item>
+        </item>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="DEPENDENCY_RESOURCE" type="webcontent" href="platform/platformmanifest.xml" adlcp:scormtype="asset">
+      <file href="default.html" />
+      <file href="adlcp_rootv1p2.xsd" />
+      <file href="imscp_rootv1p1p2.xsd" />
+      <file href="imsmd_rootv1p2p1.xsd" />
+      <file href="platform/platformmanifest.xml" />
+      <file href="platform/comm/commreceive.html" />
+      <file href="platform/comm/commreceive_flip.html" />
+      <file href="platform/comm/commsend.html" />
+      <file href="platform/comm/flashcommreceive.swf" />
+      <file href="platform/comm/flashcommreceive_flip.swf" />
+      <file href="platform/comm/flashcommsend.swf" />
+      <file href="platform/ecmascript/contentloader.js" />
+      <file href="platform/ecmascript/findlmsapi.js" />
+      <file href="platform/ecmascript/flashpagecommunication.js" />
+      <file href="platform/ecmascript/pagebehavior.js" />
+      <file href="platform/ecmascript/scormcode.js" />
+      <file href="platform/ecmascript/silverlight.js" />
+      <file href="platform/ecmascript/silverlight_msl.js" />
+      <file href="platform/ecmascript/xmldom.js" />
+      <file href="platform/ecmascript/scoassessment.js" />
+      <file href="platform/ecmascript/commontextbox.js" />
+      <file href="platform/ecmascript/formattextbox.js" />
+      <file href="platform/flash/contentwheel.swf" />
+      <file href="platform/flash/voiceofexpert.swf" />
+      <file href="platform/help/konahowtouse.html" />
+      <file href="platform/help/media/kona_howtouse.swf" />
+      <file href="platform/images/bullet1_first_level.png" />
+      <file href="platform/images/bullet2_second_level.png" />
+      <file href="platform/images/bullet3_third_level.png" />
+      <file href="platform/images/caution.png" />
+      <file href="platform/images/go.gif" />
+      <file href="platform/images/important.png" />
+      <file href="platform/images/launchprint.gif" />
+      <file href="platform/images/mynotes_delete_disabled.gif" />
+      <file href="platform/images/mynotes_delete_down.gif" />
+      <file href="platform/images/mynotes_delete_normal.gif" />
+      <file href="platform/images/mynotes_delete_ro.gif" />
+      <file href="platform/images/mynotes_print_disabled.gif" />
+      <file href="platform/images/mynotes_print_down.gif" />
+      <file href="platform/images/mynotes_print_normal.gif" />
+      <file href="platform/images/mynotes_print_ro.gif" />
+      <file href="platform/images/mynotes_save_disabled.gif" />
+      <file href="platform/images/mynotes_save_down.gif" />
+      <file href="platform/images/mynotes_save_normal.gif" />
+      <file href="platform/images/mynotes_save_ro.gif" />
+      <file href="platform/images/nogo.gif" />
+      <file href="platform/images/note.png" />
+      <file href="platform/images/notes_background.gif" />
+      <file href="platform/images/study_sheet.png" />
+      <file href="platform/images/tip.png" />
+      <file href="platform/images/warning.png" />
+      <file href="platform/images/sco_navigation_background.png" />
+      <file href="platform/images/sco_nav_first_bg.png" />
+      <file href="platform/images/sco_nav_first_visited_bg.png" />
+      <file href="platform/images/sco_nav_first_current_bg.png" />
+      <file href="platform/images/sco_nav_last_bg.png" />
+      <file href="platform/images/sco_nav_last_visited_bg.png" />
+      <file href="platform/images/sco_nav_last_current_bg.png" />
+      <file href="platform/images/sco_nav_topic_visited_grad.png" />
+      <file href="platform/images/sco_nav_topic_hover_grad.png" />
+      <file href="platform/images/sco_nav_topic_bullet.gif" />
+      <file href="platform/images/sco_nav_topic_visited_bullet.gif" />
+      <file href="platform/images/sco_nav_help_background.png" />
+      <file href="platform/images/sco_nav_help_hover_background.png" />
+      <file href="platform/images/transportcontrols.png" />
+      <file href="platform/images/green_arrow.gif" />
+      <file href="platform/images/arrow_right.png" />
+      <file href="platform/images/arrow_down.png" />
+      <file href="platform/interactive/host.htm" />
+      <file href="platform/interactive/definitions/adventure.swf" />
+      <file href="platform/interactive/definitions/draganddrop.swf" />
+      <file href="platform/interactive/definitions/sortgame.swf" />
+      <file href="platform/interactive/definitions/tileflip.swf" />
+      <file href="platform/interactive/definitions/sortgame.xap" />
+      <file href="platform/interactive/definitions/tileflip.xap" />
+      <file href="platform/interactive/definitions/adventure.xap" />
+      <file href="platform/interactive/definitions/captionmedia.xap" />
+      <file href="platform/interactive/definitions/mediaplayer.xap" />
+      <file href="platform/interactive/definitions/media.xap" />
+      <file href="platform/interactive/definitions/sequence.xap" />
+      <file href="platform/interactive/definitions/flashcard.xap" />
+      <file href="platform/interactive/definitions/draganddrop.xap" />
+      <file href="platform/interactive/definitions/interactivejobaid.xap" />
+      <file href="platform/interactive/definitions/slider.xap" />
+      <file href="platform/localization/cs.xml" />
+      <file href="platform/localization/cs-cz.xml" />
+      <file href="platform/localization/da.xml" />
+      <file href="platform/localization/da-dk.xml" />
+      <file href="platform/localization/de.xml" />
+      <file href="platform/localization/de-de.xml" />
+      <file href="platform/localization/en-us.xml" />
+      <file href="platform/localization/es.xml" />
+      <file href="platform/localization/es-es.xml" />
+      <file href="platform/localization/fr.xml" />
+      <file href="platform/localization/fr-fr.xml" />
+      <file href="platform/localization/it.xml" />
+      <file href="platform/localization/it-it.xml" />
+      <file href="platform/localization/ja.xml" />
+      <file href="platform/localization/ja-jp.xml" />
+      <file href="platform/localization/ko.xml" />
+      <file href="platform/localization/ko-kr.xml" />
+      <file href="platform/localization/nl.xml" />
+      <file href="platform/localization/nl-nl.xml" />
+      <file href="platform/localization/pl-pl.xml" />
+      <file href="platform/localization/pt-br.xml" />
+      <file href="platform/localization/ru.xml" />
+      <file href="platform/localization/ru-ru.xml" />
+      <file href="platform/localization/sv.xml" />
+      <file href="platform/localization/sv-se.xml" />
+      <file href="platform/localization/th-th.xml" />
+      <file href="platform/localization/zh-chs.xml" />
+      <file href="platform/localization/zh-cn.xml" />
+      <file href="platform/localization/zh-cht.xml" />
+      <file href="platform/localization/zh-tw.xml" />
+      <file href="platform/localization/nb-no.xml" />
+      <file href="platform/localization/hi.xml" />
+      <file href="platform/localization/tr.xml" />
+      <file href="platform/localization/kk-KZ.xml" />
+      <file href="platform/settings/settings.xml" />
+      <file href="platform/styles/presentation.css" />
+      <file href="platform/transforms/presentation.xsl" />
+      <file href="platform/transforms/search_presentation.xsl" />
+    </resource>
+    <resource identifier="RESOURCE_0" type="webcontent" href="default.html#0001_module_1_-_gods_revelation" adlcp:scormtype="sco">
+      <file href="0001_module_1_-_gods_revelation.xml" />
+      <file href="media/module 1 background.jpg" />
+      <dependency identifierref="DEPENDENCY_RESOURCE" />
+    </resource>
+    <resource identifier="RESOURCE_1" type="webcontent" href="default.html#0002_lesson" adlcp:scormtype="sco">
+      <file href="0002_lesson.xml" />
+      <dependency identifierref="DEPENDENCY_RESOURCE" />
+    </resource>
+    <resource identifier="RESOURCE_2" type="webcontent" href="default.html#0003_introduction" adlcp:scormtype="sco">
+      <file href="0003_introduction.xml" />
+      <dependency identifierref="DEPENDENCY_RESOURCE" />
+    </resource>
+    <resource identifier="RESOURCE_3" type="webcontent" href="default.html#0004_topic" adlcp:scormtype="sco">
+      <file href="0004_topic.xml" />
+      <dependency identifierref="DEPENDENCY_RESOURCE" />
+    </resource>
+    <resource identifier="RESOURCE_4" type="webcontent" href="default.html#0005_topic" adlcp:scormtype="sco">
+      <file href="0005_topic.xml" />
+      <dependency identifierref="DEPENDENCY_RESOURCE" />
+    </resource>
+    <resource identifier="RESOURCE_5" type="webcontent" href="default.html#0006_self_test" adlcp:scormtype="sco">
+      <file href="0006_self_test.xml" />
+      <dependency identifierref="DEPENDENCY_RESOURCE" />
+    </resource>
+  </resources>
+</manifest>

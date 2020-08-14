@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<localizedStrings>
+<!-- These two variables should be localized in such a way it includes ALL extended (accented) characters for the language, such as á and Á. -->
+	<variable name="lowerCaseUnicodeCharacters">abcdefghijklmnopqrstuvwxyz</variable>
+	<variable name="upperCaseUnicodeCharacters">ABCDEFGHIJKLMNOPQRSTUVWXYZ</variable>
+
+
+
+<!-- XSLT variables. -->
+	<variable name="multipleChoice_title">問題</variable>
+	<variable name="multipleChoice_feedbackButton">確定</variable>
+	<variable name="multipleChoice_questionSelect">選取最恰當的答案。</variable>
+	<variable name="activity_summaryHeading">概觀</variable>
+	<variable name="activity_summaryButton">開始</variable>
+	<variable name="notes_heading">我的附註</variable>
+	<variable name="notes_deleteWarningMessage">是否確定要刪除目前的附註？</variable>
+	<variable name="readerAid_tip">提要</variable>
+	<variable name="readerAid_caution">小心</variable>
+	<variable name="readerAid_warning">警告</variable>
+	<variable name="readerAid_important">重要事項</variable>
+	<variable name="readerAid_note">附註</variable>
+	<variable name="readerAid_studySheet">講義</variable>
+	<variable name="animation_transcriptHeader">文稿</variable>
+	<variable name="button_submit">送出</variable>
+	<variable name="button_launch">啟動</variable>
+	<variable name="demonstration_windowTitle">示範短片</variable>
+	<variable name="demonstration_transcriptPrint">按一下即可檢視並列印示範短片的文稿。</variable>
+	<variable name="demonstration_transcriptPrintWindowTitle">示範短片文稿</variable>
+	<variable name="simulation_windowTitle">模擬練習</variable>
+	<variable name="simulation_transcriptPrint">按一下即可檢視並列印模擬學習的文稿。</variable>
+	<variable name="simulation_transcriptPrintWindowTitle">示範短片的文稿</variable>
+	<variable name="transcriptPrint_printPage">列印此頁。</variable>
+	<variable name="introduction_moduleTitle">單元概觀</variable>
+	<variable name="notes_printPageTitle">列印附註</variable>
+	<variable name="notes_printPageHeadingIntro">附註： </variable>
+	<variable name="notes_saveButtonTitle">儲存</variable>
+	<variable name="notes_saveAsFileButtonTitle">另存新檔</variable>
+	<variable name="notes_deleteButtonTitle">刪除</variable>
+	<variable name="notes_printButtonTitle">列印</variable>
+	<variable name="notes_noNotesToPrint">您尚未於本課程中儲存附註。</variable>
+	<variable name="clickTable_instructions">按一下項目，即可檢視與其相關之詳細資訊。</variable>
+
+<!--XSLT TrueFalse Variables-->
+	<variable name="trueFalse_title">敘述</variable>
+	<variable name="trueFalse_trueAnswer">正確</variable>
+	<variable name="trueFalse_falseAnswer">錯誤</variable>
+  <variable name="trueFalse_selectAnswer">請選取一個正確的答案。</variable>
+
+  <!--ShowHide Variables-->
+  <variable name="showHide_ShowAll">Show All</variable>
+  <variable name ="showHide_HideAll">Hide All</variable>
+  <variable name ="showHide_Show">Show</variable>
+  <variable name ="showHide_Hide">Hide</variable>
+
+  <!--Essay question Variables-->
+  <variable name="essayQuestion_question">問題</variable>
+  <variable name="essayQuestion_answer">答案</variable>
+  <variable name="essayQuestion_instruction">(最多 250 個字元)</variable>
+  <variable name="essayQuestion_submitInstruction">答案送出後，您將無法再修改答案。</variable>
+  <variable name="essayQuestion_answerInstruction">附註：如果您沒有先按一下 [送出] 就從本主題移到其他檢視器節點，答案文字就會消失。不接受文字格式。</variable>
+
+<!-- ECMAscript variables. -->
+	<!-- contentLoader.js -->
+	<variable name="xml_load">無法載入 XML 檔案。</variable>
+	<variable name="xsl_load">無法載入 XSL 檔案。</variable>
+	<!-- pageBehavior.js -->
+	<variable name="multipleChoice_feedbackCorrect">正確</variable>
+	<variable name="multipleChoice_feedbackIncorrect">錯誤</variable>
+	<variable name="mediaPopUp_transcriptHeading">文稿</variable>
+	<!-- scormcode.js -->
+	<variable name="notes_lmsNoSupport">本 LMS 並不支援附註功能。</variable>
+	<variable name="notes_lmsErrorRetrieve">從 LMS 擷取附註時發生錯誤。</variable>
+	<variable name="notes_lmsExceededSpace">附註的內容字數已達上限。</variable>
+	<variable name="notes_lmsErrorSaving">將附註存入 LMS 時發生錯誤。</variable>
+
+<!-- Animation variables. -->
+	<variable name="anim_play">播放</variable>
+	<variable name="anim_pause">暫停</variable>
+	<variable name="anim_stop">停止</variable>
+	<variable name="anim_fastForward">快轉</variable>
+	<variable name="anim_rewind">倒帶</variable>
+	<variable name="anim_mute">靜音</variable>
+	<variable name="anim_sound">聲音</variable>
+
+<!-- Adventure variables. -->
+	<variable name="adventure_instructions">選取下面任何一個選項</variable>
+	<variable name="adventure_previous">上一頁</variable>
+	<variable name="adventure_reset">重設</variable>
+
+<!-- Drag and Drop variables. -->
+	<variable name="dragAndDrop_reset">重設</variable>
+	<variable name="dragAndDrop_showAnswer">顯示答案</variable>
+	<variable name="dragAndDrop_submit">送出</variable>
+	<variable name="dragAndDrop_drag">拖曳</variable>
+	<variable name="dragAndDrop_drop">置放</variable>
+	<variable name="dragAndDrop_correctMessage">正確！</variable>
+	<variable name="dragAndDrop_incorrectMessage">錯誤。 請按一下 [重設] 或 [顯示答案]。</variable>
+	<variable name="dragAndDrop_correctDisplayed">顯示正確答案。</variable>
+
+<!-- Tile Game Variables. -->
+	<variable name="tileGame_gameOver">遊戲結束</variable>
+	<variable name="tileGame_resetInstruction">按一下 [重設] 再試一次。</variable>
+	<variable name="tileGame_reset">重設</variable>
+	<variable name="tileGame_turnsLeft">剩下次數：</variable>
+	<variable name="tileGame_congratulations">恭喜您！</variable>
+	<variable name="tileGame_completedMessage">您已經完成這個活動。</variable>
+	<variable name="tileGame_submit">送出</variable>
+	<variable name="tileGame_tileGame">並排顯示遊戲</variable>
+  <variable name="tile">並排顯示</variable>
+  <variable name="hyphen"> - </variable>
+  <variable name="submit_Column">提交欄</variable>
+  <variable name="submit_Row">提交列</variable>
+
+      <!-- Flash Card Variables. -->
+  <variable name="flashCard_flip">翻頁</variable>
+  <variable name="flashCard_timeElapsed">經過時間</variable>
+  <variable name="flashCard_reset">重設</variable>
+  <variable name="flashCard_submit">提交</variable>
+  <variable name="flashCard_congratulations">恭喜!</variable>
+  <variable name="flashCard_progress">進度</variable>
+  <variable name="flashCard_completedMessage">您已經完成此項活動。</variable>
+  
+  <!-- Sort Game Variables. -->
+  
+
+  
+
+	<variable name="sortGame_yourTime">您所花的答題時間為</variable>
+	<variable name="sortGame_timeElapsed">已用時間</variable>
+	<variable name="sortGame_reset">重設</variable>
+	<variable name="sortGame_answer">答案</variable>
+	<variable name="sortGame_start">開始</variable>
+	<variable name="sortGame_congratulations">恭喜您！</variable>
+	<variable name="sortGame_progress">進度</variable>
+	<variable name="sortGame_showAnswer">顯示答案</variable>
+	<variable name="sortGame_close">關閉</variable>
+	<variable name="sortGame_answers">答案</variable>
+	<variable name="sortGame_instructions">按一下適當的桶子，以最快的快速進行分類。 您亦可使用鍵盤快速鍵，按一下 1 代表左邊的桶子，2 是中間的桶子，3 是右邊的桶子 (若遊戲中只有兩個桶子，則 1 代表左邊的桶子，2 是右邊的桶子)。</variable>
+
+<!-- Simulation Variables. -->
+	<variable name="simulation_continue">&lt;b&gt;按一下以繼續&lt;/b&gt;</variable>
+	<variable name="simulation_congratulations">&lt;b&gt;恭喜您！&lt;/b&gt;</variable>
+	<variable name="simulation_performSteps">&lt;b&gt;請執行以下步驟。&lt;/b&gt;</variable>
+	<variable name="simulation_help">如須協助，請按</variable>
+	<variable name="simulation_showMe">自動執行</variable>
+	<variable name="simulation_viewScenario">檢視 [情境]。</variable>
+	<variable name="simulation_print">&lt;b&gt;列印&lt;/b&gt;</variable>
+	<variable name="simulation_copyright">&lt;b&gt; &lt;/b&gt;</variable>
+	<variable name="simulation_note">&lt;b&gt;附註&lt;/b&gt;</variable>
+	<variable name="simulation_caution">&lt;b&gt;小心&lt;/b&gt;</variable>
+	<variable name="simulation_finish">完成</variable>
+	<variable name="simulation_tryAgain">再試一次</variable>
+	<variable name="simulation_scenario">&lt;b&gt;情境與其他資訊&lt;/b&gt;</variable>
+	<variable name="simulation_step">&lt;b&gt;步驟&lt;/b&gt;</variable>
+	<variable name="simulation_of">&lt;b&gt;/&lt;/b&gt;</variable>
+	<variable name="simulation_next">下一步</variable>
+	<variable name="simulation_previous">上一步</variable>
+	<variable name="simulation_printSteps">列印步驟</variable>
+	<variable name="simulation_loading">正在載入…</variable>
+	<variable name="simulation_feedback">&lt;b&gt;操作指示&lt;/b&gt;</variable>
+	<variable name="simulation_message">&lt;b&gt;訊息&lt;/b&gt;</variable>
+	<variable name="simulation_ok">&lt;b&gt;確定&lt;/b&gt;</variable>
+	<variable name="simulation_stepList">練習步驟清單</variable>
+	<variable name="simulation_printContents">列印此頁內容</variable>
+
+<!-- Content Wheel Variables. -->
+	<variable name="contentWheel_textView">文字檢視</variable>
+	<variable name="contentWheel_wheelView">滾輪檢視</variable>
+	<variable name="contentWheel_introduction">簡介</variable>
+	<variable name="contentWheel_finish1">自我評量</variable>
+	<variable name="contentWheel_finish2">總結</variable>
+	<variable name="contentWheel_finish3">複習</variable>
+	<variable name="contentWheel_finish4">實驗室複習</variable>
+	<variable name="contentWheel_finish5">資源</variable>
+	<variable name="contentWheel_help">說明</variable>
+
+<!-- VOE Variables. -->
+	<variable name="voe_transcript">文稿</variable>
+	<variable name="voe_play">播放</variable>
+	<variable name="voe_pause">暫停</variable>
+	<variable name="voe_showTranscript">顯示文稿</variable>
+	<variable name="voe_hideTranscript">隱藏文稿</variable>
+	<variable name="voe_titleVoiceOfTheExpert">專家解說</variable>
+	<variable name="voe_titleModuleTip">單元提要</variable>
+
+<!-- Media Variables. -->
+<variable name="media_transcriptPrint">按一下以檢視和列印此媒體的文稿。</variable>
+<variable name="media_transcriptPrintWindowTitle">媒體的文稿</variable>
+<variable name="media_KeyPointsHeader">關鍵文字</variable>
+<variable name="media_KeyPointsText">按一下關鍵文字來檢視關聯的影片區段。</variable>
+<variable name="media_TotalTime">時間總計</variable>
+<variable name="media_playTip">播放</variable>
+<variable name="media_pauseTip">暫停</variable>
+<variable name="media_stopTip">停止</variable>
+<variable name="media_muteTip">靜音</variable>
+<variable name="media_soundTip">聲音</variable>
+<variable name="media_seekTip">搜尋</variable>
+<variable name="media_playingText">正在播放</variable>
+<variable name="media_pausedText">已暫停</variable>
+<variable name="media_stoppedText">已停止</variable>
+
+  <variable name="media_fullscreenTip">全螢幕</variable>
+<variable name="media_ccTip">隱藏式字幕</variable>
+
+
+  <!--Interactive Job aid Variables. -->
+  
+
+  
+
+<variable name="interactive_yes">&lt;b&gt;是&lt;/b&gt;</variable>
+<variable name="interactive_no">&lt;b&gt;否&lt;/b&gt;</variable>
+<variable name="interactive_reset">重設</variable>
+<variable name="interactive_decision">決定</variable>
+<variable name="interactive_undefined">沒有為此選項定義 [問題/決定]。請按一下 [重設] 再次啟動。</variable>
+<variable name="interactive_undefinedQuestion">尚未定義問題。</variable>
+  
+  <!--Sequencing variables-->
+  <variable name="sequence_reset">重設</variable>
+  <variable name="sequence_showAnswer">顯示答案</variable>
+  <variable name="sequence_submit">提交</variable>
+  <variable name="sequence_shuffled">隨機播放</variable>
+  <variable name="sequence_sequenced">循序播放</variable>
+  <variable name="sequence_correctMessage">正確!</variable>
+  <variable name="sequence_incorrectMessage">不正確。請按一下重設或顯示答案。</variable>
+  <variable name="sequence_correctDisplayed">已為您顯示正確答案。</variable>
+
+ 
+<!-- How To Use Content Wheel Help -->
+	<variable name="howToUse_toNavigate">若要瀏覽主題，可以使用 [圖示檢視] 或 [文字檢視]，瀏覽時並無特定順序。</variable>
+	<variable name="howToUse_read">[閱讀] 包含文字、表格以及圖形。</variable>
+	<variable name="howToUse_watch">[觀看] 包含動畫、示範、和影片。</variable>
+	<variable name="howToUse_interact">[互動] 包含互動內容，例如多媒體互動活動以及小型模擬內容。</variable>
+	<variable name="howToUse_play">[播放] 包含遊戲。</variable>
+	<variable name="howToUse_try">[試試看] 包含使用者介面模擬或練習，可讓您應用所學的知識。</variable>
+	<variable name="howToUse_code">[程式碼] 包含快顯視窗或表格內的程式碼範例。</variable>
+
+<!-- Virtual Lab variables -->
+	<variable name="vlab_offlineError">無法使用實驗室。無法從 Offline Player 存取實驗室。若您並非透過 Offline Player 進行存取，請確定您具有網際網路連線，然後再次啟動實驗室。</variable>
+
+   <!--For EK manifest transformation-->
+  <variable name="topic_Title">主題</variable>
+  
+  <!--Print Variables-->
+  
+
+  
+
+  <variable name="print_version">Print Version</variable>
+  <variable name="print_tocHeader">Table of Contents</variable>
+  <variable name="print_course">Course:</variable>
+  <variable name="print_module">Module:</variable>
+  <variable name="print_lessonContents">Lesson Contents</variable>
+  <variable name="print_moduleContents">Module Contents</variable>
+  <variable name="print_topic">Topic:</variable>
+  <variable name="print_gameInstruction">Sort the items into their associated categories by writing the item number in its corresponding option box below.</variable>
+  <variable name="print_statement">Statement</variable>
+  <variable name="print_note">Note: Answers appear on the next page.</variable>
+  <variable name="print_categoryItems">Category Items</variable>
+  <variable name="print_category1">Category 1</variable>
+  <variable name="print_category2">Category 2</variable>
+  <variable name="print_category3">Category 3</variable>
+  <variable name="print_keyPoints">Key Points</variable>
+  <variable name="print_transcript">Transcript</variable>
+  <variable name="print_essayInstruction">Answer for this question can be written in the space provided below.</variable>
+  <variable name="print_adventureInstruction">Available options:</variable>
+  <variable name="print_adventureInfo">This topic contains scenario based content. Each option offers a decision point with 1 to 4 possible outcomes. The topic explores various scenarios based on the choices, and presents an outcome based upon the choices.&lt;br&gt;Below is the content for one complete path of content. For the complete version of the topic, please use the online version of the course.</variable>
+  <variable name="print_adventurePage">Page</variable>
+  <variable name="print_adventureOption">This option leads to Page</variable>
+  <variable name="print_adventureSelected">Selected Option:</variable>
+
+  <variable name="print_interactiveQuestion">Question</variable>
+  <variable name="print_interactiveOptions">Available Options:</variable>
+  <variable name="print_interactiveOptionInfo">This option leads to Question</variable>
+  <variable name="print_interactiveDecisionInfo">This option leads to a decision</variable>
+  <variable name="print_interactiveSelectedOption">Selected Option:</variable>
+  <variable name="print_interactiveDecision">Decision:</variable>
+  <variable name="print_interactiveOptionYes">Yes</variable>
+  <variable name="print_interactiveOptionNo">No</variable>
+  <variable name="print_interactiveInfo">This topic presents scenarios in the form of a series of Yes/No questions. Based on the selected answers, dynamic feedback or subsequent questions are shown.&lt;br&gt;Below is the content for one complete series of questions. For the complete version of the topic, please use the online version of the course.</variable>
+  <variable name="print_introduction">This topic explores the relationships between up to four variables and a given outcome.&lt;br&gt;&lt;br&gt;Below are the variables used for this topic, and the results for some sample values of the variables. For the complete version of the topic, please use the online version of the course.</variable>
+  <variable name="print_equation">Output Equation: </variable>
+  <variable name="print_input">Input</variable>
+  <variable name="print_minimum">Minimum</variable>
+  <variable name="print_maximum">Maximum</variable>
+  <variable name="print_unit">Units</variable>
+  <variable name="print_example">Example Scenario</variable>
+  <variable name="print_tileInstruction">For each pair of statements, indicate which is true by placing a mark in the column to the right.</variable>
+  <variable name="print_answer">Answer</variable>
+  <variable name="print_trueFalse">For each statement, indicate which is true by placing a mark in the column to the right.</variable>
+  <variable name="print_multipleChoice">For each question, indicate the correct answer by placing a mark in the column to the left.</variable>
+	<variable name="print_instruction">Select the correct answer.</variable>
+  <variable name="print_redirect">Please use the online version of the course to experience this activity.</variable>
+  <variable name="print_online_instruction">Instruction</variable>
+  <variable name="print_correct">Correct Answer Feedback:</variable>
+
+  <variable name="print_step">Step</variable>
+</localizedStrings>

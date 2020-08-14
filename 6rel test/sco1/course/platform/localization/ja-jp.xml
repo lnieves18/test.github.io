@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<localizedStrings>
+<!-- These two variables should be localized in such a way it includes ALL extended (accented) characters for the language, such as á and Á. -->
+	<variable name="lowerCaseUnicodeCharacters">abcdefghijklmnopqrstuvwxyz</variable>
+	<variable name="upperCaseUnicodeCharacters">ABCDEFGHIJKLMNOPQRSTUVWXYZ</variable>
+
+
+
+<!-- XSLT variables. -->
+	<variable name="multipleChoice_title">質問</variable>
+	<variable name="multipleChoice_feedbackButton">OK</variable>
+	<variable name="multipleChoice_questionSelect">最も適切な答えを 1 つ選択してください。</variable>
+	<variable name="activity_summaryHeading">概要</variable>
+	<variable name="activity_summaryButton">開始</variable>
+	<variable name="notes_heading">個人用メモ</variable>
+	<variable name="notes_deleteWarningMessage">現在のメモを削除しますか?</variable>
+	<variable name="readerAid_tip">ヒント</variable>
+	<variable name="readerAid_caution">注意</variable>
+	<variable name="readerAid_warning">警告</variable>
+	<variable name="readerAid_important">重要</variable>
+	<variable name="readerAid_note">メモ</variable>
+	<variable name="readerAid_studySheet">スタディ シート</variable>
+	<variable name="animation_transcriptHeader">ナレーション</variable>
+	<variable name="button_submit">送信</variable>
+	<variable name="button_launch">開始</variable>
+	<variable name="demonstration_windowTitle">デモンストレーション</variable>
+	<variable name="demonstration_transcriptPrint">このデモンストレーションのナレーションの内容を表示して印刷するには、ここをクリックします。</variable>
+	<variable name="demonstration_transcriptPrintWindowTitle">デモンストレーションのナレーション</variable>
+	<variable name="simulation_windowTitle">シミュレーション</variable>
+	<variable name="simulation_transcriptPrint">このシミュレーションのナレーションの内容を表示して印刷するには、ここをクリックします。</variable>
+	<variable name="simulation_transcriptPrintWindowTitle">シミュレーションのナレーション</variable>
+	<variable name="transcriptPrint_printPage">このページを印刷</variable>
+	<variable name="introduction_moduleTitle">モジュールの概要</variable>
+	<variable name="notes_printPageTitle">このメモを印刷</variable>
+	<variable name="notes_printPageHeadingIntro">メモ: </variable>
+	<variable name="notes_saveButtonTitle">保存</variable>
+	<variable name="notes_saveAsFileButtonTitle">ファイルとして保存</variable>
+	<variable name="notes_deleteButtonTitle">削除</variable>
+	<variable name="notes_printButtonTitle">印刷</variable>
+	<variable name="notes_noNotesToPrint">このレッスンで保存したメモはありません。</variable>
+	<variable name="clickTable_instructions">詳細を表示するには、各項目をクリックします。</variable>
+
+<!--XSLT TrueFalse Variables-->
+	<variable name="trueFalse_title">説明文</variable>
+	<variable name="trueFalse_trueAnswer">正</variable>
+	<variable name="trueFalse_falseAnswer">誤</variable>
+<variable name="trueFalse_selectAnswer">正しい答えを選択してください。</variable>
+
+  <!--ShowHide Variables-->
+<variable name="showHide_ShowAll">すべて表示</variable>
+<variable name="showHide_HideAll">すべて隠す</variable>
+<variable name="showHide_Show">表示</variable>
+<variable name="showHide_Hide">隠す</variable>
+
+  <!--Essay question Variables-->
+<variable name="essayQuestion_question">質問</variable>
+<variable name="essayQuestion_answer">回答</variable>
+<variable name="essayQuestion_instruction">(最大入力文字数は 250 文字です)</variable>
+<variable name="essayQuestion_submitInstruction">送信後に回答を変更することはできません。</variable>
+  <variable name="essayQuestion_answerInstruction">メモ: [送信] をクリックせずに、別のトピックに移動すると、入力した回答は失われます。テキストには書式を設定しないでください。英数字 (aA ～ zZ および 0 ～ 9) と空白文字のみが送信されます。</variable>
+
+<!-- ECMAscript variables. -->
+	<!-- contentLoader.js -->
+	<variable name="xml_load">xml ファイルを読み込めませんでした。</variable>
+	<variable name="xsl_load">xsl ファイルを読み込めませんでした。</variable>
+	<!-- pageBehavior.js -->
+	<variable name="multipleChoice_feedbackCorrect">正解</variable>
+	<variable name="multipleChoice_feedbackIncorrect">不正解</variable>
+	<variable name="mediaPopUp_transcriptHeading">ナレーション</variable>
+	<!-- scormcode.js -->
+	<variable name="notes_lmsNoSupport">この LMS ではメモがサポートされていません。</variable>
+	<variable name="notes_lmsErrorRetrieve">LMS からのメモの取得中にエラーが発生しました。</variable>
+	<variable name="notes_lmsExceededSpace">メモに入力可能なデータの上限を超えています。</variable>
+	<variable name="notes_lmsErrorSaving">LMS へのメモの保存中にエラーが発生しました。</variable>
+
+<!-- Animation variables. -->
+	<variable name="anim_play">再生</variable>
+	<variable name="anim_pause">一時停止</variable>
+	<variable name="anim_stop">停止</variable>
+	<variable name="anim_fastForward">早送り</variable>
+	<variable name="anim_rewind">巻き戻し</variable>
+	<variable name="anim_mute">ミュート</variable>
+	<variable name="anim_sound">ミュート解除</variable>
+
+<!-- Adventure variables. -->
+	<variable name="adventure_instructions">一覧からオプションを 1 つ選択してください。</variable>
+	<variable name="adventure_previous">前へ</variable>
+	<variable name="adventure_reset">リセット</variable>
+
+<!-- Drag and Drop variables. -->
+	<variable name="dragAndDrop_reset">リセット</variable>
+	<variable name="dragAndDrop_showAnswer">正解の表示</variable>
+	<variable name="dragAndDrop_submit">送信</variable>
+	<variable name="dragAndDrop_drag">ドラッグ</variable>
+	<variable name="dragAndDrop_drop">ドロップ</variable>
+	<variable name="dragAndDrop_correctMessage">正解です。</variable>
+	<variable name="dragAndDrop_incorrectMessage">不正解です。[リセット] または [正解の表示] をクリックしてください。</variable>
+	<variable name="dragAndDrop_correctDisplayed">正解が表示されました。</variable>
+
+<!-- Tile Game Variables. -->
+	<variable name="tileGame_gameOver">ゲーム終了</variable>
+	<variable name="tileGame_resetInstruction">もう一度実行するには、[リセット] ボタンをクリックします。</variable>
+	<variable name="tileGame_reset">リセット</variable>
+	<variable name="tileGame_turnsLeft">残り回数: </variable>
+	<variable name="tileGame_congratulations">お疲れさまでした。</variable>
+	<variable name="tileGame_completedMessage">以上で、このアクティビティを完了しました。</variable>
+	<variable name="tileGame_submit">送信</variable>
+	<variable name="tileGame_tileGame">タイル ゲーム</variable>
+  <variable name="tile">タイル</variable>
+  <variable name="hyphen"> - </variable>
+  <variable name="submit_Column">列を送信</variable>
+  <variable name="submit_Row">行を送信</variable>
+
+      <!-- Flash Card Variables. -->
+  <variable name="flashCard_flip">反転</variable>
+  <variable name="flashCard_timeElapsed">経過時間</variable>
+  <variable name="flashCard_reset">リセット</variable>
+  <variable name="flashCard_submit">送信</variable>
+  <variable name="flashCard_congratulations">おめでとうございます!</variable>
+  <variable name="flashCard_progress">進行状況</variable>
+  <variable name="flashCard_completedMessage">このアクティビティを完了しました。</variable>
+  
+  <!-- Sort Game Variables. -->
+  
+
+  
+
+	<variable name="sortGame_yourTime">ゲーム完了に要した時間: </variable>
+	<variable name="sortGame_timeElapsed">経過時間</variable>
+	<variable name="sortGame_reset">リセット</variable>
+	<variable name="sortGame_answer">正解</variable>
+	<variable name="sortGame_start">開始</variable>
+	<variable name="sortGame_congratulations">お疲れさまでした。</variable>
+	<variable name="sortGame_progress">進捗状況</variable>
+	<variable name="sortGame_showAnswer">正解の表示</variable>
+	<variable name="sortGame_close">閉じる</variable>
+	<variable name="sortGame_answers">正解</variable>
+	<variable name="sortGame_instructions">適切なバケツをクリックし、できるだけ速く項目を関連するカテゴリに分類します。キーボード ショートカットも使用できます。&lt;b&gt;1&lt;/b&gt; のキーは左のバケツ、&lt;b&gt;2&lt;/b&gt; のキーは右のバケツに対応しています。</variable>
+
+<!-- Simulation Variables. -->
+	<variable name="simulation_continue">&lt;b&gt;演習へ&lt;/b&gt;</variable>
+	<variable name="simulation_congratulations">&lt;b&gt;お疲れさまでした。&lt;/b&gt;</variable>
+	<variable name="simulation_performSteps">&lt;b&gt;次のステップを実行してください。&lt;/b&gt;</variable>
+	<variable name="simulation_help">ヘルプが必要な場合は、次をクリックしてください。</variable>
+	<variable name="simulation_showMe">ヘルプの表示</variable>
+	<variable name="simulation_viewScenario">&lt;b&gt;&lt;u&gt;シナリオの表示&lt;/u&gt;&lt;/b&gt;</variable>
+	<variable name="simulation_print">&lt;b&gt;印刷&lt;/b&gt;</variable>
+	<variable name="simulation_copyright">&lt;b&gt; &lt;/b&gt;</variable>
+	<variable name="simulation_note">&lt;b&gt;メモ&lt;/b&gt;</variable>
+	<variable name="simulation_caution">&lt;b&gt;注意&lt;/b&gt;</variable>
+	<variable name="simulation_finish">終了</variable>
+	<variable name="simulation_tryAgain">もう一度開始</variable>
+	<variable name="simulation_scenario">&lt;b&gt;シナリオなど&lt;/b&gt;</variable>
+	<variable name="simulation_step">&lt;b&gt;ステップ&lt;/b&gt;</variable>
+	<variable name="simulation_of">&lt;b&gt;/&lt;/b&gt;</variable>
+	<variable name="simulation_next">次へ</variable>
+	<variable name="simulation_previous">前へ</variable>
+	<variable name="simulation_printSteps">ステップの印刷</variable>
+	<variable name="simulation_loading">読み込んでいます...</variable>
+	<variable name="simulation_feedback">&lt;b&gt;フィードバック&lt;/b&gt;</variable>
+	<variable name="simulation_message">&lt;b&gt;メッセージ&lt;/b&gt;</variable>
+	<variable name="simulation_ok">&lt;b&gt;OK&lt;/b&gt;</variable>
+	<variable name="simulation_stepList">演習のステップ一覧</variable>
+	<variable name="simulation_printContents">ページ内容の印刷</variable>
+
+<!-- Content Wheel Variables. -->
+	<variable name="contentWheel_textView">テキスト ビュー</variable>
+	<variable name="contentWheel_wheelView">アイコン ビュー</variable>
+	<variable name="contentWheel_introduction">概要</variable>
+	<variable name="contentWheel_finish1">自己テスト</variable>
+	<variable name="contentWheel_finish2">要約</variable>
+	<variable name="contentWheel_finish3">確認</variable>
+	<variable name="contentWheel_finish4">実習の確認</variable>
+	<variable name="contentWheel_finish5">リソース</variable>
+	<variable name="contentWheel_help">ヘルプ</variable>
+
+<!-- VOE Variables. -->
+	<variable name="voe_transcript">ナレーション</variable>
+	<variable name="voe_play">再生</variable>
+	<variable name="voe_pause">一時停止</variable>
+	<variable name="voe_showTranscript">ナレーションの内容の表示</variable>
+	<variable name="voe_hideTranscript">ナレーションの内容の非表示</variable>
+	<variable name="voe_titleVoiceOfTheExpert">専門家の意見</variable>
+	<variable name="voe_titleModuleTip">モジュールのヒント</variable>
+
+<!-- Media Variables. -->
+<variable name="media_transcriptPrint">このメディアのナレーションの内容を表示して印刷するには、ここをクリックします。</variable>
+<variable name="media_transcriptPrintWindowTitle">メディアのナレーション</variable>
+<variable name="media_KeyPointsHeader">キー ポイント</variable>
+<variable name="media_KeyPointsText">関連するビデオ セグメントを表示するには、各キー ポイントをクリックします。</variable>
+<variable name="media_TotalTime">合計時間</variable>
+<variable name="media_playTip">再生</variable>
+<variable name="media_pauseTip">一時停止</variable>
+<variable name="media_stopTip">停止</variable>
+<variable name="media_muteTip">ミュート</variable>
+<variable name="media_soundTip">ミュート解除</variable>
+<variable name="media_seekTip">検索</variable>
+<variable name="media_playingText">再生中</variable>
+<variable name="media_pausedText">一時停止中</variable>
+<variable name="media_stoppedText">停止中</variable>
+
+  <variable name="media_fullscreenTip">全画面表示</variable>
+<variable name="media_ccTip">クローズド キャプション</variable>
+
+
+  <!--Interactive Job aid Variables. -->
+  
+
+  
+
+<variable name="interactive_yes">&lt;b&gt;はい&lt;/b&gt;</variable>
+<variable name="interactive_no">&lt;b&gt;いいえ&lt;/b&gt;</variable>
+<variable name="interactive_reset">リセット</variable>
+<variable name="interactive_decision">決定</variable>
+  <variable name="interactive_undefined">このオプションの質問/決定は定義されていません。[リセット] をクリックしてやり直してください。</variable>
+<variable name="interactive_undefinedQuestion">質問が定義されていません。</variable>
+  
+  <!--Sequencing variables-->
+  <variable name="sequence_reset">リセット</variable>
+  <variable name="sequence_showAnswer">答えを表示</variable>
+  <variable name="sequence_submit">送信</variable>
+  <variable name="sequence_shuffled">ランダム</variable>
+  <variable name="sequence_sequenced">番号順</variable>
+  <variable name="sequence_correctMessage">正解です!</variable>
+  <variable name="sequence_incorrectMessage">間違いです。[リセット] または [答えを表示] をクリックしてください。</variable>
+  <variable name="sequence_correctDisplayed">正解を表示します。</variable>
+
+ 
+<!-- How To Use Content Wheel Help -->
+	<variable name="howToUse_toNavigate">レッスン内のトピックを移動するには、アイコン ビューまたはテキスト ビューを使用します。アイコン ビューまたはテキスト ビューのどちらでも、選択した任意の順番でトピックを表示できます。</variable>
+	<variable name="howToUse_read">&quot;読み物&quot; にはテキスト、表、およびグラフィックスが含まれます。</variable>
+	<variable name="howToUse_watch">&quot;ビデオ&quot; にはアニメーション、デモンストレーション、およびビデオが含まれます。</variable>
+	<variable name="howToUse_interact">&quot;インタラクティブ&quot; にはマルチメディア インタラクティブおよび小規模シミュレーションなどのインタラクティブ コンテンツが含まれます。</variable>
+	<variable name="howToUse_play">&quot;プレイ&quot; にはゲームが含まれます。</variable>
+	<variable name="howToUse_try">&quot;トライ&quot; には、学習した内容をユーザーが実際に復習することができるシミュレーションまたは演習が含まれます。</variable>
+	<variable name="howToUse_code">&quot;コード&quot; ではサンプル コードがポップアップ ウィンドウまたは表に表示されます。</variable>
+
+<!-- Virtual Lab variables -->
+	<variable name="vlab_offlineError">実習は利用できません。実習は Offline Player からは実行できません。Offline Player を使用していない場合は、インターネット接続を確認し、もう一度実習を開始してください。</variable>
+
+   <!--For EK manifest transformation-->
+  <variable name="topic_Title">トピック</variable>
+  
+  <!--Print Variables-->
+  
+
+  
+
+  <variable name="print_version">印刷バージョン</variable>
+  <variable name="print_tocHeader">目次</variable>
+  <variable name="print_course">コース: </variable>
+  <variable name="print_module">モジュール: </variable>
+  <variable name="print_lessonContents">レッスンの内容</variable>
+  <variable name="print_moduleContents">モジュールの内容</variable>
+  <variable name="print_topic">トピック: </variable>
+  <variable name="print_gameInstruction">次の対応するオプション ボックスに項目番号を入力し、項目を関連するカテゴリに分類してください。</variable>
+<variable name="print_statement">説明文</variable>
+  <variable name="print_note">メモ: 正解は次のページにあります。</variable>
+  <variable name="print_categoryItems">分類項目</variable>
+  <variable name="print_category1">分類 1</variable>
+  <variable name="print_category2">分類 2</variable>
+  <variable name="print_category3">分類 3</variable>
+<variable name="print_keyPoints">キー ポイント</variable>
+<variable name="print_transcript">ナレーション</variable>
+  <variable name="print_essayInstruction">この質問の回答を次の欄に入力できます。</variable>
+  <variable name="print_adventureInstruction">使用可能なオプション: </variable>
+  <variable name="print_adventureInfo">このトピックには、シナリオに基づく内容が含まれています。各オプションには、1 ～ 4 つの結果を含む決定ポイントが用意されています。このトピックでは、選択したオプションに基づくさまざまなシナリオについて説明し、選択したオプションに基づく結果を示します。&lt;br&gt;完全なパスの内容は以下のとおりです。このトピックの完全なバージョンを参照するには、このコースのオンライン バージョンを使用してください。</variable>
+  <variable name="print_adventurePage">ページ</variable>
+  <variable name="print_adventureOption">ページを表示するには、このオプションをクリック</variable>
+  <variable name="print_adventureSelected">選択したオプション: </variable>
+
+<variable name="print_interactiveQuestion">質問</variable>
+  <variable name="print_interactiveOptions">使用可能なオプション: </variable>
+  <variable name="print_interactiveOptionInfo">質問を表示するには、このオプションをクリック</variable>
+  <variable name="print_interactiveDecisionInfo">決定を表示するには、このオプションをクリック</variable>
+  <variable name="print_interactiveSelectedOption">選択したオプション: </variable>
+  <variable name="print_interactiveDecision">決定: </variable>
+  <variable name="print_interactiveOptionYes">はい</variable>
+  <variable name="print_interactiveOptionNo">いいえ</variable>
+  <variable name="print_interactiveInfo">このトピックには、はい/いいえで回答する形式の一連の質問で構成されるシナリオが用意されています。選択した答えに基づいて、動的なフィードバックや次の質問が表示されます。&lt;br&gt;完全な一連の質問の内容は以下のとおりです。このトピックの完全なバージョンを参照するには、このコースのオンライン バージョンを使用してください。</variable>
+  <variable name="print_introduction">このトピックでは、最大 4 つの変数と、ある特定の結果との関係について説明します。&lt;br&gt;&lt;br&gt;このトピックで使用する変数、および変数のサンプル値の結果は以下のとおりです。このトピックの完全なバージョンを参照するには、このコースのオンライン バージョンを使用してください。</variable>
+  <variable name="print_equation">出力方程式: </variable>
+  <variable name="print_input">入力</variable>
+  <variable name="print_minimum">最小</variable>
+  <variable name="print_maximum">最大</variable>
+  <variable name="print_unit">単位</variable>
+  <variable name="print_example">サンプル シナリオ</variable>
+  <variable name="print_tileInstruction">それぞれ正しい文章の右側の列にマークを付けてください。</variable>
+<variable name="print_answer">回答</variable>
+  <variable name="print_trueFalse">それぞれ正しい文章の右側の列にマークを付けてください。</variable>
+  <variable name="print_multipleChoice">それぞれの質問の正しい答えの左側の列にマークを付けてください。</variable>
+	<variable name="print_instruction">正しい答えを選択してください。</variable>
+  <variable name="print_redirect">このアクティビティを実行するには、このコースのオンライン バージョンを使用してください。</variable>
+  <variable name="print_online_instruction">説明</variable>
+  <variable name="print_correct">正解に関するフィードバック: </variable>
+
+  <variable name="print_step">ステップ</variable>
+</localizedStrings>

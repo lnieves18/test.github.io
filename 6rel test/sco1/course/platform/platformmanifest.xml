@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<platformManifest version="02.08.00.0080" modified="2008-07-21T15:17:00">
+	<!-- Preloader (always the first listed) : Caches and hosts all pages within a SCO. -->
+	<file href="default.html" modified="2006-11-13T07:41:00" crc="D7E2B0B9" size="1239"/>
+	<!-- The ADL and IMS schemas that are required for the SCORM package to be SCORM compliant. -->
+	<file href="adlcp_rootv1p2.xsd" modified="2006-09-01T14:25:58" crc="9FC23F77" size="4508"/>
+	<file href="imscp_rootv1p1p2.xsd" modified="2006-09-01T14:25:58" crc="C35AF41E" size="14905"/>
+	<file href="imsmd_rootv1p2p1.xsd" modified="2006-09-01T14:25:58" crc="69CE6018" size="22769"/>
+	<!-- Platform Manifest : The file that lists all files held within the "platform" and which lists the uri, date last modified, crc, and size of each file. -->
+	<file href="platform/platformmanifest.xml"/>
+	<!-- Flash to ecmascript communication routines. -->
+	<!-- This html file holds the swf that sends flash calls to javascript. -->
+	<file href="platform/comm/commreceive.html" modified="2006-11-13T07:41:00" crc="A773B589" size="2226"/>
+	<!-- This html file holds the swf that sends flash calls to javascript. -->
+	<file href="platform/comm/commreceive_flip.html" modified="2006-11-13T07:41:00" crc="5EA07B67" size="2241"/>
+	<!-- This html file holds the swf that sends javascript calls to flash. -->
+	<file href="platform/comm/commsend.html" modified="2006-11-13T07:41:00" crc="B32ED67C" size="908"/>
+	<!-- This swf file sends flash calls to javascript. -->
+	<file href="platform/comm/flashcommreceive.swf" modified="2006-09-15T11:07:13" crc="3A849098" size="325"/>
+	<!-- This swf file sends flash calls to javascript. -->
+	<file href="platform/comm/flashcommreceive_flip.swf" modified="2006-09-15T11:07:13" crc="0860701B" size="320"/>
+	<!-- This swf file sends javascript calls to flash. -->
+	<file href="platform/comm/flashcommsend.swf" modified="2006-09-15T11:07:13" crc="0D0B8BA7" size="280"/>
+	<!-- ecmascript files -->
+	<!-- Holds all logic executed by the Preloader. -->
+	<file href="platform/ecmascript/contentloader.js" modified="2007-01-18T11:14:25" crc="EBC19495" size="6829"/>
+	<!-- This allows the content to find the LMS API so that it can then send it SCORM calls. -->
+	<file href="platform/ecmascript/findlmsapi.js" modified="2006-08-18T10:22:04" crc="D389A3DE" size="2226"/>
+	<!-- Holds all supporting logic required to pass method calls between Flash and javascript. -->
+	<file href="platform/ecmascript/flashpagecommunication.js" modified="2006-12-19T23:54:20" crc="737198F2" size="8216"/>
+	<!-- Contains the logic given to page specific behavior. An example is that the behavior of the multiple choice page is defined here. -->
+	<file href="platform/ecmascript/pagebehavior.js" modified="2007-04-10T10:48:08" crc="6EEC90C0" size="31724"/>
+	<!-- These are the SCORM calls the the content makes to the LMS. -->
+	<file href="platform/ecmascript/scormcode.js" modified="2007-02-05T16:46:13" crc="A39635A3" size="6161"/>
+	<!-- This is the Javascript file created by the Silverlight team that provides basic Silverlight Javascript functionality. -->
+	<file href="platform/ecmascript/silverlight.js" modified="2007-02-05T16:46:13" crc="A39635A3" size="7556"/>
+	<!-- This is the MSL generated javascript file that provides MSL specific Silverlight functionality. -->
+	<file href="platform/ecmascript/silverlight_msl.js" modified="2007-02-05T16:46:13" crc="A39635A3" size="4243"/>
+	<!-- This is the XML object that is within Javascript any time XML is required. -->
+	<file href="platform/ecmascript/xmldom.js" modified="2007-01-23T10:11:20" crc="BC8FBA60" size="11016"/>
+	<!-- This is the code required for the display of virtual labs on the EK LMS. -->
+	<!-- This is the code for assessment. -->
+	<file href="platform/ecmascript/scoassessment.js" modified="2007-01-23T10:11:20" crc="BC8FBA60" size="11016"/>
+	<!-- This is the code for the Silverlight textarea. -->
+	<file href="platform/ecmascript/commontextbox.js" modified="2007-01-23T10:11:20" crc="BC8FBA60" size="11016"/>
+	<!-- This is the code for the HTML formatting in the Silverlight textarea. -->
+	<file href="platform/ecmascript/formattextbox.js" modified="2007-01-23T10:11:20" crc="BC8FBA60" size="11016"/>
+	<!-- Hard coded Flash files awaiting replacement -->
+	<!-- The content wheel used to navigate within a SCO. -->
+	<file href="platform/flash/contentwheel.swf" modified="2007-01-12T09:55:04" crc="6B12D929" size="24527"/>
+	<!-- This is the presentation layer for the voice of the expert activity. -->
+	<file href="platform/flash/voiceofexpert.swf" modified="2006-10-27T13:57:13" crc="D79AF0E3" size="17842"/>
+	<!-- Learner help files -->
+	<!-- The html file that houses the help content.  This help file is launched from the help button in the content wheel. -->
+	<file href="platform/help/konahowtouse.html" modified="2006-11-13T07:41:00" crc="508EE21B" size="629"/>
+	<!-- The swf file that contains the help illustration and loads the xml help content. -->
+	<file href="platform/help/media/kona_howtouse.swf" modified="2006-11-07T16:48:11" crc="81D19E19" size="10775"/>
+	<!-- Global images used within the presentation layer -->
+	<!-- The image that represents a first level bullet. -->
+	<file href="platform/images/bullet1_first_level.png" modified="2006-10-30T13:18:33" crc="A63CE0C6" size="158"/>
+	<!-- The image that represents a second level bullet. -->
+	<file href="platform/images/bullet2_second_level.png" modified="2006-10-30T13:18:33" crc="3AA075BD" size="2820"/>
+	<!-- The image that represents a third level or deeper bullet. -->
+	<file href="platform/images/bullet3_third_level.png" modified="2006-10-30T13:18:33" crc="FA84A78B" size="2821"/>
+	<!-- The image that prepands the "caution" readeraid. -->
+	<file href="platform/images/caution.png" modified="2006-09-06T10:31:55" crc="851AA95C" size="1539"/>
+	<!-- The green check image which stands for a positive result. -->
+	<file href="platform/images/go.gif" modified="2006-08-16T11:52:54" crc="6CFF0100" size="1007"/>
+	<!-- The image that prepands the "important" readeraid. -->
+	<file href="platform/images/important.png" modified="2006-09-06T10:31:55" crc="65683B97" size="1779"/>
+	<!-- The image that prepands the "print this page" print link. -->
+	<file href="platform/images/launchprint.gif" modified="2006-11-02T03:18:21" crc="E7054F9A" size="237"/>
+	<!-- The notes delete button image in its inactive greyed-out state. -->
+	<file href="platform/images/mynotes_delete_disabled.gif" modified="2006-09-01T13:04:19" crc="FABD0C3D" size="208"/>
+	<!-- The notes delete button image in its pressed down state. -->
+	<file href="platform/images/mynotes_delete_down.gif" modified="2006-08-18T10:22:04" crc="D9D93CD3" size="208"/>
+	<!-- The notes delete button image in its normal state. -->
+	<file href="platform/images/mynotes_delete_normal.gif" modified="2006-09-01T13:04:19" crc="5F2528B3" size="208"/>
+	<!-- The notes delete button image in its roll-over state. -->
+	<file href="platform/images/mynotes_delete_ro.gif" modified="2006-08-18T10:22:04" crc="A3940F35" size="208"/>
+	<!-- The notes print button image in its inactive greyed-out state. -->
+	<file href="platform/images/mynotes_print_disabled.gif" modified="2006-09-01T13:04:19" crc="A084C405" size="236"/>
+	<!-- The notes print button image in its pressed down state. -->
+	<file href="platform/images/mynotes_print_down.gif" modified="2006-08-18T10:22:04" crc="069030AC" size="236"/>
+	<!-- The notes print button image in its normal state. -->
+	<file href="platform/images/mynotes_print_normal.gif" modified="2006-09-01T13:04:19" crc="56A29E68" size="236"/>
+	<!-- The notes print button image in its roll-over state. -->
+	<file href="platform/images/mynotes_print_ro.gif" modified="2006-08-18T10:22:04" crc="E7054F9A" size="237"/>
+	<!-- The notes save button image in its inactive greyed-out state. -->
+	<file href="platform/images/mynotes_save_disabled.gif" modified="2006-09-01T13:04:19" crc="65FF5398" size="612"/>
+	<!-- The notes save button image in its pressed down state. -->
+	<file href="platform/images/mynotes_save_down.gif" modified="2006-08-18T10:22:04" crc="B22BB248" size="619"/>
+	<!-- The notes save button image in its normal state. -->
+	<file href="platform/images/mynotes_save_normal.gif" modified="2006-09-01T13:04:19" crc="E7C26A35" size="619"/>
+	<!-- The notes save button image in its inactive greyed-out state. -->
+	<file href="platform/images/mynotes_save_ro.gif" modified="2006-08-18T10:22:04" crc="E52D7BF2" size="619"/>
+	<!-- The red x image which stands for a negative result. -->
+	<file href="platform/images/nogo.gif" modified="2006-08-16T11:52:54" crc="133D0F6B" size="1018"/>
+	<!-- The image that prepands the "note" readeraid. -->
+	<file href="platform/images/note.png" modified="2006-09-06T10:31:55" crc="4310718B" size="1197"/>
+	<!-- The background image that appears behind the notes buttons. -->
+	<file href="platform/images/notes_background.gif" modified="2006-10-25T14:27:27" crc="2C50ADBD" size="1398"/>
+	<!-- The image that prepands the "study sheet" readeraid. -->
+	<file href="platform/images/study_sheet.png" modified="2006-10-03T09:35:39" crc="F7EFA6D4" size="1100"/>
+	<!-- The image that prepands the "tip" readeraid. -->
+	<file href="platform/images/tip.png" modified="2006-09-06T10:31:55" crc="D95117D2" size="1690"/>
+	<!-- The image that prepands the "warning" readeraid. -->
+	<file href="platform/images/warning.png" modified="2006-09-06T10:31:55" crc="AE873D06" size="1543"/>
+	<!-- HTML SCO navigation images. -->
+	<file href="platform/images/sco_navigation_background.png" modified="2006-09-06T10:31:55" crc="AE873D06" size="1543"/>
+	<!-- Intro button -->
+	<file href="platform/images/sco_nav_first_bg.png" modified="2006-09-06T10:31:55" crc="AE873D06" size="1543"/>
+	<file href="platform/images/sco_nav_first_visited_bg.png" modified="2006-09-06T10:31:55" crc="AE873D06" size="1543"/>
+	<file href="platform/images/sco_nav_first_current_bg.png" modified="2006-09-06T10:31:55" crc="AE873D06" size="1543"/>
+	<!-- Conclusion button -->
+	<file href="platform/images/sco_nav_last_bg.png" modified="2006-09-06T10:31:55" crc="AE873D06" size="1543"/>
+	<file href="platform/images/sco_nav_last_visited_bg.png" modified="2006-09-06T10:31:55" crc="AE873D06" size="1543"/>
+	<file href="platform/images/sco_nav_last_current_bg.png" modified="2006-09-06T10:31:55" crc="AE873D06" size="1543"/>
+	<!-- Topic List -->
+	<file href="platform/images/sco_nav_topic_visited_grad.png" modified="2006-09-06T10:31:55" crc="AE873D06" size="1543"/>
+	<file href="platform/images/sco_nav_topic_hover_grad.png" modified="2006-09-06T10:31:55" crc="AE873D06" size="1543"/>
+	<!-- Topic Bullets -->
+	<file href="platform/images/sco_nav_topic_bullet.gif" modified="2006-09-06T10:31:55" crc="AE873D06" size="1543"/>
+	<file href="platform/images/sco_nav_topic_visited_bullet.gif" modified="2006-09-06T10:31:55" crc="AE873D06" size="1543"/>
+	<!-- Help button -->
+	<file href="platform/images/sco_nav_help_background.png" modified="2006-09-06T10:31:55" crc="AE873D06" size="1543"/>
+	<file href="platform/images/sco_nav_help_hover_background.png" modified="2006-09-06T10:31:55" crc="AE873D06" size="1543"/>
+	<!--Silverlight Media player image-->
+	<file href="platform/images/transportcontrols.png" modified="2006-09-06T10:31:55" crc="AE873D06" size="1543"/>
+	<!--Image that shows active question in true false and multiple choice templates-->
+	<file href="platform/images/green_arrow.gif" modified="2006-09-06T10:31:55" crc="AE873D06" size="1543"/>
+	<!-- The Show/Hide right arrow image-->
+	<file href="platform/images/arrow_right.png" modified="2008-09-10T13:06:55" crc="AE873D06" size="1543"/>
+	<!-- The Show/Hide down arrow image-->
+	<file href="platform/images/arrow_down.png" modified="2008-09-10T12:35:53" crc="AE873D06" size="1543"/>
+	<!-- Activity rendering elements (adventure game and others) -->
+	<!-- The html page that serves as the host to all dynamically created pages (transcript print, notes print, demo and sim window). -->
+	<file href="platform/interactive/host.htm" modified="2007-02-05T16:46:13" crc="4FA02EA8" size="151"/>
+	<!-- The swf that serves as the adventure game. -->
+	<file href="platform/interactive/definitions/adventure.swf" modified="2006-12-26T12:17:24" crc="7B181CD0" size="50582"/>
+	<!-- The xml file that prepares the runtime for the tile drag and drop game. -->
+	<file href="platform/interactive/definitions/draganddrop.swf" modified="2006-11-16T12:35:00" crc="8E381760" size="10060"/>
+	<!-- The swf that serves as the sort game. -->
+	<file href="platform/interactive/definitions/sortgame.swf" modified="2006-10-19T14:20:16" crc="7FD0828F" size="97933"/>
+	<!-- The swf that serves as the tile flip game. -->
+	<file href="platform/interactive/definitions/tileflip.swf" modified="2006-11-06T14:05:10" crc="A8BEC052" size="45948"/>
+	<!--Silverlight 4.0 components-->
+	<file href="platform/interactive/definitions/sortgame.xap" modified="2006-11-06T14:05:10" crc="A8BEC052" size="45948"/>
+	<file href="platform/interactive/definitions/tileflip.xap" modified="2006-11-06T14:05:10" crc="A8BEC052" size="45948"/>
+	<file href="platform/interactive/definitions/adventure.xap" modified="2006-11-06T14:05:10" crc="A8BEC052" size="45948"/>
+	<file href="platform/interactive/definitions/captionmedia.xap" modified="2006-11-06T14:05:10" crc="A8BEC052" size="45948"/>
+	<file href="platform/interactive/definitions/mediaplayer.xap" modified="2006-11-06T14:05:10" crc="A8BEC052" size="45948"/>
+	<file href="platform/interactive/definitions/media.xap" modified="2006-11-06T14:05:10" crc="A8BEC052" size="45948"/>
+	<file href="platform/interactive/definitions/sequence.xap" modified="2006-11-06T14:05:10" crc="A8BEC052" size="45948"/>
+	<file href="platform/interactive/definitions/flashcard.xap" modified="2006-11-06T14:05:10" crc="A8BEC052" size="45948"/>
+	<file href="platform/interactive/definitions/draganddrop.xap" modified="2006-11-06T14:05:10" crc="A8BEC052" size="45948"/>
+	<file href="platform/interactive/definitions/interactivejobaid.xap" modified="2006-11-06T14:05:10" crc="A8BEC052" size="45948"/>
+	<file href="platform/interactive/definitions/slider.xap" modified="2006-11-06T14:05:10" crc="A8BEC052" size="45948"/>
+	<!-- Localization string files. -->
+	<!-- Czech (Czech Republic) - global strings. -->
+	<file href="platform/localization/cs.xml" modified="2007-05-16T14:51:49" crc="C6A90224" size="10434"/>
+	<!-- Czech (Czech Republic) - global strings. -->
+	<file href="platform/localization/cs-cz.xml" modified="2007-05-16T14:51:49" crc="C6A90224" size="10434"/>
+	<!-- Danish (Denmark) - global strings. -->
+	<file href="platform/localization/da.xml" modified="2007-05-16T14:51:49" crc="A30C1236" size="10458"/>
+	<!-- Danish (Denmark) - global strings. -->
+	<file href="platform/localization/da-dk.xml" modified="2007-05-16T14:51:49" crc="A30C1236" size="10458"/>
+	<!-- German (Germany) - global strings. -->
+	<file href="platform/localization/de.xml" modified="2007-05-16T14:51:49" crc="FA07DFA1" size="11057"/>
+	<!-- German (Germany) - global strings. -->
+	<file href="platform/localization/de-de.xml" modified="2007-05-16T14:51:49" crc="FA07DFA1" size="11057"/>
+	<!-- English (United States) - global strings. -->
+	<file href="platform/localization/en-us.xml" modified="2007-05-16T14:51:49" crc="AE76DBB8" size="10494"/>
+	<!-- Spanish (Spain) - global strings. -->
+	<file href="platform/localization/es.xml" modified="2007-05-16T14:51:49" crc="6AE909FC" size="10679"/>
+	<!-- Spanish (Spain) - global strings. -->
+	<file href="platform/localization/es-es.xml" modified="2007-05-16T14:51:49" crc="6AE909FC" size="10679"/>
+	<!-- French (France) - global strings. -->
+	<file href="platform/localization/fr.xml" modified="2007-05-16T14:51:49" crc="3AC41889" size="10986"/>
+	<!-- French (France) - global strings. -->
+	<file href="platform/localization/fr-fr.xml" modified="2007-05-16T14:51:49" crc="3AC41889" size="10986"/>
+	<!-- Italian (Italy) - global strings. -->
+	<file href="platform/localization/it.xml" modified="2007-05-16T14:51:49" crc="E2AE8B3C" size="10866"/>
+	<!-- Italian (Italy) - global strings. -->
+	<file href="platform/localization/it-it.xml" modified="2007-05-16T14:51:49" crc="E2AE8B3C" size="10866"/>
+	<!-- Japanese (Japan) - global strings. -->
+	<file href="platform/localization/ja.xml" modified="2007-05-16T14:51:49" crc="81DD0EEB" size="11624"/>
+	<!-- Japanese (Japan) - global strings. -->
+	<file href="platform/localization/ja-jp.xml" modified="2007-05-16T14:51:49" crc="81DD0EEB" size="11624"/>
+	<!-- Korean (Korea) - global strings. -->
+	<file href="platform/localization/ko.xml" modified="2007-05-16T14:51:49" crc="A5C0E2C0" size="10916"/>
+	<!-- Korean (Korea) - global strings. -->
+	<file href="platform/localization/ko-kr.xml" modified="2007-05-16T14:51:49" crc="A5C0E2C0" size="10916"/>
+	<!-- Dutch (Netherlands) - global strings. -->
+	<file href="platform/localization/nl.xml" modified="2007-05-16T14:51:49" crc="11AD73E3" size="10715"/>
+	<!-- Dutch (Netherlands) - global strings. -->
+	<file href="platform/localization/nl-nl.xml" modified="2007-05-16T14:51:49" crc="11AD73E3" size="10715"/>
+	<!-- Polish (Poland) - global strings. -->
+	<file href="platform/localization/pl-pl.xml" modified="2007-05-16T14:51:49" crc="53EC6DB8" size="10591"/>
+	<!-- Portuguese (Brazil) - global strings. -->
+	<file href="platform/localization/pt-br.xml" modified="2007-05-16T14:51:49" crc="FDF2AC09" size="10782"/>
+	<!-- Russian (Russia) - global strings. -->
+	<file href="platform/localization/ru.xml" modified="2007-05-16T14:51:49" crc="7E25F19E" size="13316"/>
+	<!-- Russian (Russia) - global strings. -->
+	<file href="platform/localization/ru-ru.xml" modified="2007-05-16T14:51:49" crc="7E25F19E" size="13316"/>
+	<!-- Swedish (Sweden) - global strings. -->
+	<file href="platform/localization/sv.xml" modified="2007-05-16T14:51:49" crc="8420C2B5" size="10466"/>
+	<!-- Swedish (Sweden) - global strings. -->
+	<file href="platform/localization/sv-se.xml" modified="2007-05-16T14:51:49" crc="8420C2B5" size="10466"/>
+	<!-- Thai (Thailand) - global strings. -->
+	<file href="platform/localization/th-th.xml" modified="2007-05-16T14:51:49" crc="0EE64A70" size="14296"/>
+	<!-- Chinese (China) - global strings. -->
+	<file href="platform/localization/zh-chs.xml" modified="2007-05-16T14:51:49" crc="36A3EC9B" size="10181"/>
+	<!-- Chinese (China) - global strings. -->
+	<file href="platform/localization/zh-cn.xml" modified="2007-05-16T14:51:49" crc="36A3EC9B" size="10181"/>
+	<!-- Chinese (Taiwan) - global strings. -->
+	<file href="platform/localization/zh-cht.xml" modified="2007-05-16T14:51:49" crc="99B403FC" size="9852"/>
+	<!-- Chinese (Taiwan) - global strings. -->
+	<file href="platform/localization/zh-tw.xml" modified="2007-05-16T14:51:49" crc="99B403FC" size="9852"/>
+	<!-- Norwegian (Norway) - global strings. -->
+	<file href="platform/localization/nb-no.xml" modified="2008-05-21T13:19:50" crc="99B403FC" size="9852"/>
+	<!-- Hindi - global strings. -->
+	<file href="platform/localization/hi.xml" modified="2008-05-21T13:19:50" crc="99B403FC" size="9852"/>
+	<!-- Turkish - global strings. -->
+	<file href="platform/localization/tr.xml" modified="2008-05-21T13:19:50" crc="99B403FC" size="9852"/>
+	<!-- Kazakh - global strings. -->
+	<file href="platform/localization/kk-KZ.xml" modified="2008-05-21T13:19:50" crc="99B403FC" size="9852"/>
+	<!-- Settings string files. -->
+	<!-- The global presentation layer content that will not be localized. -->
+	<file href="platform/settings/settings.xml" modified="2006-11-13T17:41:00" crc="0A556B1E" size="1447"/>
+	<!-- Screen CSS -->
+	<!-- Defines the HTML styling for all content pages. -->
+	<file href="platform/styles/presentation.css" modified="2006-12-19T22:11:58" crc="A46F17CF" size="15796"/>
+	<!-- Presentation layer transform -->
+	<!-- Transforms all XML content into HTML at runtime. -->
+	<file href="platform/transforms/presentation.xsl" modified="2007-01-19T13:45:01" crc="22488095" size="33635"/>
+	<file href="platform/transforms/search_presentation.xsl" modified="2007-01-11T02:17:35" crc="E429477E" size="28835"/>
+</platformManifest>

@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<localizedStrings>
+<!-- These two variables should be localized in such a way it includes ALL extended (accented) characters for the language, such as á and Á. -->
+	<variable name="lowerCaseUnicodeCharacters">aәбвгғдеёжзийкқлмнңоөпрстуұүфхһцчшщъыіьэюя</variable>
+	<variable name="upperCaseUnicodeCharacters">АӘБВГҒДЕЁЖЗИЙКҚЛМНҢОӨПРСТУҰҮФХҺЦЧШЩЪЫІЬЭЮЯ</variable>
+
+
+
+<!-- XSLT variables. -->
+	<variable name="multipleChoice_title">Сұрақ</variable>
+	<variable name="multipleChoice_feedbackButton">ОК</variable>
+	<variable name="multipleChoice_questionSelect">Бір жақсы жауапты таңдаңыз.</variable>
+	<variable name="activity_summaryHeading">Шолу</variable>
+	<variable name="activity_summaryButton">Бастау</variable>
+	<variable name="notes_heading">Менің жазбаларым</variable>
+	<variable name="notes_deleteWarningMessage">Ағымдағы жазбаны шынымен жойғыңыз келеді ме?</variable>
+	<variable name="readerAid_tip">Кеңес</variable>
+	<variable name="readerAid_caution">Абайлаңыз</variable>
+	<variable name="readerAid_warning">Ескерту</variable>
+	<variable name="readerAid_important">Маңызды</variable>
+	<variable name="readerAid_note">Жазба</variable>
+	<variable name="readerAid_studySheet">Оқу парағы</variable>
+	<variable name="animation_transcriptHeader">Көшіру</variable>
+	<variable name="button_submit">Жазылу</variable>
+	<variable name="button_launch">Іске қосу</variable>
+	<variable name="demonstration_windowTitle">Көрсетілім</variable>
+	<variable name="demonstration_transcriptPrint">Қарау үшін басыңыз және көрсетілім үшін жазбаны басып шығарыңыз.</variable>
+	<variable name="demonstration_transcriptPrintWindowTitle">Көрсетілімнің жазбасы</variable>
+	<variable name="simulation_windowTitle">Әзірлеу</variable>
+	<variable name="simulation_transcriptPrint">Қарау үшін басыңыз және әзірлеу үшін жазбаны басып шығарыңыз.</variable>
+	<variable name="simulation_transcriptPrintWindowTitle">Әзірлеу жазбасы</variable>
+	<variable name="transcriptPrint_printPage">Осы бетті басып шығарыңыз.</variable>
+	<variable name="introduction_moduleTitle">Модульді шолу</variable>
+	<variable name="notes_printPageTitle">Жазбаларды басып шығару</variable>
+	<variable name="notes_printPageHeadingIntro">Жазбалар. </variable>
+	<variable name="notes_saveButtonTitle">Сақтау</variable>
+	<variable name="notes_saveAsFileButtonTitle">Файл ретінде сақтау</variable>
+	<variable name="notes_deleteButtonTitle">Жою</variable>
+	<variable name="notes_printButtonTitle">Басып шығару</variable>
+	<variable name="notes_noNotesToPrint">Бұл сабақта ешқандай жазбалар сақтамадыңыз.</variable>
+	<variable name="clickTable_instructions">Толығырақ ақпарат көру үшін элементті басыңыз.</variable>
+
+<!--XSLT TrueFalse Variables-->
+	<variable name="trueFalse_title">Мәлімдеме</variable>
+	<variable name="trueFalse_trueAnswer">Шын</variable>
+	<variable name="trueFalse_falseAnswer">Өтірік</variable>
+  <variable name="trueFalse_selectAnswer">Дұрыс жауапты таңдаңыз.</variable>
+
+    <!--ShowHide Variables-->
+  <variable name="showHide_ShowAll">Барлығын көрсету</variable>
+  <variable name ="showHide_HideAll">Барлығын жасыру</variable>
+  <variable name ="showHide_Show">Көрсету</variable>
+  <variable name ="showHide_Hide">Жасыру</variable>
+
+<!--Essay question Variables-->
+  <variable name="essayQuestion_question">Сұрақ</variable>
+  <variable name="essayQuestion_answer">Жауап</variable>
+  <variable name="essayQuestion_instruction">(ең көбі 250 таңба)</variable>
+  <variable name="essayQuestion_submitInstruction">Жазылғаннан кейін жауапты қайталай алмайсыз.</variable>
+  <variable name="essayQuestion_answerInstruction">ЕСКЕРТУ. Жауап мәтіні бірінші «Жазылу» түймешігін баспастан осы бөлімнен жылжығанда жоғалады. Мәтінді пішімдеу қабылданбады. Тек әліпбилік және сандық таңбалар (aA – яЯ және 0 – 9) мен бос орындар жазылады.</variable>
+
+<!-- ECMAscript variables. --> <!-- contentLoader.js -->
+	<variable name="xml_load">Xml файлы жүктелмейді.</variable>
+	<variable name="xsl_load">Xsl файлы жүктелмейді.</variable>
+	<!-- pageBehavior.js -->
+	<variable name="multipleChoice_feedbackCorrect">Дұрыс</variable>
+	<variable name="multipleChoice_feedbackIncorrect">Қате</variable>
+	<variable name="mediaPopUp_transcriptHeading">Көшіру</variable>
+	<!-- scormcode.js -->
+	<variable name="notes_lmsNoSupport">Бұл LMS жазбаларды қолдамайды.</variable>
+	<variable name="notes_lmsErrorRetrieve">LMS ішінен қатені шығару ескертуі.</variable>
+	<variable name="notes_lmsExceededSpace">Жазбаларға рұқсат етілген мазмұнның санынан асып кетті.</variable>
+	<variable name="notes_lmsErrorSaving">LMS ішіне жазбаларды сақтаудағы қате.</variable>
+
+<!-- Animation variables. -->
+	<variable name="anim_play">Ойнату</variable>
+	<variable name="anim_pause">Тоқтата тұру</variable>
+	<variable name="anim_stop">Тоқтату</variable>
+	<variable name="anim_fastForward">Жылдам алға өткізу</variable>
+	<variable name="anim_rewind">Кері айналдыру</variable>
+	<variable name="anim_mute">Дыбыссыз</variable>
+	<variable name="anim_sound">Дыбыс</variable>
+
+<!-- Adventure variables. -->
+	<variable name="adventure_instructions">Төмендегі тізімнен кез келген бір опцияны таңдаңыз</variable>
+	<variable name="adventure_previous">Алдыңғы</variable>
+	<variable name="adventure_reset">Қалпына келтіру</variable>
+
+<!-- Drag and Drop variables. -->
+	<variable name="dragAndDrop_reset">НӨЛДЕУ</variable>
+	<variable name="dragAndDrop_showAnswer">ЖАУАПТЫ КӨРСЕТУ</variable>
+	<variable name="dragAndDrop_submit">ЖАЗЫЛУ</variable>
+	<variable name="dragAndDrop_drag">СҮЙРЕУ</variable>
+	<variable name="dragAndDrop_drop">ТАСТАУ</variable>
+	<variable name="dragAndDrop_correctMessage">Дұрыс!</variable>
+	<variable name="dragAndDrop_incorrectMessage">Қате. «Қалпына келтіру» немесе «Жауапты көрсету» түймешігін басыңыз.</variable>
+	<variable name="dragAndDrop_correctDisplayed">Дұрыс жауап шығады.</variable>
+
+<!-- Tile Game Variables. -->
+	<variable name="tileGame_gameOver">Ойын аяқталды.</variable>
+	<variable name="tileGame_resetInstruction">Қайта көру үшін &lt;b&gt;Нөлдеу&lt;/b&gt; түймешігін басыңыз.</variable>
+	<variable name="tileGame_reset">RESET</variable>
+	<variable name="tileGame_turnsLeft">Солға бұрады:</variable>
+	<variable name="tileGame_congratulations">Құттықтаймыз!</variable>
+	<variable name="tileGame_completedMessage">Бұл әрекетті аяқтадыңыз.</variable>
+	<variable name="tileGame_submit">Жазылу</variable>
+	<variable name="tileGame_tileGame">Мозаика ойыны</variable>
+  <variable name="tile">Мозаика</variable>
+  <variable name="hyphen"> - </variable>
+  <variable name="submit_Column">Баған жіберу</variable>
+  <variable name="submit_Row">Жол жіберу</variable>
+
+      <!-- Flash Card Variables. -->
+  <variable name="flashCard_flip">Аудару</variable>
+  <variable name="flashCard_timeElapsed">Өткен уақыт</variable>
+  <variable name="flashCard_reset">Қалпына келтіру</variable>
+  <variable name="flashCard_submit">Жіберу</variable>
+  <variable name="flashCard_congratulations">Құттықтаймыз!</variable>
+  <variable name="flashCard_progress">Орындалу</variable>
+  <variable name="flashCard_completedMessage">Сіз бұл әрекетті аяқтадыңыз.</variable>
+  
+  <!-- Sort Game Variables. -->
+  
+
+  
+
+	<variable name="sortGame_yourTime">Мозаиканы аяқтау уақытыңыз келесідегідей болды</variable>
+	<variable name="sortGame_timeElapsed">Уақыт аяқталды</variable>
+	<variable name="sortGame_reset">Reset</variable>
+	<variable name="sortGame_answer">Жауап</variable>
+	<variable name="sortGame_start">Бастау</variable>
+	<variable name="sortGame_congratulations">Құттықтаймыз!</variable>
+	<variable name="sortGame_progress">Алға жылжу</variable>
+	<variable name="sortGame_showAnswer">Жауапты көрсету</variable>
+	<variable name="sortGame_close">Жабу</variable>
+	<variable name="sortGame_answers">Жауаптар</variable>
+	<variable name="sortGame_instructions">Сәйкес себетті басып тасталатын элементтерді мүмкіндігінше тез олардың сәйкес санаттарына сұрыптаңыз. Сонымен қатар сол жақтағы себет үшін 1 пернесін, ортаңғы себет үшін 2 пернесін, оң жақтағы себет үшін 3 пернесін басып (немесе 2 себет ойынындағы сол жақтағы себет үшін 1 пернесін, оң жақтағы себет үшін 2 пернесін басып) пернетақта тіркесімін пайдалануыңызға болады.</variable>
+
+<!-- Simulation Variables. -->
+	<variable name="simulation_continue">&lt;b&gt;Жалғастыру үшін басңыз.&lt;/b&gt;</variable>
+	<variable name="simulation_congratulations">&lt;b&gt;Құттықтаймыз!&lt;/b&gt;</variable>
+	<variable name="simulation_performSteps">&lt;b&gt;Қадамдарды орындаңыз.&lt;/b&gt;</variable>
+	<variable name="simulation_help">Анықтама үшін басыңыз</variable>
+	<variable name="simulation_showMe">Мені көрсету</variable>
+	<variable name="simulation_viewScenario">&lt;b&gt;&lt;u&gt;Сценарийді&lt;/u&gt;&lt;/b&gt; көру.</variable>
+	<variable name="simulation_print">&lt;b&gt;Басып шығару&lt;/b&gt;</variable>
+	<variable name="simulation_copyright">&lt;b&gt; &lt;/b&gt;</variable>
+	<variable name="simulation_note">&lt;b&gt;Жазба&lt;/b&gt;</variable>
+	<variable name="simulation_caution">&lt;b&gt;Ескерту&lt;/b&gt;</variable>
+	<variable name="simulation_finish">АЯҚТАУ</variable>
+	<variable name="simulation_tryAgain">ҚАЙТАЛАП КӨРІҢІЗ</variable>
+	<variable name="simulation_scenario">&lt;b&gt;Сценарий және басқасы&lt;/b&gt;</variable>
+	<variable name="simulation_step">&lt;b&gt;Қадам&lt;/b&gt;</variable>
+	<variable name="simulation_of">&lt;b&gt;ішінен&lt;/b&gt;</variable>
+	<variable name="simulation_next">Келесі</variable>
+	<variable name="simulation_previous">Алдыңғы</variable>
+	<variable name="simulation_printSteps">Басып шығару қадамдары</variable>
+	<variable name="simulation_loading">Жүктелуде...</variable>
+	<variable name="simulation_feedback">&lt;b&gt;Кері байланыс&lt;/b&gt;</variable>
+	<variable name="simulation_message">&lt;b&gt;Хабар&lt;/b&gt;</variable>
+	<variable name="simulation_ok">&lt;b&gt;ОК&lt;/b&gt;</variable>
+	<variable name="simulation_stepList">Жатттығу қадамы тізімі</variable>
+	<variable name="simulation_printContents">Парақты басып шығару мазмұндары</variable>
+
+<!-- Content Wheel Variables. -->
+	<variable name="contentWheel_textView">Мәтін көрінісі</variable>
+	<variable name="contentWheel_wheelView">Дөңгелек көрінісі</variable>
+	<variable name="contentWheel_introduction">Кіріспе</variable>
+	<variable name="contentWheel_finish1">Өзін өзі тексеру</variable>
+	<variable name="contentWheel_finish2">Қысқаша ақпарат</variable>
+	<variable name="contentWheel_finish3">Шолу</variable>
+	<variable name="contentWheel_finish4">Зертханалық шолу</variable><!-- localize this element -->
+	<variable name="contentWheel_finish5">Ресурстар</variable><!-- localize this element -->
+	<variable name="contentWheel_help">Анықтама</variable>
+
+<!-- VOE Variables. -->
+	<variable name="voe_transcript">Көшіру</variable>
+	<variable name="voe_play">Ойнату</variable>
+	<variable name="voe_pause">Тоқтата тұру</variable>
+	<variable name="voe_showTranscript">Көшірмені көрсету</variable>
+	<variable name="voe_hideTranscript">Көшірмені жасыру</variable>
+	<variable name="voe_titleVoiceOfTheExpert">Маманның даусы</variable>
+	<variable name="voe_titleModuleTip">Модульдік кеңес</variable>
+
+<!-- Media Variables. -->
+  <variable name="media_transcriptPrint">Қарау үшін басыңыз және медиа үшін жазбаны басып шығарыңыз.</variable>
+  <variable name="media_transcriptPrintWindowTitle">Медианың көшірмесі</variable>
+  <variable name="media_KeyPointsHeader">Кілт пернелер</variable>
+  <variable name="media_KeyPointsText">Қатысты бейне бөлігін көру үшін кілт пернені басыңыз.</variable>
+  <variable name="media_TotalTime">Толық уақыт</variable>
+  <variable name="media_playTip">Ойнату</variable>
+  <variable name="media_pauseTip">Тоқтата тұру</variable>
+  <variable name="media_stopTip">Тоқтату</variable>
+  <variable name="media_muteTip">Дыбыссыз</variable>
+  <variable name="media_soundTip">Дыбыс</variable>
+  <variable name="media_seekTip">Іздеу</variable>
+  <variable name="media_playingText">Ойнатылуда</variable>
+  <variable name="media_pausedText">Тоқта тұрылды</variable>
+  <variable name="media_stoppedText">Тоқтатылды</variable>
+
+  <variable name="media_fullscreenTip">Толық экран</variable>
+<variable name="media_ccTip">Жасырын титрлер</variable>
+
+
+  <!--Interactive Job aid Variables. -->
+  
+
+  
+
+  <variable name="interactive_yes">&lt;b&gt;ИӘ&lt;/b&gt;</variable>
+  <variable name="interactive_no">&lt;b&gt;ЖОҚ&lt;/b&gt;</variable>
+  <variable name="interactive_reset">Reset</variable>
+  <variable name="interactive_decision">ШЕШІМ</variable>
+  <variable name="interactive_undefined">Бұл опцияға ешқандай сұрақ/шешім анықталмады. Қайта бастау үшін «Нөлдеу» түймешігін басыңыз.</variable>
+  <variable name="interactive_undefinedQuestion">Сұрақ анықталмады.</variable>
+  
+ 
+  <!--Sequencing variables-->
+  <variable name="sequence_reset">ҚАЛПЫНА КЕЛТІРУ</variable>
+  <variable name="sequence_showAnswer">ЖАУАПТЫ КӨРСЕТУ</variable>
+  <variable name="sequence_submit">ЖІБЕРУ</variable>
+  <variable name="sequence_shuffled">ЖЫЛЖЫТЫЛҒАН</variable>
+  <variable name="sequence_sequenced">РЕТТЕЛГЕН</variable>
+  <variable name="sequence_correctMessage">Дұрыс!</variable>
+  <variable name="sequence_incorrectMessage">Дұрыс емес. «Қалпына келтіру» немесе «Жауапты көрсету» түймешігін басыңыз.</variable>
+  <variable name="sequence_correctDisplayed">Сізге дұрыс жауап көрсетіледі.</variable>
+
+ 
+<!-- How To Use Content Wheel Help -->
+	<variable name="howToUse_toNavigate">Бөлімдерді қарап шығу үшін &lt;b&gt;Белгішені көру&lt;/b&gt; немесе &lt;b&gt;Мәтінді көру&lt;/b&gt; түймешігін қолдануыңызға болады. &lt;br&gt; &lt;br&gt;Бөлімдерді «Белгішені көру» немесе «Мәтінді көру» түймешігін таңдауға байланысты кез келген тәртіпте көруіңізге болады.</variable>
+	<variable name="howToUse_read">&lt;b&gt;Оқу&lt;/b&gt; ішінде мәтін, кестелер және сызбалар болады.</variable>
+	<variable name="howToUse_watch">&lt;b&gt;Сағат&lt;/b&gt; ішінде анимациялар, көрсетілімдер және бейнелер болады.</variable>
+	<variable name="howToUse_interact">&lt;b&gt;Өзара әсер ету&lt;/b&gt; ішінде мультмедиалық әсер етулер және кішкене әзірлеулер сияқты мазмұндар болады.</variable>
+	<variable name="howToUse_play">&lt;b&gt;Ойнату&lt;/b&gt; ішінде ойындар болады.</variable>
+	<variable name="howToUse_try">&lt;b&gt;Қолданып көру&lt;/b&gt; ішінде пайдаланушы интерфейсін әзірлеу немесе үйренген нәрселерді қолдануға мүмкіндік беретін тәжірибелер болады.</variable>
+	<variable name="howToUse_code">&lt;b&gt;Код&lt;/b&gt; ішінде қалқымалы терезелердегі немесе кестелердегі кодтар болады.</variable>
+
+<!-- Virtual Lab variables -->
+	<variable name="vlab_offlineError">Зертханаға қол жетімсіз. Зертханаларға желіден тыс ойнатқыштардан кіру мүмкін емес. Егер желідес тыс ойнатқышты пайдаланып жатсаңыз, интернет байланысының бар екенін тексеріңіз және зертхананы қайта қосып көріңіз.</variable>
+
+   <!--For EK manifest transformation-->
+  <variable name="topic_Title">Бөлімдер</variable>
+
+<!--Print Variables-->
+  <variable name="print_version">Баспа нұсқасы</variable>
+  <variable name="print_tocHeader">Мазмұны</variable>
+  <variable name="print_course">Курс:</variable>
+  <variable name="print_module">Модуль:</variable>
+  <variable name="print_lessonContents">Сабақ мазмұны</variable>
+  <variable name="print_moduleContents">Модуль мазмұны</variable>
+  <variable name="print_topic">Бөлім:</variable>
+  <variable name="print_gameInstruction">Пункт нөмірін төмендегі сәйкес опциялар жолағына жазу арқылы пунктерді тиісті санаттарға сұрыптаңыз.</variable>
+  <variable name="print_statement">Мәлімдеме</variable>
+  <variable name="print_note">Ескертпе: Жауап келесі бетке шығады.</variable>
+  <variable name="print_categoryItems">Санат пунктері</variable>
+  <variable name="print_category1">1-санат</variable>
+  <variable name="print_category2">2-санат</variable>
+  <variable name="print_category3">3-санат</variable>
+  <variable name="print_keyPoints">Негізгі мәселелер</variable>
+  <variable name="print_transcript">Көшірме</variable>
+  <variable name="print_essayInstruction">Бұл сұраққа жауапты төмендегі бос орынға жазуға болады.</variable>
+  <variable name="print_adventureInstruction">Қол жетімді опциялар:</variable>
+  <variable name="print_adventureInfo">Бұл бөлім сценарий негізіндегі мазмұнды қамтиды. Әрбір параметрде 1-4 ықтимал қорытынды берілетін шешім тармағы ұсынылады. Бөлімде таңдауларға байланысты түрлі сценарийлер зерттеліп, таңдаулар бойынша нәтиже беріледі.&amp;lt;br&amp;gt;Төменде мазмұнның толық бір жолына арналған мазмұн берілген. Бөлімнің толық нұсқасын алу үшін курстың онлайндық нұсқасын пайдаланыңыз.</variable>
+  <variable name="print_adventurePage">Бет</variable>
+  <variable name="print_adventureOption">Бұл опция Бетке өткізеді</variable>
+  <variable name="print_adventureSelected">Таңдалған опция:</variable>
+
+  <variable name="print_interactiveQuestion">Сұрақ</variable>
+  <variable name="print_interactiveOptions">Қол жетімді опциялар:</variable>
+  <variable name="print_interactiveOptionInfo">Бұл опция сұраққа өткізеді</variable>
+  <variable name="print_interactiveDecisionInfo">Бұл опция шешімге өткізеді</variable>
+  <variable name="print_interactiveSelectedOption">Таңдалған опция:</variable>
+  <variable name="print_interactiveDecision">Шешім:</variable>
+  <variable name="print_interactiveOptionYes">Иә</variable>
+  <variable name="print_interactiveOptionNo">Жоқ</variable>
+  <variable name="print_interactiveInfo">Бұл бөлім сценарийлерді Иә/Жоқ сұрақтар тобы түрінде ұсынады. Таңдалған жауаптар, белсенді кері байланыс немесе кейінгі сұрақтар көрсетілген.&amp;lt;br&amp;gt;Төменде бір толық сұрақтар тобының мазмұны берілген. Бөлімнің толық нұсқасын алу үшін курстың онлайндық нұсқасын пайдаланыңыз.</variable>
+  <!--Slider variables-->
+  <variable name="print_introduction">Бұл бөлім төртке дейін болатын айнымалылар мен шешімнің арасындағы қатынасты зерттейді.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;Төменде осы бөлімге арналған айнымалылар мен айнымалылардың кейбір таңдау бойынша мәндерінің нәтижелері берілген. Бөлімнің толық нұсқасын алу үшін курстың онлайндық нұсқасын пайдаланыңыз.</variable>
+  <variable name="print_equation">Қорытынды теңдеу: </variable>
+  <variable name="print_input">Кіріс</variable>
+  <variable name="print_minimum">Ең аз</variable>
+  <variable name="print_maximum">Ең үлкен</variable>
+  <variable name="print_unit">Бірліктер</variable>
+  <variable name="print_example">Сценарий үлгісі</variable>
+  <variable name="print_tileInstruction">Әрбір мәлімдеме жұбы бойынша оң жақтағы бағанға белгі қою арқылы қайсысының дұрыс екенін көрсетіңіз.</variable>
+  <variable name="print_answer">Жауап</variable>
+  <variable name="print_trueFalse">Әрбір мәлімдеме үшін оң жақтағы бағанға белгі қою арқылы қайсысының дұрыс екенін көрсетіңіз.</variable>
+  <variable name="print_multipleChoice">Әрбір сұрақ үшін сол жақтағы бағанға таңба қою арқылы дұрыс жауапты көрсетіңіз.</variable>
+	<variable name="print_instruction">Дұрыс жауапты таңдаңыз.</variable>
+  <variable name="print_redirect">Бұл амалды тәжірибеде көру үшін бұл курстың онлайндық нұсқасын пайдаланыңыз.</variable>
+  <variable name="print_online_instruction">Нұсқау</variable>
+  <variable name="print_correct">Дұрыс жауапты кері жіберу:</variable>
+
+  <variable name="print_step">Қадам</variable>
+</localizedStrings>

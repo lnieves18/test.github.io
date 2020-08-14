@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="application/xhtml+xml;charset=UTF-8">
+		<script type="text/javascript" src="platform/ECMAScript/xmldom.js"></script>
+		<script type="text/javascript" src="platform/ECMAScript/pagebehavior.js"></script>
+		<script type="text/javascript" src="platform/ECMAScript/contentloader.js"></script>
+		<script type="text/javascript" src="platform/ECMAScript/flashpagecommunication.js"></script>
+		<script type="text/javascript" src="platform/ECMAScript/silverlight.js"></script>
+		<script type="text/javascript" src="platform/ECMAScript/silverlight_msl.js"></script>		
+		<script type="text/javascript" src="platform/ECMAScript/commontextbox.js"></script>
+		<script type="text/javascript" src="platform/ECMAScript/formattextbox.js"></script>
+		
+		<script type="text/javascript" src="platform/ECMAScript/findlmsapi.js"></script>
+		<script type="text/javascript" src="platform/ECMAScript/scormcode.js"></script>
+        <script language="javascript" type="text/javascript">
+        if(!window.ActiveXObject)
+        {
+            try {
+                document.addEventListener("mouseup", parent.divSep_onmouseup, false);
+                document.addEventListener("mousemove", parent.divSep_onmousemove, false);
+                document.addEventListener("mouseup", parent.searchFrame_mouseup, false);
+                document.addEventListener("mousemove", parent.divSep_onmousemoveFF, false);
+                document.addEventListener("mousemove", parent.tdResizeSearchFrame_onmousemove, false);
+            }
+            catch (e) { }
+        }
+        </script>
+		<link id="styleSheet" type="text/css" media="screen" rel="stylesheet" href="platform/styles/presentation.css" />
+		<style>input { width: 700px; } #display { font-size: 10px; }</style>
+		<title>Content Preview</title>
+	</head>
+	<body>
+		<iframe id="send" src="platform/comm/commsend.html" tabindex="-1"></iframe>
+		<iframe id="receive" src="platform/comm/commreceive.html" tabindex="-1"></iframe>
+
+		<div id="contentBlock">
+		</div>
+	</body>
+</html>

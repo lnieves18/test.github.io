@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<localizedStrings>
+<!-- These two variables should be localized in such a way it includes ALL extended (accented) characters for the language, such as á and Á. -->
+	<variable name="lowerCaseUnicodeCharacters">abcdefghijklmnopqrstuvwxyzáąäéęěíóôúůýčĺňŕřšž</variable>
+	<variable name="upperCaseUnicodeCharacters">ABCDEFGHIJKLMNOPQRSTUVWXYZÁĄÄÉĘĚÍÓÔÚŮÝČĹŇŔŘŠŽ</variable>
+
+
+
+<!-- XSLT variables. -->
+	<variable name="multipleChoice_title">Otázka</variable>
+	<variable name="multipleChoice_feedbackButton">OK</variable>
+	<variable name="multipleChoice_questionSelect">Vyberte nejvhodnější odpověď.</variable>
+	<variable name="activity_summaryHeading">Přehled</variable>
+	<variable name="activity_summaryButton">Start</variable>
+	<variable name="notes_heading">Poznámky</variable>
+	<variable name="notes_deleteWarningMessage">Opravdu chcete odstranit aktuální poznámku?</variable>
+	<variable name="readerAid_tip">Tip</variable>
+	<variable name="readerAid_caution">Pozor</variable>
+	<variable name="readerAid_warning">Upozornění</variable>
+	<variable name="readerAid_important">Důležité</variable>
+	<variable name="readerAid_note">Poznámka</variable>
+	<variable name="readerAid_studySheet">Studijní podklady</variable>
+	<variable name="animation_transcriptHeader">Přepis</variable>
+	<variable name="button_submit">Odeslat</variable>
+	<variable name="button_launch">Spustit</variable>
+	<variable name="demonstration_windowTitle">Ukázka</variable>
+	<variable name="demonstration_transcriptPrint">Klepnutím zobrazíte a vytisknete přepis pro tuto ukázku.</variable>
+	<variable name="demonstration_transcriptPrintWindowTitle">Přepis ukázky</variable>
+	<variable name="simulation_windowTitle">Simulace</variable>
+	<variable name="simulation_transcriptPrint">Klepnutím zobrazíte a vytisknete přepis pro tuto simulaci.</variable>
+	<variable name="simulation_transcriptPrintWindowTitle">Přepis simulace</variable>
+	<variable name="transcriptPrint_printPage">Vytisknout tuto stránku</variable>
+	<variable name="introduction_moduleTitle">Přehled modulu</variable>
+	<variable name="notes_printPageTitle">Vytisknout poznámky</variable>
+	<variable name="notes_printPageHeadingIntro">Poznámky: </variable>
+	<variable name="notes_saveButtonTitle">Uložit</variable>
+	<variable name="notes_saveAsFileButtonTitle">Uložit jako soubor</variable>
+	<variable name="notes_deleteButtonTitle">Odstranit</variable>
+	<variable name="notes_printButtonTitle">Tisk</variable>
+	<variable name="notes_noNotesToPrint">V této lekci jste si neuložili žádné poznámky.</variable>
+	<variable name="clickTable_instructions">Klepnutím na příslušnou položku zobrazíte další informace.</variable>
+<!--XSLT TrueFalse Variables-->
+	<variable name="trueFalse_title">Výkaz</variable>
+	<variable name="trueFalse_trueAnswer">Pravda</variable>
+	<variable name="trueFalse_falseAnswer">Nepravda</variable>
+  <variable name="trueFalse_selectAnswer">Vyberte správnou odpověď.</variable>
+
+  <!--ShowHide Variables-->
+  <variable name="showHide_ShowAll">Show All</variable>
+  <variable name ="showHide_HideAll">Hide All</variable>
+  <variable name ="showHide_Show">Show</variable>
+  <variable name ="showHide_Hide">Hide</variable>
+
+  <!--Essay question Variables-->
+  <variable name="essayQuestion_question">Otázka</variable>
+  <variable name="essayQuestion_answer">Odpověď</variable>
+  <variable name="essayQuestion_instruction">(maximálně 250 znaků)</variable>
+  <variable name="essayQuestion_submitInstruction">Jakmile odpověď odešlete, nebudete ji moci změnit.</variable>
+  <variable name="essayQuestion_answerInstruction">POZNÁMKA: Před opuštěním tohoto tématu klepněte na tlačítko Odeslat, jinak se text odpovědi ztratí. Formátování textu není povoleno.</variable>
+
+<!-- ECMAscript variables. -->
+	<!-- contentLoader.js -->
+	<variable name="xml_load">Nebylo možné načíst soubor XML.</variable>
+	<variable name="xsl_load">Nebylo možné načíst soubor XSL.</variable>
+	<!-- pageBehavior.js -->
+	<variable name="multipleChoice_feedbackCorrect">Správně</variable>
+	<variable name="multipleChoice_feedbackIncorrect">Nesprávně</variable>
+	<variable name="mediaPopUp_transcriptHeading">Přepis</variable>
+	<!-- scormcode.js -->
+	<variable name="notes_lmsNoSupport">Tento systém LMS nepodporuje poznámky.</variable>
+	<variable name="notes_lmsErrorRetrieve">Při načítání poznámek ze systému LMS došlo k chybě.</variable>
+	<variable name="notes_lmsExceededSpace">Překročili jste povolený rozsah poznámek.</variable>
+	<variable name="notes_lmsErrorSaving">Při ukládání poznámek do systému LMS došlo k chybě.</variable>
+
+<!-- Animation variables. -->
+	<variable name="anim_play">Přehrát</variable>
+	<variable name="anim_pause">Pozastavit</variable>
+	<variable name="anim_stop">Zastavit</variable>
+	<variable name="anim_fastForward">Převinout vpřed</variable>
+	<variable name="anim_rewind">Převinout zpět</variable>
+	<variable name="anim_mute">Ztlumit</variable>
+	<variable name="anim_sound">Zvuk</variable>
+
+<!-- Adventure variables. -->
+	<variable name="adventure_instructions">Vyberte libovolnou možnost ze seznamu níže.</variable>
+	<variable name="adventure_previous">Předchozí</variable>
+	<variable name="adventure_reset">Obnovit</variable>
+
+<!-- Drag and Drop variables. -->
+	<variable name="dragAndDrop_reset">OBNOVIT</variable>
+	<variable name="dragAndDrop_showAnswer">ODPOVĚĎ</variable>
+	<variable name="dragAndDrop_submit">ODESLAT</variable>
+	<variable name="dragAndDrop_drag">PŘETÁHNOUT</variable>
+	<variable name="dragAndDrop_drop">VLOŽIT</variable>
+	<variable name="dragAndDrop_correctMessage">Správně!</variable>
+	<variable name="dragAndDrop_incorrectMessage">Nesprávně. Klepněte na tlačítko Obnovit nebo Odpověď.</variable>
+	<variable name="dragAndDrop_correctDisplayed">Je zobrazena správná odpověď.</variable>
+
+<!-- Tile Game Variables. -->
+	<variable name="tileGame_gameOver">Konec hry</variable>
+	<variable name="tileGame_resetInstruction">Po klepnutí na tlačítko &lt;b&gt;Obnovit&lt;/b&gt; můžete hru zopakovat.</variable>
+	<variable name="tileGame_reset">OBNOVIT</variable>
+	<variable name="tileGame_turnsLeft">Zbývající počet pokusů:</variable>
+	<variable name="tileGame_congratulations">Výborně!</variable>
+	<variable name="tileGame_completedMessage">Dokončili jste tuto aktivitu.</variable>
+	<variable name="tileGame_submit">Odeslat</variable>
+	<variable name="tileGame_tileGame">Hra s kartami</variable>
+  <variable name="tile">Dlaždice</variable>
+  <variable name="hyphen"> - </variable>
+  <variable name="submit_Column">Odeslat sloupec</variable>
+  <variable name="submit_Row">Odeslat řádek</variable>
+
+      <!-- Flash Card Variables. -->
+  <variable name="flashCard_flip">Otočit</variable>
+  <variable name="flashCard_timeElapsed">Uplynulý čas</variable>
+  <variable name="flashCard_reset">Obnovit</variable>
+  <variable name="flashCard_submit">Odeslat</variable>
+  <variable name="flashCard_congratulations">Gratulujeme!</variable>
+  <variable name="flashCard_progress">Průběh</variable>
+  <variable name="flashCard_completedMessage">Dokončili jste tuto činnost.</variable>
+  
+  <!-- Sort Game Variables. -->
+  
+
+  
+
+	<variable name="sortGame_yourTime">K dokončení hlavolamu jste potřebovali</variable>
+	<variable name="sortGame_timeElapsed">Uplynulý čas</variable>
+	<variable name="sortGame_reset">Obnovit</variable>
+	<variable name="sortGame_answer">Odpověď</variable>
+	<variable name="sortGame_start">Start</variable>
+	<variable name="sortGame_congratulations">Výborně!</variable>
+	<variable name="sortGame_progress">Dokončeno</variable>
+	<variable name="sortGame_showAnswer">Zobrazit odpověď</variable>
+	<variable name="sortGame_close">Zavřít</variable>
+	<variable name="sortGame_answers">Odpovědi</variable>
+	<variable name="sortGame_instructions">Klepnutím na příslušný blok co nejrychleji roztřiďte padající položky do odpovídajících bloků. Můžete rovněž použít klávesové zkratky stisknutím klávesy 1 pro levý blok, 2 pro prostřední blok a 3 pro pravý blok (nebo v případě hry se dvěma bloky klávesy 1 pro levý blok a klávesy 2 pro pravý blok).</variable>
+
+<!-- Simulation Variables. -->
+	<variable name="simulation_continue">&lt;b&gt;Klepnutím můžete pokračovat.&lt;/b&gt;</variable>
+	<variable name="simulation_congratulations">&lt;b&gt;Výborně!&lt;/b&gt;</variable>
+	<variable name="simulation_performSteps">&lt;b&gt;Provést kroky&lt;/b&gt;</variable>
+	<variable name="simulation_help">Pokud potřebujete pomoc, klepněte na</variable>
+	<variable name="simulation_showMe">Ukázat</variable>
+	<variable name="simulation_viewScenario">Zobrazit &lt;b&gt;scénář&lt;/b&gt;</variable>
+	<variable name="simulation_print">&lt;b&gt;Tisk&lt;/b&gt;</variable>
+	<variable name="simulation_copyright">&lt;b&gt; &lt;/b&gt;</variable>
+	<variable name="simulation_note">&lt;b&gt;Poznámka&lt;/b&gt;</variable>
+	<variable name="simulation_caution">&lt;b&gt;Pozor&lt;/b&gt;</variable>
+	<variable name="simulation_finish">DOKONČIT</variable>
+	<variable name="simulation_tryAgain">ZOPAKOVAT</variable>
+	<variable name="simulation_scenario">&lt;b&gt;Scénář a více&lt;/b&gt;</variable>
+	<variable name="simulation_step">&lt;b&gt;Krok&lt;/b&gt;</variable>
+	<variable name="simulation_of">&lt;b&gt;z&lt;/b&gt;</variable>
+	<variable name="simulation_next">Další</variable>
+	<variable name="simulation_previous">Předchozí</variable>
+	<variable name="simulation_printSteps">Vytisknout kroky</variable>
+	<variable name="simulation_loading">Načítání...</variable>
+	<variable name="simulation_feedback">&lt;b&gt;Zpětná vazba&lt;/b&gt;</variable>
+	<variable name="simulation_message">&lt;b&gt;Zpráva&lt;/b&gt;</variable>
+	<variable name="simulation_ok">&lt;b&gt;OK&lt;/b&gt;</variable>
+	<variable name="simulation_stepList">Seznam kroků cvičení</variable>
+	<variable name="simulation_printContents">Vytisknout obsah stránky</variable>
+
+<!-- Content Wheel Variables. -->
+	<variable name="contentWheel_textView">Textové zobrazení</variable>
+	<variable name="contentWheel_wheelView">Ikonové zobrazení</variable>
+	<variable name="contentWheel_introduction">Úvod</variable>
+	<variable name="contentWheel_finish1">Vyzkoušet se</variable>
+	<variable name="contentWheel_finish2">Shrnutí</variable>
+	<variable name="contentWheel_finish3">Opakování</variable>
+	<variable name="contentWheel_finish4">Cvičení</variable>
+	<variable name="contentWheel_finish5">Materiály</variable>
+	<variable name="contentWheel_help">Nápověda</variable>
+
+<!-- VOE Variables. -->
+	<variable name="voe_transcript">Přepis</variable>
+	<variable name="voe_play">Přehrát</variable>
+	<variable name="voe_pause">Pozastavit</variable>
+	<variable name="voe_showTranscript">Zobrazit přepis</variable>
+	<variable name="voe_hideTranscript">Skrýt přepis</variable>
+	<variable name="voe_titleVoiceOfTheExpert">Slovo odborníka</variable>
+	<variable name="voe_titleModuleTip">Tip k modulu</variable>
+
+<!-- Media Variables. -->
+  <variable name="media_transcriptPrint">Klepnutím zobrazíte a vytisknete přepis tohoto média.</variable>
+  <variable name="media_transcriptPrintWindowTitle">Přepis média</variable>
+  <variable name="media_KeyPointsHeader">Klíčové body</variable>
+  <variable name="media_KeyPointsText">Klepnutím na klíčový bod zobrazíte přidružený segment videa.</variable>
+  <variable name="media_TotalTime">Celkový čas</variable>
+  <variable name="media_playTip">Přehrát</variable>
+  <variable name="media_pauseTip">Pozastavit</variable>
+  <variable name="media_stopTip">Zastavit</variable>
+  <variable name="media_muteTip">Ztlumit</variable>
+  <variable name="media_soundTip">Zvuk</variable>
+  <variable name="media_seekTip">Hledat</variable>
+  <variable name="media_playingText">Přehrávání</variable>
+  <variable name="media_pausedText">Pozastaveno</variable>
+  <variable name="media_stoppedText">Zastaveno</variable>
+
+  <variable name="media_fullscreenTip">Celá obrazovka</variable>
+<variable name="media_ccTip">Skryté titulky</variable>
+
+
+  <!--Interactive Job aid Variables. -->
+  
+
+  
+
+  <variable name="interactive_yes">&lt;b&gt;ANO&lt;/b&gt;</variable>
+  <variable name="interactive_no">&lt;b&gt;NE&lt;/b&gt;</variable>
+  <variable name="interactive_reset">Obnovit</variable>
+  <variable name="interactive_decision">ROZHODNUTÍ</variable>
+  <variable name="interactive_undefined">Pro tuto možnost nebyla definována otázka nebo rozhodnutí. Klepněte na položku Obnovit a opakujte akci.</variable>
+  <variable name="interactive_undefinedQuestion">Otázka nebyla definována.</variable>
+  
+  <!--Sequencing variables-->
+  <variable name="sequence_reset">OBNOVIT</variable>
+  <variable name="sequence_showAnswer">UKÁZAT ODPOVĚĎ</variable>
+  <variable name="sequence_submit">ODESLAT</variable>
+  <variable name="sequence_shuffled">NÁHODNÉ POŘADÍ</variable>
+  <variable name="sequence_sequenced">SEŘAZENO</variable>
+  <variable name="sequence_correctMessage">To je správná odpověď!</variable>
+  <variable name="sequence_incorrectMessage">Špatně. Klepněte na tlačítko Obnovit nebo Ukázat odpověď.</variable>
+  <variable name="sequence_correctDisplayed">Byla odkryta správná odpověď.</variable>
+
+ 
+<!-- How To Use Content Wheel Help -->
+	<variable name="howToUse_toNavigate">Pro procházení tématy v lekci můžete používat &lt;b&gt;Ikonové zobrazení&lt;/b&gt; nebo &lt;b&gt;Textové zobrazení&lt;/b&gt;. &lt;br&gt; &lt;br&gt;V obou zobrazeních můžete jednotlivá témata procházet v libovolném pořadí.</variable>
+	<variable name="howToUse_read">Část &lt;b&gt;Číst&lt;/b&gt; obsahuje text, tabulky a grafiku.</variable>
+	<variable name="howToUse_watch">Část &lt;b&gt;Sledovat&lt;/b&gt; obsahuje animace, ukázky a videa.</variable>
+	<variable name="howToUse_interact">Část &lt;b&gt;Interakce&lt;/b&gt; obsahuje interaktivní obsah, jako jsou multimediální aktivity a krátké simulace.</variable>
+	<variable name="howToUse_play">Část &lt;b&gt;Hrát&lt;/b&gt; obsahuje hry.</variable>
+	<variable name="howToUse_try">Část &lt;b&gt;Vyzkoušet&lt;/b&gt; obsahuje simulace uživatelského rozhraní a cvičení, na nichž si můžete vyzkoušet, co jste se naučili.</variable>
+	<variable name="howToUse_code">Část &lt;b&gt;Kód&lt;/b&gt; obsahuje příklady kódu, které se zobrazují v oknech nebo tabulkách.</variable>
+
+<!-- Virtual Lab variables -->
+	<variable name="vlab_offlineError">Cvičení není k dispozici. Cvičení nejsou k dispozici z přehrávače offline. Pokud nepoužíváte přehrávač offline, ověřte své připojení k Internetu a zkuste cvičení spustit znovu.</variable>
+
+   <!--For EK manifest transformation-->
+  <variable name="topic_Title">Témata</variable>
+  
+  <!--Print Variables-->
+  
+
+  
+
+  <variable name="print_version">Print Version</variable>
+  <variable name="print_tocHeader">Table of Contents</variable>
+  <variable name="print_course">Course:</variable>
+  <variable name="print_module">Module:</variable>
+  <variable name="print_lessonContents">Lesson Contents</variable>
+  <variable name="print_moduleContents">Module Contents</variable>
+  <variable name="print_topic">Topic:</variable>
+  <variable name="print_gameInstruction">Sort the items into their associated categories by writing the item number in its corresponding option box below.</variable>
+  <variable name="print_statement">Statement</variable>
+  <variable name="print_note">Note: Answers appear on the next page.</variable>
+  <variable name="print_categoryItems">Category Items</variable>
+  <variable name="print_category1">Category 1</variable>
+  <variable name="print_category2">Category 2</variable>
+  <variable name="print_category3">Category 3</variable>
+  <variable name="print_keyPoints">Key Points</variable>
+  <variable name="print_transcript">Transcript</variable>
+  <variable name="print_essayInstruction">Answer for this question can be written in the space provided below.</variable>
+  <variable name="print_adventureInstruction">Available options:</variable>
+  <variable name="print_adventureInfo">This topic contains scenario based content. Each option offers a decision point with 1 to 4 possible outcomes. The topic explores various scenarios based on the choices, and presents an outcome based upon the choices.&lt;br&gt;Below is the content for one complete path of content. For the complete version of the topic, please use the online version of the course.</variable>
+  <variable name="print_adventurePage">Page</variable>
+  <variable name="print_adventureOption">This option leads to Page</variable>
+  <variable name="print_adventureSelected">Selected Option:</variable>
+
+  <variable name="print_interactiveQuestion">Question</variable>
+  <variable name="print_interactiveOptions">Available Options:</variable>
+  <variable name="print_interactiveOptionInfo">This option leads to Question</variable>
+  <variable name="print_interactiveDecisionInfo">This option leads to a decision</variable>
+  <variable name="print_interactiveSelectedOption">Selected Option:</variable>
+  <variable name="print_interactiveDecision">Decision:</variable>
+  <variable name="print_interactiveOptionYes">Yes</variable>
+  <variable name="print_interactiveOptionNo">No</variable>
+  <variable name="print_interactiveInfo">This topic presents scenarios in the form of a series of Yes/No questions. Based on the selected answers, dynamic feedback or subsequent questions are shown.&lt;br&gt;Below is the content for one complete series of questions. For the complete version of the topic, please use the online version of the course.</variable>
+  <variable name="print_introduction">This topic explores the relationships between up to four variables and a given outcome.&lt;br&gt;&lt;br&gt;Below are the variables used for this topic, and the results for some sample values of the variables. For the complete version of the topic, please use the online version of the course.</variable>
+  <variable name="print_equation">Output Equation: </variable>
+  <variable name="print_input">Input</variable>
+  <variable name="print_minimum">Minimum</variable>
+  <variable name="print_maximum">Maximum</variable>
+  <variable name="print_unit">Units</variable>
+  <variable name="print_example">Example Scenario</variable>
+  <variable name="print_tileInstruction">For each pair of statements, indicate which is true by placing a mark in the column to the right.</variable>
+  <variable name="print_answer">Answer</variable>
+  <variable name="print_trueFalse">For each statement, indicate which is true by placing a mark in the column to the right.</variable>
+  <variable name="print_multipleChoice">For each question, indicate the correct answer by placing a mark in the column to the left.</variable>
+	<variable name="print_instruction">Select the correct answer.</variable>
+  <variable name="print_redirect">Please use the online version of the course to experience this activity.</variable>
+  <variable name="print_online_instruction">Instruction</variable>
+  <variable name="print_correct">Correct Answer Feedback:</variable>
+
+  <variable name="print_step">Step</variable>
+</localizedStrings>
+

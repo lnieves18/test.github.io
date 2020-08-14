@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+  <!-- sort game variables. -->
+  <variable name="sortGame_numOfDroppersOnScreen">4</variable>
+  <variable name="sortGame_startXCoorDropper">293</variable>
+  <variable name="sortGame_startYCoorDropper">0</variable>
+  <variable name="sortGame_dropperSpeed">7</variable>
+  <variable name="sortGame_xSpeedCorrect">25</variable>
+  <variable name="sortGame_ySpeedCorrect">15</variable>
+  <variable name="sortGame_dropperSpeed">7</variable>
+  <variable name="sortGame_incorrectSpeed">30</variable>
+  <!-- tile game variables. -->
+  <variable name="tileGame_numOfLevels">1</variable>
+  <variable name="tileGame_masterLevel">1</variable>
+  <!-- simulation variables. -->
+  <variable name="simulation_mainFont">Tahoma</variable>
+  <variable name="simulation_altBgColor">0xFFF4D5</variable>
+  <variable name="simulation_stepDelay">1000</variable>
+  <variable name="simulation_clickDelay">0</variable>
+  <variable name="simulation_cursorSpeed">20</variable>
+  <variable name="simulation_cursorSpeedChange">25</variable>
+  <variable name="simulation_removeCursorDelay">1000</variable>
+  <variable name="simulation_clickAccuracy">1</variable>
+  <variable name="simulation_doubleClickInterval">250</variable>
+  <variable name="simulation_feedbackAdjust">1</variable>
+  <variable name="simulation_showMePauseLength">500</variable>
+  <variable name="simulation_showMeLongPause">2000</variable>
+  <!-- virtual machine lab support -->
+  <variable name="vmLab_support">false</variable>
+  <!-- assessment support -->
+  <variable name="assessments_persistResultsInLms">false</variable>
+  <!-- assessment feedback variable-->
+  <variable name="assessments_displayFeedback">true</variable>
+  <!-- silverlight variables. -->
+  <variable name="silverlight_required">false</variable>
+  <variable name="silverlight_minimumVersion">1.0.20926.0</variable>
+  <variable name="silverlight_captionMediaSupported">true</variable>
+  <variable name="silverlight_sortGameSupported">true</variable>
+  <variable name="silverlight_dragAndDropSupported">true</variable>
+  <variable name="silverlight_adventureSupported">true</variable>
+  <variable name="silverlight_tileFlipSupported">true</variable>
+</settings>

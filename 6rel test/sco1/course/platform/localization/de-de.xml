@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<localizedStrings>
+<!-- These two variables should be localized in such a way it includes ALL extended (accented) characters for the language, such as á and Á. -->
+	<variable name="lowerCaseUnicodeCharacters">abcdefghijklmnopqrstuvwxyzäöü</variable>
+	<variable name="upperCaseUnicodeCharacters">ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜ</variable>
+
+
+
+<!-- XSLT variables. -->
+	<variable name="multipleChoice_title">Frage</variable>
+	<variable name="multipleChoice_feedbackButton">OK</variable>
+	<variable name="multipleChoice_questionSelect">Wählen Sie die richtige Antwort aus.</variable>
+	<variable name="activity_summaryHeading">Übersicht</variable>
+	<variable name="activity_summaryButton">Start</variable>
+	<variable name="notes_heading">Meine Notizen</variable>
+	<variable name="notes_deleteWarningMessage">Möchten Sie die aktuelle Notiz wirklich löschen?</variable>
+	<variable name="readerAid_tip">Tipp</variable>
+	<variable name="readerAid_caution">Achtung</variable>
+	<variable name="readerAid_warning">Warnung</variable>
+	<variable name="readerAid_important">Wichtig</variable>
+	<variable name="readerAid_note">Hinweis</variable>
+	<variable name="readerAid_studySheet">Arbeitsblatt</variable>
+	<variable name="animation_transcriptHeader">Textfassung</variable>
+	<variable name="button_submit">Prüfen</variable>
+	<variable name="button_launch">Starten</variable>
+	<variable name="demonstration_windowTitle">Demo</variable>
+	<variable name="demonstration_transcriptPrint">Klicken Sie hier, um die Textfassung für diese Demo anzuzeigen und zu drucken.</variable>
+	<variable name="demonstration_transcriptPrintWindowTitle">Textfassung zur Demo</variable>
+	<variable name="simulation_windowTitle">Simulation</variable>
+	<variable name="simulation_transcriptPrint">Klicken Sie hier, um die Textfassung für diese Simulation anzuzeigen und zu drucken.</variable>
+	<variable name="simulation_transcriptPrintWindowTitle">Textfassung zur Simulation</variable>
+	<variable name="transcriptPrint_printPage">Seite drucken.</variable>
+	<variable name="introduction_moduleTitle">Übersicht über die Unterrichtseinheit</variable>
+	<variable name="notes_printPageTitle">Notizen drucken</variable>
+	<variable name="notes_printPageHeadingIntro">Notizen: </variable>
+	<variable name="notes_saveButtonTitle">Speichern</variable>
+	<variable name="notes_saveAsFileButtonTitle">Speichern als Datei</variable>
+	<variable name="notes_deleteButtonTitle">Löschen</variable>
+	<variable name="notes_printButtonTitle">Drucken</variable>
+	<variable name="notes_noNotesToPrint">Sie haben in dieser Lektion keine Notizen gespeichert.</variable>
+	<variable name="clickTable_instructions">Klicken Sie auf ein Element, um weitere Informationen anzuzeigen.</variable>
+
+<!--XSLT TrueFalse Variables-->
+	<variable name="trueFalse_title">Aussage</variable>
+	<variable name="trueFalse_trueAnswer">Trifft zu</variable>
+	<variable name="trueFalse_falseAnswer">Trifft nicht zu</variable>
+  <variable name="trueFalse_selectAnswer">Wählen Sie die richtige Antwort aus.</variable>
+
+  <!--ShowHide Variables-->
+  <variable name="showHide_ShowAll">Alles anzeigen</variable>
+  <variable name="showHide_HideAll">Alles ausblenden</variable>
+  <variable name="showHide_Show">Anzeigen</variable>
+  <variable name="showHide_Hide">Ausblenden</variable>
+
+  <!--Essay question Variables-->
+  <variable name="essayQuestion_question">Frage</variable>
+  <variable name="essayQuestion_answer">Antwort</variable>
+  <variable name="essayQuestion_instruction">(max. 250 Zeichen)</variable>
+  <variable name="essayQuestion_submitInstruction">Nach dem Senden können Sie Ihre Antwort nicht mehr überarbeiten.</variable>
+  <variable name="essayQuestion_answerInstruction">HINWEIS: Wenn Sie zu einer anderen Seite navigieren, ohne zuvor auf "Senden" zu klicken, geht der Antworttext verloren. Textformatierungen werden nicht angenommen.</variable>
+
+<!-- ECMAscript variables. -->
+	<!-- contentLoader.js -->
+	<variable name="xml_load">XML-Datei konnte nicht geladen werden.</variable>
+	<variable name="xsl_load">XSL-Datei konnte nicht geladen werden.</variable>
+	<!-- pageBehavior.js -->
+	<variable name="multipleChoice_feedbackCorrect">Richtig</variable>
+	<variable name="multipleChoice_feedbackIncorrect">Falsch</variable>
+	<variable name="mediaPopUp_transcriptHeading">Textfassung</variable>
+	<!-- scormcode.js -->
+	<variable name="notes_lmsNoSupport">Diese Lernplattform unterstützt keine Notizen.</variable>
+	<variable name="notes_lmsErrorRetrieve">Fehler beim Abrufen der Notizen von der Lernplattform.</variable>
+	<variable name="notes_lmsExceededSpace">Sie haben das zugelassene Inhaltsvolumen für Notizen überschritten.</variable>
+	<variable name="notes_lmsErrorSaving">Fehler beim Speichern der Notizen auf der Lernplattform.</variable>
+
+<!-- Animation variables. -->
+	<variable name="anim_play">Wiedergabe</variable>
+	<variable name="anim_pause">Anhalten</variable>
+	<variable name="anim_stop">Stopp</variable>
+	<variable name="anim_fastForward">Schneller Vorlauf</variable>
+	<variable name="anim_rewind">Rücklauf</variable>
+	<variable name="anim_mute">Ton aus</variable>
+	<variable name="anim_sound">Ton</variable>
+
+<!-- Adventure variables. -->
+	<variable name="adventure_instructions">Wählen Sie eine beliebige Option aus der Liste unten aus.</variable>
+	<variable name="adventure_previous">Zurück</variable>
+	<variable name="adventure_reset">Zurücksetzen</variable>
+
+<!-- Drag and Drop variables. -->
+	<variable name="dragAndDrop_reset">ZURÜCK</variable>
+	<variable name="dragAndDrop_showAnswer">ANTWORT ANZ.</variable>
+	<variable name="dragAndDrop_submit">PRÜFEN</variable>
+	<variable name="dragAndDrop_drag">ZIEHEN</variable>
+	<variable name="dragAndDrop_drop">ABLEGEN</variable>
+	<variable name="dragAndDrop_correctMessage">Richtig!</variable>
+	<variable name="dragAndDrop_incorrectMessage">Falsch. Klicken Sie auf Zurücksetzen oder Antwort anzeigen.</variable>
+	<variable name="dragAndDrop_correctDisplayed">Die richtige Antwort wird angezeigt.</variable>
+
+<!-- Tile Game Variables. -->
+	<variable name="tileGame_gameOver">Game Over</variable>
+	<variable name="tileGame_resetInstruction">Klicken Sie auf &lt;b&gt;Zurück&lt;/b&gt;, um das Spiel zu wiederholen.</variable>
+	<variable name="tileGame_reset">ZURÜCK</variable>
+	<variable name="tileGame_turnsLeft">Verbleibende Drehungen:</variable>
+	<variable name="tileGame_congratulations">Glückwunsch</variable>
+	<variable name="tileGame_completedMessage">Sie haben diesen Vorgang abgeschlossen.</variable>
+	<variable name="tileGame_submit">Prüfen</variable>
+	<variable name="tileGame_tileGame">Drehspiel</variable>
+  <variable name="tile">Kachel</variable>
+  <variable name="hyphen"> - </variable>
+  <variable name="submit_Column">Spalte senden</variable>
+  <variable name="submit_Row">Zeile senden</variable>
+
+      <!-- Flash Card Variables. -->
+  <variable name="flashCard_flip">Umblättern</variable>
+  <variable name="flashCard_timeElapsed">Verstrichene Zeit</variable>
+  <variable name="flashCard_reset">Zurücksetzen</variable>
+  <variable name="flashCard_submit">Senden</variable>
+  <variable name="flashCard_congratulations">Herzlichen Glückwunsch!</variable>
+  <variable name="flashCard_progress">Fortschritt</variable>
+  <variable name="flashCard_completedMessage">Sie haben diese Aktivität abgeschlossen.</variable>
+  
+  <!-- Sort Game Variables. -->
+  
+
+  
+
+	<variable name="sortGame_yourTime">Sie haben die Sortieraufgabe abgeschlossen. Benötigte Zeit:</variable>
+	<variable name="sortGame_timeElapsed">Abgelaufene Zeit</variable>
+	<variable name="sortGame_reset">Zurücksetzen</variable>
+	<variable name="sortGame_answer">Antwort</variable>
+	<variable name="sortGame_start">Start</variable>
+	<variable name="sortGame_congratulations">Glückwunsch</variable>
+	<variable name="sortGame_progress">Status</variable>
+	<variable name="sortGame_showAnswer">Antwort anzeigen</variable>
+	<variable name="sortGame_close">Schließen</variable>
+	<variable name="sortGame_answers">Antworten</variable>
+	<variable name="sortGame_instructions">Sortieren Sie die Dialogfeldelemente so schnell wie möglich in die zugehörigen Kategorien, indem Sie auf den entsprechenden Behälter klicken. Sie können auch Tastenkombinationen verwenden: Klicken Sie für den linken Behälter auf 1, für den mittleren auf 2 und für den rechten auf 3 bzw. für den linken Behälter auf 1 und für den rechten auf 2, wenn es in dem Spiel nur zwei Behälter gibt.</variable>
+
+<!-- Simulation Variables. -->
+	<variable name="simulation_continue">&lt;b&gt;Zum Fortfahren hier klicken&lt;/b&gt;</variable>
+	<variable name="simulation_congratulations">&lt;b&gt;Glückwunsch&lt;/b&gt;</variable>
+	<variable name="simulation_performSteps">&lt;b&gt;Führen Sie die Schritte aus.&lt;/b&gt;</variable>
+	<variable name="simulation_help">Hilfe erhalten Sie durch Klicken auf</variable>
+	<variable name="simulation_showMe">Hilfe</variable>
+	<variable name="simulation_viewScenario">&lt;b&gt;&lt;u&gt;Szenario&lt;/u&gt;&lt;/b&gt; anzeigen.</variable>
+	<variable name="simulation_print">&lt;b&gt;Drucken&lt;/b&gt;</variable>
+	<variable name="simulation_copyright">&lt;b&gt; &lt;/b&gt;</variable>
+	<variable name="simulation_note">&lt;b&gt;Hinweis&lt;/b&gt;</variable>
+	<variable name="simulation_caution">&lt;b&gt;Achtung&lt;/b&gt;</variable>
+	<variable name="simulation_finish">FERTIG STELLEN</variable>
+	<variable name="simulation_tryAgain">NOCH EINMAL</variable>
+	<variable name="simulation_scenario">&lt;b&gt;Szenario und mehr&lt;/b&gt;</variable>
+	<variable name="simulation_step">&lt;b&gt;Schritt&lt;/b&gt;</variable>
+	<variable name="simulation_of">&lt;b&gt;von&lt;/b&gt;</variable>
+	<variable name="simulation_next">Weiter</variable>
+	<variable name="simulation_previous">Zurück</variable>
+	<variable name="simulation_printSteps">Schritte drucken</variable>
+	<variable name="simulation_loading">Wird geladen…</variable>
+	<variable name="simulation_feedback">&lt;b&gt;Feedback&lt;/b&gt;</variable>
+	<variable name="simulation_message">&lt;b&gt;Nachricht&lt;/b&gt;</variable>
+	<variable name="simulation_ok">&lt;b&gt;OK&lt;/b&gt;</variable>
+	<variable name="simulation_stepList">Schrittliste für Übung</variable>
+	<variable name="simulation_printContents">Seiteninhalt drucken</variable>
+
+<!-- Content Wheel Variables. -->
+	<variable name="contentWheel_textView">Textansicht</variable>
+	<variable name="contentWheel_wheelView">Radansicht</variable>
+	<variable name="contentWheel_introduction">Einführung</variable>
+	<variable name="contentWheel_finish1">Selbsttest</variable>
+	<variable name="contentWheel_finish2">Zusammenfas.</variable>
+	<variable name="contentWheel_finish3">Überprüfen</variable>
+	<variable name="contentWheel_finish4">Übungs-Check</variable>
+	<variable name="contentWheel_finish5">Ressourcen</variable>
+	<variable name="contentWheel_help">Hilfe</variable>
+
+<!-- VOE Variables. -->
+	<variable name="voe_transcript">Textfassung</variable>
+	<variable name="voe_play">Wiedergabe</variable>
+	<variable name="voe_pause">Anhalten</variable>
+	<variable name="voe_showTranscript">Textfassung anzeigen</variable>
+	<variable name="voe_hideTranscript">Textfassung ausblenden</variable>
+	<variable name="voe_titleVoiceOfTheExpert">Professionelle Anleitung</variable>
+	<variable name="voe_titleModuleTip">Tipp zur Unterrichtseinheit</variable>
+
+<!-- Media Variables. -->
+  <variable name="media_transcriptPrint">Klicken Sie hier, um die Liste für diese Medien anzuzeigen und zu drucken.</variable>
+  <variable name="media_transcriptPrintWindowTitle">Medienliste</variable>
+  <variable name="media_KeyPointsHeader">Schlüsselpunkte</variable>
+  <variable name="media_KeyPointsText">Klicken Sie auf einen Schlüsselpunkt, um das verknüpfte Videosegment anzuzeigen.</variable>
+  <variable name="media_TotalTime">Gesamtdauer</variable>
+  <variable name="media_playTip">Wiedergabe</variable>
+  <variable name="media_pauseTip">Anhalten</variable>
+  <variable name="media_stopTip">Stopp</variable>
+  <variable name="media_muteTip">Ton aus</variable>
+  <variable name="media_soundTip">Ton</variable>
+  <variable name="media_seekTip">Suchen</variable>
+  <variable name="media_playingText">Wiedergabe</variable>
+  <variable name="media_pausedText">Angehalten</variable>
+  <variable name="media_stoppedText">Beendet</variable>
+
+  <variable name="media_fullscreenTip">Vollbild</variable>
+<variable name="media_ccTip">Untertitel</variable>
+
+
+  <!--Interactive Job aid Variables. -->
+  
+
+  
+
+  <variable name="interactive_yes">&lt;b&gt;JA&lt;/b&gt;</variable>
+  <variable name="interactive_no">&lt;b&gt;NEIN&lt;/b&gt;</variable>
+  <variable name="interactive_reset">Zurücksetzen</variable>
+  <variable name="interactive_decision">ENTSCHEIDUNG</variable>
+  <variable name="interactive_undefined">Für diese Option wurde keine Frage/Entscheidung definiert. Klicken Sie auf "Zurücksetzen", um erneut zu starten.</variable>
+  <variable name="interactive_undefinedQuestion">Die Frage wurde nicht definiert.</variable>
+  
+  <!--Sequencing variables-->
+  <variable name="sequence_reset">ZURÜCKSETZEN</variable>
+  <variable name="sequence_showAnswer">ANTWORT ANZEIGEN</variable>
+  <variable name="sequence_submit">SENDEN</variable>
+  <variable name="sequence_shuffled">ZUFÄLLIG</variable>
+  <variable name="sequence_sequenced">NACHEINANDER</variable>
+  <variable name="sequence_correctMessage">Richtig!</variable>
+  <variable name="sequence_incorrectMessage">Falsch. Klicken Sie auf "Zurücksetzen" oder "Antwort anzeigen".</variable>
+  <variable name="sequence_correctDisplayed">Die richtige Antwort wird angezeigt.</variable>
+
+ 
+<!-- How To Use Content Wheel Help -->
+	<variable name="howToUse_toNavigate">Um durch die verschiedenen Themen zu navigieren, können Sie entweder die &lt;b&gt;Symbolansicht&lt;/b&gt; oder die &lt;b&gt;Textansicht&lt;/b&gt; verwenden. &lt;br&gt; &lt;br&gt;Sie können die Themen in beliebiger Reihenfolge in der Symbolansicht oder der Textansicht anzeigen.</variable>
+	<variable name="howToUse_read">&lt;b&gt;Lesen&lt;/b&gt; beinhaltet Text, Tabellen und Grafiken.</variable>
+	<variable name="howToUse_watch">&lt;b&gt;Ansehen&lt;/b&gt; beinhaltet Animationen, Vorführungen und Videos.</variable>
+	<variable name="howToUse_interact">&lt;b&gt;Mitmachen&lt;/b&gt; beinhaltet interaktiven Inhalt wie Multimedia-Interaktivitäten und kleine Simulationen.</variable>
+	<variable name="howToUse_play">&lt;b&gt;Spielen&lt;/b&gt; beinhaltet Spiele.</variable>
+	<variable name="howToUse_try">&lt;b&gt;Ausprobieren&lt;/b&gt; beinhaltet Simulationen oder Übungen mit der Benutzeroberfläche, in denen Sie das Gelernte ausprobieren können.</variable>
+	<variable name="howToUse_code">&lt;b&gt;Code&lt;/b&gt; beinhaltet Codebeispiele in Popup-Fenstern oder Tabellen.</variable>
+
+<!-- Virtual Lab variables -->
+	<variable name="vlab_offlineError">Die Übungseinheit ist nicht verfügbar. Der Offline-Player kann nicht auf die Übungseinheit zugreifen. Wenn Sie den Offline-Player nicht verwenden, stellen Sie sicher, dass Sie über eine Internetverbindung verfügen, und starten Sie die Übungseinheit erneut.</variable>
+
+   <!--For EK manifest transformation-->
+  <variable name="topic_Title">Themen</variable>
+  
+  <!--Print Variables-->
+  
+
+  
+
+  <variable name="print_version">Druckversion</variable>
+  <variable name="print_tocHeader">Inhalt</variable>
+  <variable name="print_course">Kurs:</variable>
+  <variable name="print_module">Modul:</variable>
+  <variable name="print_lessonContents">Lektionsinhalte</variable>
+  <variable name="print_moduleContents">Modulinhalte</variable>
+  <variable name="print_topic">Thema:</variable>
+  <variable name="print_gameInstruction">Sortieren der Elemente in den passenden Kategorien , indem Sie die Elementnummer unten in die entsprechenden Optionsfelder eintragen.</variable>
+  <variable name="print_statement">Aussage</variable>
+  <variable name="print_note">Hinweis: Die Antworten werden auf der nächsten Seite angezeigt.</variable>
+  <variable name="print_categoryItems">Kategorieelemente</variable>
+  <variable name="print_category1">Kategorie 1</variable>
+  <variable name="print_category2">Kategorie 2</variable>
+  <variable name="print_category3">Kategorie 3</variable>
+  <variable name="print_keyPoints">Schlüsselpunkte</variable>
+  <variable name="print_transcript">Textfassung</variable>
+  <variable name="print_essayInstruction">Antworten auf diese Frage können im Bereich untern eingegeben werden.</variable>
+  <variable name="print_adventureInstruction">Verfügbare Optionen:</variable>
+  <variable name="print_adventureInfo">Dieses Thema enthält szenariobasierten Inhalt. Jede Option bietet einen Entscheidungspunkt mit ein bis vier möglichen Ergebnissen. In diesem Thema werden verschiedene Szenarien auf Basis der jeweiligen Auswahl angenommen. Abschließend wird ein auf der Auswahl basierendes Ergebnis angezeigt.&lt;br&gt;Unten wird der Inhalt für einen vollständigen Inhaltspfad angezeigt. Die vollständige Version des Themas finden Sie in der Onlineversion des Kurses.</variable>
+  <variable name="print_adventurePage">Seite</variable>
+  <variable name="print_adventureOption">Diese Option führt zu "Seite".</variable>
+  <variable name="print_adventureSelected">Ausgewählte Option:</variable>
+
+  <variable name="print_interactiveQuestion">Frage</variable>
+  <variable name="print_interactiveOptions">Verfügbare Optionen:</variable>
+  <variable name="print_interactiveOptionInfo">Diese Option führt zu "Frage".</variable>
+  <variable name="print_interactiveDecisionInfo">Diese Option führt zu einer Entscheidung.</variable>
+  <variable name="print_interactiveSelectedOption">Ausgewählte Option:</variable>
+  <variable name="print_interactiveDecision">Entscheidung:</variable>
+  <variable name="print_interactiveOptionYes">Ja</variable>
+  <variable name="print_interactiveOptionNo">Nein</variable>
+  <variable name="print_interactiveInfo">In diesem Thema werden Szenarien in Form einer Reihe von Ja-/Nein-Fragen präsentiert. Auf Grundlage der ausgewählten Antworten wird entweder dynamisches Feedback, oder es werden Folgefragen angezeigt.&lt;br&gt;Unten wird der Inhalt für eine vollständige Reihe von Fragen angezeigt. Die vollständige Version des Themas finden Sie in der Onlineversion des Kurses.</variable>
+  <variable name="print_introduction">In diesem Thema werden die Beziehungen zwischen bis zu vier Variablen und einem bestimmten Ergebnis erläutert.&lt;br&gt;&lt;br&gt;Unten werden die für dieses Thema verwendeten Variablen und die Ergebnisse für einige Beispielswerte der Variablen angezeigt. Die vollständige Version des Themas finden Sie in der Onlineversion des Kurses.</variable>
+  <variable name="print_equation">Ergebnisgleichung: </variable>
+  <variable name="print_input">Eingabe</variable>
+  <variable name="print_minimum">Minimum</variable>
+  <variable name="print_maximum">Maximum</variable>
+  <variable name="print_unit">Einheiten</variable>
+  <variable name="print_example">Beispielszenario</variable>
+  <variable name="print_tileInstruction">Kennzeichnen Sie bei jedem Aussagepaar die zutreffende Aussage, indem Sie in die Spalte rechts ein Häkchen setzen.</variable>
+  <variable name="print_answer">Antwort</variable>
+  <variable name="print_trueFalse">Kennzeichnen Sie bei jeder Aussage die zutreffende Aussage, indem Sie in die Spalte rechts ein Häkchen setzen.</variable>
+  <variable name="print_multipleChoice">Geben Sie bei jeder Frage die korrekte Antwort an, indem Sie in die betreffende Spalte links neben der Antwort ein Häkchen setzen.</variable>
+	<variable name="print_instruction">Wählen Sie die richtige Antwort aus.</variable>
+  <variable name="print_redirect">Verwenden Sie zur Verwendung dieser Aktivität die Onlineversion des Kurses.</variable>
+  <variable name="print_online_instruction">Anweisungen</variable>
+  <variable name="print_correct">Korrekte Antworten:</variable>
+
+  <variable name="print_step">Schritt</variable>
+</localizedStrings>

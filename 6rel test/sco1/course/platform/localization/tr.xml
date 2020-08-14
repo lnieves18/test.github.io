@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<localizedStrings>
+<!-- These two variables should be localized in such a way it includes ALL extended (accented) characters for the language, such as á and Á. -->
+	<variable name="lowerCaseUnicodeCharacters">abcçdefgğhıijklmnoöpqrsştuüvwxyz</variable>
+	<variable name="upperCaseUnicodeCharacters">ABCÇDEFGĞHIİJKLMNOÖPQRSŞTUÜVWXYZ</variable>
+
+
+
+<!-- XSLT variables. -->
+	<variable name="multipleChoice_title">Soru</variable>
+	<variable name="multipleChoice_feedbackButton">Tamam</variable>
+	<variable name="multipleChoice_questionSelect">En uygun yanıtı seçin.</variable>
+	<variable name="activity_summaryHeading">Genel Bakış</variable>
+	<variable name="activity_summaryButton">Başlat</variable>
+	<variable name="notes_heading">Notlarım</variable>
+	<variable name="notes_deleteWarningMessage">Geçerli notu silmek istediğinizden emin misiniz?</variable>
+	<variable name="readerAid_tip">İpucu</variable>
+	<variable name="readerAid_caution">Dikkat</variable>
+	<variable name="readerAid_warning">Uyarı</variable>
+	<variable name="readerAid_important">Önemli</variable>
+	<variable name="readerAid_note">Not</variable>
+	<variable name="readerAid_studySheet">Çalışma Sayfası</variable>
+	<variable name="animation_transcriptHeader">Döküm</variable>
+	<variable name="button_submit">Gönder</variable>
+	<variable name="button_launch">Başlat</variable>
+	<variable name="demonstration_windowTitle">Gösteri</variable>
+	<variable name="demonstration_transcriptPrint">Bu gösterinin dökümünü görüntülemek ve yazdırmak için tıklatın.</variable>
+	<variable name="demonstration_transcriptPrintWindowTitle">Gösteri Dökümü</variable>
+	<variable name="simulation_windowTitle">Benzetim</variable>
+	<variable name="simulation_transcriptPrint">Bu benzetimin dökümünü görüntülemek ve yazdırmak için tıklatın.</variable>
+	<variable name="simulation_transcriptPrintWindowTitle">Benzetim Dökümü</variable>
+	<variable name="transcriptPrint_printPage">Bu sayfayı yazdırın.</variable>
+	<variable name="introduction_moduleTitle">Modüle Genel Bakış</variable>
+	<variable name="notes_printPageTitle">Notları Yazdır</variable>
+	<variable name="notes_printPageHeadingIntro">Notlar: </variable>
+	<variable name="notes_saveButtonTitle">Kaydet</variable>
+	<variable name="notes_saveAsFileButtonTitle">Dosya Olarak Kaydet</variable>
+	<variable name="notes_deleteButtonTitle">Sil</variable>
+	<variable name="notes_printButtonTitle">Yazdır</variable>
+	<variable name="notes_noNotesToPrint">Bu dersteki notları kaydetmediniz.</variable>
+	<variable name="clickTable_instructions">Daha fazla bilgi görüntülemek için bir öğeyi tıklatın.</variable>
+
+<!--XSLT TrueFalse Variables-->
+	<variable name="trueFalse_title">İfade</variable>
+	<variable name="trueFalse_trueAnswer">Doğru</variable>
+	<variable name="trueFalse_falseAnswer">Yanlış</variable>
+  <variable name="trueFalse_selectAnswer">Doğru yanıtı seçin.</variable>
+
+  <!--ShowHide Variables-->
+  <variable name="showHide_ShowAll">Tümünü Göster</variable>
+  <variable name="showHide_HideAll">Tümünü Gizle</variable>
+  <variable name="showHide_Show">Göster</variable>
+  <variable name="showHide_Hide">Gizle</variable>
+
+  <!--Essay question Variables-->
+  <variable name="essayQuestion_question">Soru</variable>
+  <variable name="essayQuestion_answer">Yanıt</variable>
+  <variable name="essayQuestion_instruction">(en fazla 250 karakter)</variable>
+  <variable name="essayQuestion_submitInstruction">Gönderdikten sonra, yanıtınızı düzeltemezsiniz.</variable>
+  <variable name="essayQuestion_answerInstruction">NOT: Gönder&apos;i tıklatmadan bu konudan çıkarsanız, yanıt metni kaybolacak. Metin biçimlendirmesi kabul edilmedi. Yalnızca alfasayısal karakterler (aA - zZ ve 0 - 9) ve boşluklar gönderilecek.</variable>
+
+<!-- ECMAscript variables. --> <!-- contentLoader.js -->
+	<variable name="xml_load">Xml dosyası yüklenemedi.</variable>
+	<variable name="xsl_load">Xsl dosyası yüklenemedi.</variable>
+	<!-- pageBehavior.js -->
+	<variable name="multipleChoice_feedbackCorrect">Doğru</variable>
+	<variable name="multipleChoice_feedbackIncorrect">Yanlış</variable>
+	<variable name="mediaPopUp_transcriptHeading">Döküm</variable>
+	<!-- scormcode.js -->
+	<variable name="notes_lmsNoSupport">Bu LMS, notları desteklemiyor.</variable>
+	<variable name="notes_lmsErrorRetrieve">Notlar LMS&apos;den alınırken hata oluştu.</variable>
+	<variable name="notes_lmsExceededSpace">Notlar için izin verilen içerik miktarını aştınız.</variable>
+	<variable name="notes_lmsErrorSaving">Notlar LMS&apos;ye kaydedilirken hata oluştu.</variable>
+
+<!-- Animation variables. -->
+	<variable name="anim_play">Oynat</variable>
+	<variable name="anim_pause">Duraklat</variable>
+	<variable name="anim_stop">Durdur</variable>
+	<variable name="anim_fastForward">İleri Sar</variable>
+	<variable name="anim_rewind">Geri Sar</variable>
+	<variable name="anim_mute">Sessiz</variable>
+	<variable name="anim_sound">Sesli</variable>
+
+<!-- Adventure variables. -->
+	<variable name="adventure_instructions">Aşağıdaki listeden herhangi bir seçenek belirleyin</variable>
+	<variable name="adventure_previous">Önceki</variable>
+	<variable name="adventure_reset">Sıfırla</variable>
+
+<!-- Drag and Drop variables. -->
+	<variable name="dragAndDrop_reset">SIFIRLA</variable>
+	<variable name="dragAndDrop_showAnswer">YANITI GÖSTER</variable>
+	<variable name="dragAndDrop_submit">GÖNDER</variable>
+	<variable name="dragAndDrop_drag">SÜRÜKLE</variable>
+	<variable name="dragAndDrop_drop">BIRAK</variable>
+	<variable name="dragAndDrop_correctMessage">Doğru yanıt!</variable>
+	<variable name="dragAndDrop_incorrectMessage">Yanlış. Lütfen Sıfırla&apos;yı veya Yanıtı Göster&apos;i tıklatın.</variable>
+	<variable name="dragAndDrop_correctDisplayed">Doğru yanıt sizin için görüntülenir.</variable>
+
+<!-- Tile Game Variables. -->
+	<variable name="tileGame_gameOver">Oyun Bitti</variable>
+	<variable name="tileGame_resetInstruction">Yeniden denemek için &lt;b&gt;Sıfırla&lt;/b&gt;&apos;yı tıklatın.</variable>
+	<variable name="tileGame_reset">SIFIRLA</variable>
+	<variable name="tileGame_turnsLeft">Kalan Hak:</variable>
+	<variable name="tileGame_congratulations">Tebrikler!</variable>
+	<variable name="tileGame_completedMessage">Bu etkinliği tamamladınız.</variable>
+	<variable name="tileGame_submit">Gönder</variable>
+	<variable name="tileGame_tileGame">Taş Oyunu</variable>
+	  <variable name="tile">Taş</variable>
+  <variable name="hyphen"> - </variable>
+  <variable name="submit_Column">Sütunu Gönder</variable>
+  <variable name="submit_Row">Satırı Gönder</variable>
+
+      <!-- Flash Card Variables. -->
+  <variable name="flashCard_flip">Çevir</variable>
+  <variable name="flashCard_timeElapsed">Geçen Süre</variable>
+  <variable name="flashCard_reset">Sıfırla</variable>
+  <variable name="flashCard_submit">Gönder</variable>
+  <variable name="flashCard_congratulations">Tebrikler!</variable>
+  <variable name="flashCard_progress">İlerleme</variable>
+  <variable name="flashCard_completedMessage">Bu etkinliği tamamladınız.</variable>
+  
+  <!-- Sort Game Variables. -->
+	<variable name="sortGame_yourTime">Yapbozu tamamlamak için kalan süreniz</variable>
+	<variable name="sortGame_timeElapsed">Geçen Süre</variable>
+	<variable name="sortGame_reset">Sıfırla</variable>
+	<variable name="sortGame_answer">Yanıt</variable>
+	<variable name="sortGame_start">Başlat</variable>
+	<variable name="sortGame_congratulations">Tebrikler!</variable>
+	<variable name="sortGame_progress">İlerle</variable>
+	<variable name="sortGame_showAnswer">Yanıtı Göster</variable>
+	<variable name="sortGame_close">Kapat</variable>
+	<variable name="sortGame_answers">Yanıtlar</variable>
+	<variable name="sortGame_instructions">Uygun kovayı tıklatarak düşen öğeleri olabildiğince kısa sürede ilgili kategorilerine göre ayırın. Soldaki kova için 1&apos;e, ortadaki kova için 2&apos;ye ve sağdaki kova için 3&apos;e (veya 2 kovalı oyunda soldaki kova için 1&apos;e ve sağdaki kova için 2&apos;ye) basarak klavye kısayollarını da kullanabilirsiniz.</variable>
+
+<!-- Simulation Variables. -->
+	<variable name="simulation_continue">&lt;b&gt;Devam etmek için tıklatın&lt;/b&gt;</variable>
+	<variable name="simulation_congratulations">&lt;b&gt;Tebrikler!&lt;/b&gt;</variable>
+	<variable name="simulation_performSteps">&lt;b&gt;Adımları uygulayın.&lt;/b&gt;</variable>
+	<variable name="simulation_help">Yardım için şunu tıklatın:</variable>
+	<variable name="simulation_showMe">Bana Göster</variable>
+	<variable name="simulation_viewScenario">&lt;b&gt;&lt;u&gt;Senaryoyu&lt;/u&gt;&lt;/b&gt; Göster</variable>
+	<variable name="simulation_print">&lt;b&gt;Yazdır&lt;/b&gt;</variable>
+	<variable name="simulation_copyright">&lt;b&gt; &lt;/b&gt;</variable>
+	<variable name="simulation_note">&lt;b&gt;Not&lt;/b&gt;</variable>
+	<variable name="simulation_caution">&lt;b&gt;Dikkat&lt;/b&gt;</variable>
+	<variable name="simulation_finish">SON</variable>
+	<variable name="simulation_tryAgain">YENİDEN DENE</variable>
+	<variable name="simulation_scenario">&lt;b&gt;Senaryo ve diğerleri&lt;/b&gt;</variable>
+	<variable name="simulation_step">&lt;b&gt;Adım&lt;/b&gt;</variable>
+	<variable name="simulation_of">&lt;b&gt;/&lt;/b&gt;</variable>
+	<variable name="simulation_next">Sonraki</variable>
+	<variable name="simulation_previous">Önceki</variable>
+	<variable name="simulation_printSteps">Adımları Yazdır</variable>
+	<variable name="simulation_loading">Yükleniyor...</variable>
+	<variable name="simulation_feedback">&lt;b&gt;Geri Bildirim&lt;/b&gt;</variable>
+	<variable name="simulation_message">&lt;b&gt;İleti&lt;/b&gt;</variable>
+	<variable name="simulation_ok">&lt;b&gt;Tamam&lt;/b&gt;</variable>
+	<variable name="simulation_stepList">Adım Listesini Gözden Geçir</variable>
+	<variable name="simulation_printContents">Sayfa İçeriğini Yazdır</variable>
+
+<!-- Content Wheel Variables. -->
+	<variable name="contentWheel_textView">Metin Görünümü</variable>
+	<variable name="contentWheel_wheelView">Çark Görünümü</variable>
+	<variable name="contentWheel_introduction">Giriş</variable>
+	<variable name="contentWheel_finish1">Kendini Sınama</variable>
+	<variable name="contentWheel_finish2">Özet</variable>
+	<variable name="contentWheel_finish3">İnceleme</variable>
+	<variable name="contentWheel_finish4">Laboratuvar İncelemesi</variable><!-- localize this element -->
+	<variable name="contentWheel_finish5">Kaynaklar</variable><!-- localize this element -->
+	<variable name="contentWheel_help">Yardım</variable>
+
+<!-- VOE Variables. -->
+	<variable name="voe_transcript">Döküm</variable>
+	<variable name="voe_play">Oynat</variable>
+	<variable name="voe_pause">Duraklat</variable>
+	<variable name="voe_showTranscript">Dökümü Göster</variable>
+	<variable name="voe_hideTranscript">Dökümü Gizle</variable>
+	<variable name="voe_titleVoiceOfTheExpert">Uzmanın Sesi</variable>
+	<variable name="voe_titleModuleTip">Modül İpucu</variable>
+
+<!-- Media Variables. -->
+  <variable name="media_transcriptPrint">Bu Medyanın dökümünü görüntülemek ve yazdırmak için tıklatın.</variable>
+  <variable name="media_transcriptPrintWindowTitle">Medya Dökümü</variable>
+  <variable name="media_KeyPointsHeader">Önemli Noktalar</variable>
+  <variable name="media_KeyPointsText">İlgili video parçasını görüntülemek için önemli bir noktayı tıklatın.</variable>
+  <variable name="media_TotalTime">Toplam Süre</variable>
+  <variable name="media_playTip">Oynat</variable>
+  <variable name="media_pauseTip">Duraklat</variable>
+  <variable name="media_stopTip">Durdur</variable>
+  <variable name="media_muteTip">Sessiz</variable>
+  <variable name="media_soundTip">Sesli</variable>
+  <variable name="media_seekTip">Ara</variable>
+  <variable name="media_playingText">Oynatılıyor</variable>
+  <variable name="media_pausedText">Duraklatıldı</variable>
+  <variable name="media_stoppedText">Durduruldu</variable>
+    <variable name="media_fullscreenTip">Tam Ekran</variable>
+<variable name="media_ccTip">Kapalı Açıklamalı Alt Yazı</variable>
+
+  <!--Interactive Job aid Variables. -->
+  <variable name="interactive_yes">&lt;b&gt;EVET&lt;/b&gt;</variable>
+  <variable name="interactive_no">&lt;b&gt;HAYIR&lt;/b&gt;</variable>
+  <variable name="interactive_reset">Sıfırla</variable>
+  <variable name="interactive_decision">KARAR</variable>
+  <variable name="interactive_undefined">Bu seçenek için bir Soru/Karar tanımlanmadı. Yeniden başlamak için lütfen Sıfırla&apos;yı tıklatın.</variable>
+  <variable name="interactive_undefinedQuestion">Soru tanımlanmadı.</variable>
+  
+ 
+  <!--Sequencing variables-->
+  <variable name="sequence_reset">SIFIRLA</variable>
+  <variable name="sequence_showAnswer">YANITI GÖSTER</variable>
+  <variable name="sequence_submit">GÖNDER</variable>
+  <variable name="sequence_shuffled">KARIŞIK</variable>
+  <variable name="sequence_sequenced">SIRALI</variable>
+  <variable name="sequence_correctMessage">Doğru!</variable>
+  <variable name="sequence_incorrectMessage">Yanlış. Lütfen Sıfırla veya Yanıtı Göster’i tıklatın.</variable>
+  <variable name="sequence_correctDisplayed">Doğru yanıt sizin için görüntüleniyor.</variable>
+
+ 
+<!-- How To Use Content Wheel Help -->
+	<variable name="howToUse_toNavigate">Konularda gezinmek için, &lt;b&gt;Simge görünümünü&lt;/b&gt; veya &lt;b&gt;Metin görünümünü&lt;/b&gt; kullanabilirsiniz. &lt;br&gt; &lt;br&gt;Simge görünümünde veya Metin görünümündeyken konuları seçtiğiniz sırada görüntüleyebilirsiniz.</variable>
+	<variable name="howToUse_read">&lt;b&gt;Okumalı&lt;/b&gt; mod, metin, tablo ve grafikleri içerir.</variable>
+	<variable name="howToUse_watch">&lt;b&gt;İzlemeli&lt;/b&gt; mod, animasyon, gösteri ve videoları içerir.</variable>
+	<variable name="howToUse_interact">&lt;b&gt;Etkileşimli&lt;/b&gt; mod, multimedya etkileşimleri ve küçük benzetimler gibi etkileşimli içerikleri barındırır.</variable>
+	<variable name="howToUse_play">&lt;b&gt;Oyunlu&lt;/b&gt; mod, oyunlar içerir.</variable>
+	<variable name="howToUse_try">&lt;b&gt;Denemeli&lt;/b&gt; mod, öğrendiklerinizi denemenizi sağlayan kullanıcı arabirimi benzetimleri veya uygulamaları içerir.</variable>
+	<variable name="howToUse_code">&lt;b&gt;Kod&lt;/b&gt;, açılan pencerelerde veya tablolarda kod örnekleri içerir.</variable>
+
+<!-- Virtual Lab variables -->
+	<variable name="vlab_offlineError">Laboratuvar kullanılamıyor. Laboratuvarlara Çevrimdışı Yürütücü&apos;den erişilemiyor. Çevrimdışı Yürütücü&apos;yü kullanmıyorsanız, Internet bağlantınız olduğundan emin olun ve laboratuvarı başlatmayı yeniden deneyin.</variable>
+
+   <!--For EK manifest transformation-->
+  <variable name="topic_Title">Konular</variable>
+
+  <!--Print Variables-->
+  <variable name="print_version">Yazdırma Sürümü</variable>
+  <variable name="print_tocHeader">İçindekiler</variable>
+  <variable name="print_course">Kurs:</variable>
+  <variable name="print_module">Modül:</variable>
+  <variable name="print_lessonContents">Ders İçeriği</variable>
+  <variable name="print_moduleContents">Modül İçeriği</variable>
+  <variable name="print_topic">Konu:</variable>
+  <variable name="print_gameInstruction">Öğe numarasını aşağıda kendisine karşılık gelen seçenek kutusuna yazarak öğeleri ilişkilendirildikleri kategorilere göre sıralayın.</variable>
+  <variable name="print_statement">İfade</variable>
+  <variable name="print_note">Not: Yanıtlar sonraki sayfada görünür.</variable>
+  <variable name="print_categoryItems">Kategori Öğeleri</variable>
+  <variable name="print_category1">Kategori 1</variable>
+  <variable name="print_category2">Kategori 2</variable>
+  <variable name="print_category3">Kategori 3</variable>
+  <variable name="print_keyPoints">Önemli Noktalar</variable>
+  <variable name="print_transcript">Döküm</variable>
+  <variable name="print_essayInstruction">Bu sorunun yanıtı aşağıda verilen boşluğa yazılabilir.</variable>
+  <variable name="print_adventureInstruction">Kullanılabilir seçenekler:</variable>
+  <variable name="print_adventureInfo">Bu konuda senaryo tabanlı içerik vardır. Her seçenekte 1 ila 4 olası sonucu olan bir karar noktası sunulur. Konuda, seçeneklere dayalı çeşitli senaryolar keşfedilir ve seçeneklere göre bir sonuç sunulur.&lt;br&gt;İçeriğin tam yolu aşağıda verilmiştir. Konunun tam sürümü için lütfen kursun çevrimiçi sürümünü kullanın.</variable>
+  <variable name="print_adventurePage">Sayfa</variable>
+  <variable name="print_adventureOption">Bu seçeneğin götürdüğü Sayfa</variable>
+  <variable name="print_adventureSelected">Belirlenen Seçenek:</variable>
+
+  <variable name="print_interactiveQuestion">Soru</variable>
+  <variable name="print_interactiveOptions">Kullanılabilir Seçenekler:</variable>
+  <variable name="print_interactiveOptionInfo">Bu seçeneğin götürdüğü Soru</variable>
+  <variable name="print_interactiveDecisionInfo">Bu seçenek bir karara götürür</variable>
+  <variable name="print_interactiveSelectedOption">Belirlenen Seçenek:</variable>
+  <variable name="print_interactiveDecision">Karar:</variable>
+  <variable name="print_interactiveOptionYes">Evet</variable>
+  <variable name="print_interactiveOptionNo">Hayır</variable>
+  <variable name="print_interactiveInfo">Bu konu, bir dizi Evet/Hayır sorusu şeklinde senaryolar sunar. Seçilen yanıtlara göre dinamik geri bildirim veya sonraki sorular gösterilir.&lt;br&gt;Tek bir tam soru dizisinin içeriği aşağıda verilmiştir. Konunun tam sürümü için lütfen kursun çevrimiçi sürümünü kullanın.</variable>
+  <!--Slider variables-->
+  <variable name="print_introduction">Bu konuda, en fazla dört değişken ile belirli bir sonuç arasındaki ilişkiler araştırılmaktadır.&lt;br&gt;&lt;br&gt;Bu konuda kullanılan değişkenler ve bu değişkenlerin bazı örnek değerlerine ait sonuçlar aşağıda verilmiştir. Konunun tam sürümü için lütfen kursun çevrimiçi sürümünü kullanın.</variable>
+  <variable name="print_equation">Çıkış Eşitliği: </variable>
+  <variable name="print_input">Giriş</variable>
+  <variable name="print_minimum">En Az</variable>
+  <variable name="print_maximum">En Fazla</variable>
+  <variable name="print_unit">Birim</variable>
+  <variable name="print_example">Örnek Senaryo</variable>
+  <variable name="print_tileInstruction">Her ifade çifti için sağdaki sütuna işaret koyarak hangisinin doğru olduğunu belirtin.</variable>
+  <variable name="print_answer">Yanıt</variable>
+  <variable name="print_trueFalse">Her ifade için sağdaki sütuna işaret koyarak hangisinin doğru olduğunu belirtin.</variable>
+  <variable name="print_multipleChoice">Her soru için soldaki sütuna işaret koyarak doğru yanıtı belirtin.</variable>
+	<variable name="print_instruction">Doğru yanıtı seçin.</variable>
+  <variable name="print_redirect">Bu etkinliği yapmak için lütfen kursun çevrimiçi sürümünü kullanın.</variable>
+  <variable name="print_online_instruction">Yönerge</variable>
+  <variable name="print_correct">Doğru Yanıt Geri Bildirimi:</variable>
+
+  <variable name="print_step">Adım</variable>
+</localizedStrings>
